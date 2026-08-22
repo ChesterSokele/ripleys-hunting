@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Ripley Safaris · South Africa</title>
+    <meta name="description" content="Photo gallery of Ripley Safaris — wildlife, lodge, and the reserve in Rustenburg, North West, South Africa.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="logo-icon-transparent.png">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body class="bg-camou">
+    <div class="custom-cursor" id="scopeCursor"></div>
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="wrapper">
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="logo-icon-transparent.png" alt="Ripley Safaris" width="50" height="50" onerror="this.src='https://placehold.co/60x60?text=RS'">
+                <span>RIPLEY SAFARIS</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="packages.html">Packages</a>
+                <a href="gallery.html" class="active">Gallery</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+            <a href="index.html#contact" class="book-btn"><i class="fas fa-crosshairs"></i> BOOK NOW</a>
+        </nav>
+        <a href="index.html" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Home</a>
+
+        <div class="page-header" data-aos="fade-up">
+            <h1><i class="fas fa-images"></i> GALLERY</h1>
+            <p>Wildlife, lodge life, and the reserve at Ripley Safaris — Rustenburg, North West, South Africa.</p>
+        </div>
+
+        <div class="filter-bar" data-aos="fade-up">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="wildlife">Wildlife</button>
+            <button class="filter-btn" data-filter="lodge">Lodge &amp; Suites</button>
+            <button class="filter-btn" data-filter="reserve">On the Reserve</button>
+        </div>
+
+        <div class="gallery-grid" data-aos="fade-up">
+            <div class="gallery-item" data-category="wildlife" data-full="img/gallery/full/waterbuck-herd.jpg" data-caption="Waterbuck herd on the reserve">
+                <button type="button"><img src="img/gallery/thumb/waterbuck-herd.jpg" alt="Waterbuck herd on the reserve" width="480" height="320" loading="lazy" decoding="async"><span class="gallery-caption">Waterbuck herd on the reserve</span></button>
+            </div>
+            <div class="gallery-item" data-category="wildlife" data-full="img/gallery/full/kudu-bull.jpg" data-caption="Greater kudu bull">
+                <button type="button"><img src="img/gallery/thumb/kudu-bull.jpg" alt="Greater kudu bull" width="480" height="320" loading="lazy" decoding="async"><span class="gallery-caption">Greater kudu bull</span></button>
+            </div>
+            <div class="gallery-item" data-category="wildlife" data-full="img/gallery/full/nyala-bull.jpg" data-caption="Nyala bull">
+                <button type="button"><img src="img/gallery/thumb/nyala-bull.jpg" alt="Nyala bull" width="480" height="320" loading="lazy" decoding="async"><span class="gallery-caption">Nyala bull</span></button>
+            </div>
+            <div class="gallery-item" data-category="lodge" data-full="img/gallery/full/infinity-pool.jpg" data-caption="Infinity pool at the lodge">
+                <button type="button"><img src="img/gallery/thumb/infinity-pool.jpg" alt="Infinity pool at the lodge" width="480" height="320" loading="lazy" decoding="async"><span class="gallery-caption">Infinity pool at the lodge</span></button>
+            </div>
+            <div class="gallery-item" data-category="wildlife" data-full="img/gallery/full/zebra-pair.jpg" data-caption="Burchell's zebra pair">
+                <button type="button"><img src="img/gallery/thumb/zebra-pair.jpg" alt="Burchell's zebra pair" width="480" height="320" loading="lazy" decoding="async"><span class="gallery-caption">Burchell's zebra pair</span></button>
+            </div>
+            <div class="gallery-item" data-category="reserve" data-full="img/gallery/full/museum-uniforms.jpg" data-caption="Paul Kruger Museum — military uniforms">
+                <button type="button"><img src="img/gallery/thumb/museum-uniforms.jpg" alt="Paul Kruger Museum military uniforms" width="480" height="320" loading="lazy" decoding="async"><span class="gallery-caption">Paul Kruger Museum — military uniforms</span></button>
+            </div>
+            <div class="gallery-item" data-category="wildlife" data-full="img/gallery/full/giraffe.jpg" data-caption="Giraffe on the reserve">
+                <button type="button"><img src="img/gallery/thumb/giraffe.jpg" alt="Giraffe on the reserve" width="480" height="320" loading="lazy" decoding="async"><span class="gallery-caption">Giraffe on the reserve</span></button>
+            </div>
+            <div class="gallery-item" data-category="lodge" data-full="img/gallery/full/guest-suite.jpg" data-caption="Guest suite">
+                <button type="button"><img src="img/gallery/thumb/guest-suite.jpg" alt="Guest suite" width="480" height="320" loading="lazy" decoding="async"><span class="gallery-caption">Guest suite</span></button>
+            </div>
+            <div class="gallery-item" data-category="wildlife" data-full="img/gallery/full/blue-wildebeest.jpg" data-caption="Blue wildebeest">
+                <button type="button"><img src="img/gallery/thumb/blue-wildebeest.jpg" alt="Blue wildebeest" width="480" height="320" loading="lazy" decoding="async"><span class="gallery-caption">Blue wildebeest</span></button>
+            </div>
+            <div class="gallery-item" data-category="reserve" data-full="img/gallery/full/reception.jpg" data-caption="Lodge reception">
+                <button type="button"><img src="img/gallery/thumb/reception.jpg" alt="Lodge reception" width="480" height="320" loading="lazy" decoding="async"><span class="gallery-caption">Lodge reception</span></button>
+            </div>
+            <div class="gallery-item" data-category="lodge" data-full="img/gallery/full/lodge-entrance-night.jpg" data-caption="Lodge entrance at dusk">
+                <button type="button"><img src="img/gallery/thumb/lodge-entrance-night.jpg" alt="Lodge entrance at dusk" width="480" height="320" loading="lazy" decoding="async"><span class="gallery-caption">Lodge entrance at dusk</span></button>
+            </div>
+            <div class="gallery-item" data-category="wildlife" data-full="img/gallery/full/buffalo.jpg" data-caption="Cape buffalo">
+                <button type="button"><img src="img/gallery/thumb/buffalo.jpg" alt="Cape buffalo" width="480" height="320" loading="lazy" decoding="async"><span class="gallery-caption">Cape buffalo</span></button>
+            </div>
+            <div class="gallery-item" data-category="reserve" data-full="img/gallery/full/afternoon-tea.jpg" data-caption="Afternoon tea on the deck">
+                <button type="button"><img src="img/gallery/thumb/afternoon-tea.jpg" alt="Afternoon tea on the deck" width="480" height="320" loading="lazy" decoding="async"><span class="gallery-caption">Afternoon tea on the deck</span></button>
+            </div>
+            <div class="gallery-item" data-category="wildlife" data-full="img/gallery/full/zebra-duo.jpg" data-caption="Zebra grazing the bushveld">
+                <button type="button"><img src="img/gallery/thumb/zebra-duo.jpg" alt="Zebra grazing the bushveld" width="480" height="320" loading="lazy" decoding="async"><span class="gallery-caption">Zebra grazing the bushveld</span></button>
+            </div>
+            <div class="gallery-item" data-category="lodge" data-full="img/gallery/full/river-suite.jpg" data-caption="River-view suite">
+                <button type="button"><img src="img/gallery/thumb/river-suite.jpg" alt="River-view suite" width="480" height="320" loading="lazy" decoding="async"><span class="gallery-caption">River-view suite</span></button>
+            </div>
+            <div class="gallery-item" data-category="wildlife" data-full="img/gallery/full/black-faced-impala.jpg" data-caption="Black-faced impala">
+                <button type="button"><img src="img/gallery/thumb/black-faced-impala.jpg" alt="Black-faced impala" width="480" height="320" loading="lazy" decoding="async"><span class="gallery-caption">Black-faced impala</span></button>
+            </div>
+        </div>
+
+        <div class="cta-strip" data-aos="zoom-in">
+            <h3><i class="fas fa-gun"></i> Ready to Book Your Safari?</h3>
+            <p>See a package that fits, or get in touch and we'll build a custom itinerary.</p>
+            <div class="cta-buttons">
+                <a href="packages.html" class="cta-btn"><i class="fas fa-box-open"></i> View Packages</a>
+                <a href="https://wa.me/27718584498" class="cta-btn secondary"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+            </div>
+        </div>
+
+        <footer class="simple-footer"><p><i class="fas fa-copyright"></i> Ripley Safaris · South Africa · ripleysafaris@gmail.com · +27 71 858 4498</p></footer>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-inner">
+            <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close"><i class="fas fa-xmark"></i></button>
+            <button type="button" class="lightbox-prev" id="lightboxPrev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+            <button type="button" class="lightbox-next" id="lightboxNext" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+            <img id="lightboxImg" src="" alt="">
+            <p class="lightbox-caption" id="lightboxCaption"></p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/gallery.js" defer></script>
+</body>
+</html>
