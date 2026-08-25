@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-    <link rel="preload" as="image" href="img/hero/hero-1.jpg">
+    <link rel="preload" as="image" href="img/hero/hero-poster.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -35,10 +35,13 @@
             </div>
         </nav>
         <div class="hero">
-            <div class="hero-slideshow">
-                <div class="hero-slide active"><img src="img/hero/hero-1.jpg" alt="Professional hunter, South African bushveld" width="1600" height="1067" loading="eager" fetchpriority="high" decoding="async" onerror="this.src='https://placehold.co/800x600?text=Hero+Image'"></div>
-                <div class="hero-slide"><img src="img/hero/hero-2.jpg" alt="Lodge infinity pool" width="1600" height="1067" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/800x600?text=Safari'"></div>
-                <div class="hero-slide"><img src="img/hero/hero-3.jpg" alt="Waterbuck herd on the reserve" width="1600" height="1067" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/800x600?text=South+Africa'"></div>
+            <div class="hero-video-wrap">
+                <video class="hero-video-bg" autoplay muted loop playsinline preload="auto" poster="img/hero/hero-poster.jpg" aria-hidden="true">
+                    <source src="img/hero/hero.mp4" type="video/mp4">
+                </video>
+                <video class="hero-video-fg" autoplay muted loop playsinline preload="auto" poster="img/hero/hero-poster.jpg">
+                    <source src="img/hero/hero.mp4" type="video/mp4">
+                </video>
                 <div class="scope-overlay"><i class="fas fa-crosshairs"></i></div>
             </div>
             <div class="hero-text-overlay">
@@ -94,10 +97,9 @@
         <div class="accommodation-section">
             <h2><i class="fas fa-home"></i> ACCOMMODATION &amp; LODGE</h2>
             <div class="accommodation-grid">
-                <div class="accommodation-card" data-aos="zoom-in"><div class="acc-image"><img src="img/lodge/bedroom.jpg" alt="Lodge exterior" width="1000" height="1000" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400?text=Lodge'"></div><div class="acc-text"><h3>Hunters' Lodge</h3><p>Thatch and stone-built lodging overlooking the reserve.</p></div></div>
-                <div class="accommodation-card" data-aos="zoom-in" data-aos-delay="100"><div class="acc-image"><img src="img/lodge/lodge-exterior.jpg" alt="Bedroom" width="1000" height="1000" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400?text=Bedroom'"></div><div class="acc-text"><h3>Bed room</h3><p>Immersive suites with private bathrooms.</p></div></div>
-                <div class="accommodation-card" data-aos="zoom-in" data-aos-delay="200"><div class="acc-image"><img src="img/lodge/boma-lounge.jpg" alt="Main lounge" width="1000" height="1000" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400?text=Lounge'"></div><div class="acc-text"><h3>The Boma &amp; Lounge</h3><p>Traditional boma for evening stories.</p></div></div>
-                <div class="accommodation-card" data-aos="zoom-in" data-aos-delay="300"><div class="acc-image"><img src="img/lodge/dining.jpg" alt="Dining area" width="1000" height="1000" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400?text=Dining'"></div><div class="acc-text"><h3>Dining Area</h3><p>Elegant dining space.</p></div></div>
+                <div class="accommodation-card" data-aos="zoom-in"><div class="acc-image"><img src="img/lodge/lodge-exterior.jpg" alt="Lodge exterior" width="1300" height="1300" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400?text=Lodge'"></div><div class="acc-text"><h3>Hunters' Lodge</h3><p>Thatch and stone-built lodging overlooking the reserve.</p></div></div>
+                <div class="accommodation-card" data-aos="zoom-in" data-aos-delay="100"><div class="acc-image"><img src="img/lodge/bedroom.jpg" alt="Bedroom" width="1300" height="1300" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400?text=Bedroom'"></div><div class="acc-text"><h3>Bed room</h3><p>Immersive suites with private bathrooms.</p></div></div>
+                <div class="accommodation-card" data-aos="zoom-in" data-aos-delay="200"><div class="acc-image"><img src="img/lodge/boma-lounge.jpg" alt="Main lounge" width="1300" height="1300" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400?text=Lounge'"></div><div class="acc-text"><h3>The Boma &amp; Lounge</h3><p>Traditional boma for evening stories.</p></div></div>
             </div>
             <p style="text-align:center; margin-top: 20px;"><a href="gallery.html" class="cta-btn secondary" style="display:inline-flex;"><i class="fas fa-images"></i> See the Full Gallery</a></p>
         </div>
@@ -155,6 +157,5 @@
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
     <script src="js/main.js" defer></script>
-    <script src="js/hero.js" defer></script>
 </body>
 </html>

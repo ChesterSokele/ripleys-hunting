@@ -6,12 +6,10 @@ nav { margin-bottom: 16px; }
 .nav-links { margin: 8px 0; order: 3; width: 100%; justify-content: center; }
 
 /* hero */
-.hero { position: relative; width: 100%; height: 60vh; min-height: 480px; margin: 8px 0 30px; border-radius: 28px; overflow: hidden; border: 2px solid #8a6a3a; box-shadow: 8px 8px 0 #2a1f12; }
-.hero-slideshow { position: relative; width: 100%; height: 100%; }
-.hero-slide { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; transition: opacity 2s ease-in-out; overflow: hidden; }
-.hero-slide.active { opacity: 1; z-index: 2; }
-.hero-slide img { width: 100%; height: 100%; object-fit: cover; filter: brightness(0.85) contrast(1.1); animation: slowZoom 10s ease-in-out forwards; }
-@keyframes slowZoom { 0% { transform: scale(1) translateY(0); } 100% { transform: scale(1.1) translateY(-2%); } }
+.hero { position: relative; width: 100%; height: 60vh; min-height: 480px; margin: 8px 0 30px; border-radius: 28px; overflow: hidden; border: 2px solid #8a6a3a; box-shadow: 8px 8px 0 #2a1f12; background: #000; }
+.hero-video-wrap { position: relative; width: 100%; height: 100%; overflow: hidden; background: #000; }
+.hero-video-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: blur(40px) brightness(0.5) saturate(1.15); transform: scale(1.2); }
+.hero-video-fg { position: relative; z-index: 2; display: block; width: 100%; height: 100%; object-fit: contain; }
 .hero-text-overlay { position: absolute; top: 50%; left: 5%; right: 5%; transform: translateY(-50%); z-index: 20; max-width: 550px; background: rgba(42, 30, 20, 0.65); backdrop-filter: blur(4px); padding: 24px 20px; border-radius: 24px; border-left: 6px solid #c9a227; border-bottom: 3px solid #8a6a3a; color: white; text-shadow: 2px 2px 5px black; }
 .hero-text-overlay h1 { font-size: 2.2rem; font-weight: 700; line-height: 1.1; color: #ffffff; text-shadow: 3px 3px 0 #2a1a0d; margin-bottom: 8px; }
 .hero-text-overlay .tagline { font-size: 1.1rem; margin: 10px 0 12px; color: #f5e6c8; border-left: 5px solid #b8905a; padding-left: 16px; }
@@ -59,7 +57,7 @@ nav { margin-bottom: 16px; }
 .acc-text { padding: 18px; text-align: center; }
 .acc-text h3 { font-size: 1.4rem; color: #e8c78a; }
 @media (min-width: 640px) { .accommodation-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 900px) { .accommodation-grid { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 900px) { .accommodation-grid { grid-template-columns: repeat(3, 1fr); } }
 
 /* contact / booking */
 .contact-quote-section { display: grid; grid-template-columns: 1fr; gap: 30px; margin: 60px 0; background: #3a281ad9; border: 2px solid #8a6a3a; border-radius: 40px 16px 40px 16px; padding: 25px 18px; backdrop-filter: blur(3px); scroll-margin-top: 100px; }
