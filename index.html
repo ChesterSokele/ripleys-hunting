@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="preload" as="image" href="img/hero/hero-poster.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="logo-icon-transparent.png">
     <link rel="stylesheet" href="css/base.css">
@@ -47,7 +47,7 @@
                 <p><i class="fas fa-bullseye"></i> Exclusive guided safaris with a dedicated professional hunter.</p>
                 <div class="hero-buttons">
                     <a href="#contact" class="book-btn" style="font-size: 1rem; padding: 10px 20px;"><i class="fas fa-scope"></i> Book A Hunt</a>
-                    <a href="packages.html" class="book-btn" style="background: #4a5d3a;"><i class="fas fa-box-open"></i> View Packages</a>
+                    <a href="packages.html" class="book-btn secondary"><i class="fas fa-box-open"></i> View Packages</a>
                 </div>
             </div>
         </div>
@@ -80,7 +80,6 @@
             <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400"><div class="card-image"><img src="img/animals/thumb/waterbuck.jpg" alt="Waterbuck" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Waterbuck'"></div><h3>Waterbuck</h3><a href="animals/waterbuck.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
             <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="450"><div class="card-image"><img src="img/animals/thumb/burchell-zebra.jpg" alt="Zebra" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Zebra'"></div><h3>Burchell Zebra</h3><a href="animals/burchell-zebra.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
             <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500"><div class="card-image"><img src="img/animals/thumb/blue-wildebeest.jpg" alt="Blue Wildebeest" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Blue+Wildebeest'"></div><h3>Blue Wildebeest</h3><a href="animals/blue-wildebeest.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="550"><div class="card-image"><img src="img/animals/thumb/black-wildebeest.jpg" alt="Black Wildebeest" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Black+Wildebeest'"></div><h3>Black Wildebeest</h3><a href="animals/black-wildebeest.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
             <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="600"><div class="card-image"><img src="img/animals/thumb/red-hartebeest.jpg" alt="Hartebeest" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Hartebeest'"></div><h3>Red Hartebeest</h3><a href="animals/red-hartebeest.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-crosshairs"></i></div></div>
             <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="650"><div class="card-image"><img src="img/animals/thumb/steenbok.jpg" alt="Steenbok" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Steenbok'"></div><h3>Steenbok</h3><a href="animals/steenbok.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
             <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="700"><div class="card-image"><img src="img/animals/thumb/duiker.jpg" alt="Duiker" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Duiker'"></div><h3>Duiker</h3><a href="animals/duiker.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
@@ -102,43 +101,62 @@
         </div>
         <div class="contact-quote-section" id="contact" data-aos="zoom-in">
             <div class="book-form">
-                <h2><i class="fas fa-pen-rifle"></i> BOOK A HUNT</h2>
-                <div class="form-row"><div class="form-group"><label>First name</label><input type="text" placeholder="John"></div><div class="form-group"><label>Last name</label><input type="text" placeholder="Doe"></div></div>
-                <div class="form-group"><label>Email*</label><input type="email" placeholder="hunter@example.com"></div>
-                <div class="form-group"><label>What would you like to hunt?</label></div>
-                <div class="animal-check-group">
-                    <span class="animal-check-item"><input type="checkbox"> Baboon</span>
-                    <span class="animal-check-item"><input type="checkbox"> Sable</span>
-                    <span class="animal-check-item"><input type="checkbox"> Roan</span>
-                    <span class="animal-check-item"><input type="checkbox"> Lechwe</span>
-                    <span class="animal-check-item"><input type="checkbox"> Eland</span>
-                    <span class="animal-check-item"><input type="checkbox"> Kudu</span>
-                    <span class="animal-check-item"><input type="checkbox"> Oryx (cross-border)</span>
-                    <span class="animal-check-item"><input type="checkbox"> Giraffe</span>
-                    <span class="animal-check-item"><input type="checkbox"> Waterbuck</span>
-                    <span class="animal-check-item"><input type="checkbox"> Zebra</span>
-                    <span class="animal-check-item"><input type="checkbox"> Blue Wildebeest</span>
-                    <span class="animal-check-item"><input type="checkbox"> Black Wildebeest</span>
-                    <span class="animal-check-item"><input type="checkbox"> Hartebeest</span>
-                    <span class="animal-check-item"><input type="checkbox"> Steenbok</span>
-                    <span class="animal-check-item"><input type="checkbox"> Duiker</span>
-                    <span class="animal-check-item"><input type="checkbox"> Warthog</span>
-                    <span class="animal-check-item"><input type="checkbox"> Springbuck</span>
-                    <span class="animal-check-item"><input type="checkbox"> Impala</span>
-                    <span class="animal-check-item"><input type="checkbox"> Blesbuck</span>
-                    <span class="animal-check-item"><input type="checkbox"> Nyala</span>
-                    <span class="animal-check-item"><input type="checkbox"> Buffalo</span>
+                <h2>Let's Plan Your Safari</h2>
+                <p class="form-intro">Tell us a little about the hunt you have in mind and our team will be in touch with a tailored quote.</p>
+                <div class="form-row"><div class="form-group"><input type="text" placeholder="First Name"></div><div class="form-group"><input type="text" placeholder="Last Name"></div></div>
+                <div class="form-row"><div class="form-group"><input type="tel" placeholder="Mobile Number"></div><div class="form-group"><input type="email" placeholder="Email"></div></div>
+                <div class="form-group"><input type="text" placeholder="Country of Origin"></div>
+
+                <label class="field-title">What are you interested in?</label>
+                <div class="check-group">
+                    <span class="check-item"><input type="checkbox"> Quote</span>
+                    <span class="check-item"><input type="checkbox"> Price List</span>
+                    <span class="check-item"><input type="checkbox"> General Information</span>
                 </div>
-                <div class="form-row"><div class="form-group"><label>Guests</label><input type="number" value="1" min="1"></div><div class="form-group"><label>Date</label><input type="date"></div></div>
-                <div class="form-group"><label>Requirements</label><textarea rows="2" placeholder="Caliber preferences, etc."></textarea></div>
-                <button class="get-quote-btn"><i class="fas fa-bullseye"></i> Get a quote</button>
+
+                <label class="field-title">Which package interests you?</label>
+                <div class="check-group">
+                    <span class="check-item"><input type="checkbox"> Beginners Safari</span>
+                    <span class="check-item"><input type="checkbox"> Deluxe Safari</span>
+                    <span class="check-item"><input type="checkbox"> Premium Safari</span>
+                    <span class="check-item"><input type="checkbox"> Custom / Not Sure Yet</span>
+                </div>
+
+                <label class="field-title">What type of hunting are you interested in?</label>
+                <div class="check-group">
+                    <span class="check-item"><input type="checkbox"> Plains Game</span>
+                    <span class="check-item"><input type="checkbox"> Dangerous Game</span>
+                    <span class="check-item"><input type="checkbox"> Bow Hunting</span>
+                    <span class="check-item"><input type="checkbox"> Cross-Border (Namibia)</span>
+                    <span class="check-item"><input type="checkbox"> Fishing</span>
+                    <span class="check-item"><input type="checkbox"> Videographer</span>
+                </div>
+
+                <label class="field-title" for="dates">Approximate dates you're looking at?</label>
+                <div class="form-group"><input type="text" id="dates" placeholder="e.g. June 2027, 8 days"></div>
+
+                <label class="field-title" for="guests">Number of guests</label>
+                <div class="form-group"><input type="number" id="guests" value="1" min="1"></div>
+
+                <label class="field-title" for="overview">Give us an overview of what you have in mind</label>
+                <div class="form-group"><textarea id="overview" rows="3" placeholder="Caliber preferences, trophy goals, anything else we should know..."></textarea></div>
+
+                <label class="field-title">How did you hear about us?</label>
+                <div class="check-group">
+                    <span class="check-item"><input type="checkbox"> Referral</span>
+                    <span class="check-item"><input type="checkbox"> Social Media</span>
+                    <span class="check-item"><input type="checkbox"> Search / Website</span>
+                    <span class="check-item"><input type="checkbox"> Other</span>
+                </div>
+
+                <button class="get-quote-btn"><i class="fas fa-paper-plane"></i> Submit</button>
             </div>
             <div class="adventure-text">
-                <h2>LEAVE YOUR FOOTPRINT IN AFRICA</h2>
+                <h2>Leave Your Footprint in Africa</h2>
                 <p>Fair chase hunting in the North West bushveld, with cross-border safaris into Namibia available on request.</p>
                 <div class="contact-line"><i class="fas fa-phone-alt"></i> +27 71 858 4498 <span style="flex:1;"></span> <i class="fas fa-envelope"></i> ripleysafaris@gmail.com</div>
                 <div class="address-line"><i class="fas fa-location-dot"></i> <span>Farm a Boekenhoutfontein, R565, Rustenburg, North West 0309, South Africa</span></div>
-                <div style="border-left: 3px solid #b8905a; padding-left: 16px;"><p><i class="fas fa-check-circle"></i> Ethical selection</p><p><i class="fas fa-compass"></i> Dedicated professional hunter</p></div>
+                <div class="adv-features"><p><i class="fas fa-check-circle"></i> Ethical selection</p><p><i class="fas fa-compass"></i> Dedicated professional hunter</p></div>
                 <div style="margin-top: 20px;"><a href="https://wa.me/27718584498" class="book-btn"><i class="fab fa-whatsapp"></i> Book now</a></div>
             </div>
         </div>
