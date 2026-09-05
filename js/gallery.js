@@ -7,6 +7,7 @@
     var filterBtns = Array.prototype.slice.call(document.querySelectorAll('.filter-btn'));
     var lightbox = document.getElementById('lightbox');
     var lightboxImg = document.getElementById('lightboxImg');
+    var lightboxVideo = document.getElementById('lightboxVideo');
     var lightboxCaption = document.getElementById('lightboxCaption');
     var closeBtn = document.getElementById('lightboxClose');
     var prevBtn = document.getElementById('lightboxPrev');
@@ -41,8 +42,21 @@
         if (!item) return;
         var full = item.getAttribute('data-full');
         var caption = item.getAttribute('data-caption');
-        lightboxImg.src = full;
-        lightboxImg.alt = caption || '';
+        var isVideo = item.getAttribute('data-media') === 'video';
+        if (isVideo) {
+            lightboxImg.style.display = 'none';
+            lightboxImg.src = '';
+            lightboxVideo.style.display = '';
+            lightboxVideo.src = full;
+            lightboxVideo.play().catch(function () {});
+        } else {
+            lightboxVideo.pause();
+            lightboxVideo.style.display = 'none';
+            lightboxVideo.src = '';
+            lightboxImg.style.display = '';
+            lightboxImg.src = full;
+            lightboxImg.alt = caption || '';
+        }
         lightboxCaption.textContent = caption || '';
     }
 
@@ -50,6 +64,8 @@
         lightbox.classList.remove('open');
         document.body.style.overflow = '';
         lightboxImg.src = '';
+        lightboxVideo.pause();
+        lightboxVideo.src = '';
     }
 
     function step(delta) {

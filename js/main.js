@@ -4,6 +4,16 @@
         AOS.init({ once: true, duration: 700, offset: 60 });
     }
 
+    var nav = document.querySelector('nav');
+    if (nav) {
+        var toggleNav = function () {
+            if (window.scrollY > 40) { nav.classList.add('scrolled'); }
+            else { nav.classList.remove('scrolled'); }
+        };
+        toggleNav();
+        document.addEventListener('scroll', toggleNav, { passive: true });
+    }
+
     var cursor = document.getElementById('scopeCursor');
     var dot = document.getElementById('cursorDot');
     if (!cursor || !dot) return;
