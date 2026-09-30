@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-    <link rel="preload" as="video" href="img/hero/herofull.mp4">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Give+You+Glory&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -17,7 +16,7 @@
     <link rel="stylesheet" href="css/home.css">
 </head>
 <body class="bg-camou no-emoji">
-    <div class="custom-cursor" id="scopeCursor"></div>
+    <div class="custom-cursor" id="scopeCursor"><span class="cursor-label">VIEW</span></div>
     <div class="cursor-dot" id="cursorDot"></div>
     <div class="wrapper">
         <nav>
@@ -25,7 +24,6 @@
                 <img src="logo-icon-transparent.png" alt="Ripley Safaris logo" width="50" height="50" onerror="this.src='https://placehold.co/60x60?text=RS'">
                 <span>RIPLEY SAFARIS</span>
             </div>
-            <a href="#contact" class="book-btn"><i class="fas fa-crosshairs"></i> BOOK NOW</a>
             <div class="nav-links">
                 <a href="#">Home</a>
                 <a href="packages.html">Packages</a>
@@ -33,27 +31,28 @@
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
             </div>
+            <a href="#contact" class="book-btn">Book A Hunt</a>
         </nav>
         <div class="hero">
             <div class="hero-video-wrap">
-                <video class="hero-video" autoplay muted loop playsinline preload="auto">
+                <video class="hero-video" id="heroVideo" autoplay muted loop playsinline preload="metadata">
                     <source src="img/hero/herofull.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="hero-text-overlay">
-                <span class="eyebrow">Ripley Safaris</span>
-                <h1>Leave Your Footprint in Africa</h1>
-                <div class="tagline">North West, South Africa · Professional Hunting</div>
-                <p>Exclusive guided safaris with a dedicated professional hunter.</p>
+                <span class="eyebrow">Ripley Safaris · South Africa</span>
+                <h1>Leave Your Footprint<br>in Africa</h1>
+                <p class="hero-lede">Professional guided hunting safaris in South Africa's North West province.</p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="book-btn"><i class="fas fa-scope"></i> Book A Hunt</a>
-                    <a href="packages.html" class="book-btn secondary"><i class="fas fa-box-open"></i> View Packages</a>
+                    <a href="#contact" class="book-btn">Book A Hunt</a>
+                    <a href="packages.html" class="book-btn secondary">View Packages</a>
                 </div>
             </div>
         </div>
         <div class="about-section" id="about" data-aos="fade-right">
             <div class="about-content">
-                <h2><i class="fas fa-compass"></i> About Ripley Safaris</h2>
+                <span class="kicker">About Ripley Safaris</span>
+                <h2>Where History Meets the Bushveld</h2>
                 <p>Based on Farm a Boekenhoutfontein along the R565 near Rustenburg, in South Africa's North West province, Ripley Safaris offers an exclusive hunting experience in thatch and stone-built lodging on a privately run reserve.</p>
                 <p>Specializing in plains game hunting, we are committed to delivering a high-quality, ethical experience, guided by a dedicated professional hunter matched to every booking.</p>
                 <p>At Ripley Safaris, we offer more than just a hunt; we provide an immersive African experience — including a tour of the Paul Kruger Museum on our reserve — where clients can enjoy the beauty and challenge of the wild while contributing to conservation.</p>
@@ -65,42 +64,44 @@
             </div>
         </div>
         <div class="section-title">
-            <i class="fas fa-gun"></i>
-            <span>OUR ANIMALS · SOUTH AFRICA</span>
-            <i class="fas fa-bullseye"></i>
+            <span class="kicker">South Africa</span>
+            <h2>The Animals</h2>
         </div>
         <div class="card-grid">
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600"><div class="card-image"><img src="img/animals/thumb/chacma-baboon.jpg" alt="Chacma Baboon" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Baboon'"></div><h3>Chacma Baboon</h3><a href="animals/chacma-baboon.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="50"><div class="card-image"><img src="img/animals/thumb/sable.jpg" alt="Sable" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Sable'"></div><h3>Sable</h3><a href="animals/sable.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100"><div class="card-image"><img src="img/animals/thumb/roan.jpg" alt="Roan" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Roan'"></div><h3>Roan</h3><a href="animals/roan.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-crosshairs"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150"><div class="card-image"><img src="img/animals/thumb/red-lechwe.jpg" alt="Red Lechwe" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Lechwe'"></div><h3>Red Lechwe</h3><a href="animals/red-lechwe.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200"><div class="card-image"><img src="img/animals/thumb/cape-eland.jpg" alt="Cape Eland" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Eland'"></div><h3>Cape Eland</h3><a href="animals/cape-eland.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-bullseye"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="250"><div class="card-image"><img src="img/animals/full/kudu.jpeg" alt="Kudu" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Kudu'"></div><h3>Greater Kudu</h3><a href="animals/greater-kudu.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"><div class="card-image"><img src="img/animals/thumb/oryx.jpg" alt="Oryx" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Oryx'"></div><h3>Oryx</h3><a href="animals/oryx.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350"><div class="card-image"><img src="img/animals/thumb/giraffe.jpg" alt="Giraffe" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Giraffe'"></div><h3>Giraffe</h3><a href="animals/giraffe.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-crosshairs"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400"><div class="card-image"><img src="img/animals/thumb/waterbuck.jpg" alt="Waterbuck" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Waterbuck'"></div><h3>Waterbuck</h3><a href="animals/waterbuck.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="450"><div class="card-image"><img src="img/animals/thumb/burchell-zebra.jpg" alt="Zebra" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Zebra'"></div><h3>Burchell Zebra</h3><a href="animals/burchell-zebra.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500"><div class="card-image"><img src="img/animals/thumb/blue-wildebeest.jpg" alt="Blue Wildebeest" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Blue+Wildebeest'"></div><h3>Blue Wildebeest</h3><a href="animals/blue-wildebeest.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="600"><div class="card-image"><img src="img/animals/thumb/red-hartebeest.jpg" alt="Hartebeest" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Hartebeest'"></div><h3>Red Hartebeest</h3><a href="animals/red-hartebeest.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-crosshairs"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="650"><div class="card-image"><img src="img/animals/thumb/steenbok.jpg" alt="Steenbok" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Steenbok'"></div><h3>Steenbok</h3><a href="animals/steenbok.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="700"><div class="card-image"><img src="img/animals/thumb/duiker.jpg" alt="Duiker" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Duiker'"></div><h3>Duiker</h3><a href="animals/duiker.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="750"><div class="card-image"><img src="img/animals/thumb/warthog.jpg" alt="Warthog" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Warthog'"></div><h3>Warthog</h3><a href="animals/warthog.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="800"><div class="card-image"><img src="img/animals/thumb/springbuck.jpg" alt="Springbuck" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Springbuck'"></div><h3>Springbuck</h3><a href="animals/springbuck.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="850"><div class="card-image"><img src="img/animals/thumb/impala.jpg" alt="Impala" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Impala'"></div><h3>Impala</h3><a href="animals/impala.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="900"><div class="card-image"><img src="img/animals/full/blesbucka.jpg" alt="Blesbuck" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Blesbuck'"></div><h3>Blesbuck</h3><a href="animals/blesbuck.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="950"><div class="card-image"><img src="img/animals/thumb/nyala.jpg" alt="Nyala" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Nyala'"></div><h3>Nyala</h3><a href="animals/nyala.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="1000"><div class="card-image"><img src="img/animals/thumb/buffalo.jpg" alt="Buffalo" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Buffalo'"></div><h3>Buffalo</h3><a href="animals/buffalo.html" class="card-view-btn"><i class="fas fa-eye"></i> View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-crosshairs"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/chacma-baboon.jpg" alt="Chacma Baboon" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Baboon'"></div><h3>Chacma Baboon</h3><a href="animals/chacma-baboon.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/sable.jpg" alt="Sable" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Sable'"></div><h3>Sable</h3><a href="animals/sable.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/roan.jpg" alt="Roan" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Roan'"></div><h3>Roan</h3><a href="animals/roan.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-crosshairs"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/red-lechwe.jpg" alt="Red Lechwe" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Lechwe'"></div><h3>Red Lechwe</h3><a href="animals/red-lechwe.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/cape-eland.jpg" alt="Cape Eland" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Eland'"></div><h3>Cape Eland</h3><a href="animals/cape-eland.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-bullseye"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/full/kudu.jpeg" alt="Kudu" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Kudu'"></div><h3>Greater Kudu</h3><a href="animals/greater-kudu.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/oryx.jpg" alt="Oryx" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Oryx'"></div><h3>Oryx</h3><a href="animals/oryx.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/giraffe.jpg" alt="Giraffe" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Giraffe'"></div><h3>Giraffe</h3><a href="animals/giraffe.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-crosshairs"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/waterbuck.jpg" alt="Waterbuck" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Waterbuck'"></div><h3>Waterbuck</h3><a href="animals/waterbuck.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/burchell-zebra.jpg" alt="Zebra" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Zebra'"></div><h3>Burchell Zebra</h3><a href="animals/burchell-zebra.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/blue-wildebeest.jpg" alt="Blue Wildebeest" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Blue+Wildebeest'"></div><h3>Blue Wildebeest</h3><a href="animals/blue-wildebeest.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/red-hartebeest.jpg" alt="Hartebeest" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Hartebeest'"></div><h3>Red Hartebeest</h3><a href="animals/red-hartebeest.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-crosshairs"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/steenbok.jpg" alt="Steenbok" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Steenbok'"></div><h3>Steenbok</h3><a href="animals/steenbok.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/duiker.jpg" alt="Duiker" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Duiker'"></div><h3>Duiker</h3><a href="animals/duiker.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/warthog.jpg" alt="Warthog" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Warthog'"></div><h3>Warthog</h3><a href="animals/warthog.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/springbuck.jpg" alt="Springbuck" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Springbuck'"></div><h3>Springbuck</h3><a href="animals/springbuck.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/impala.jpg" alt="Impala" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Impala'"></div><h3>Impala</h3><a href="animals/impala.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/full/blesbucka.jpg" alt="Blesbuck" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Blesbuck'"></div><h3>Blesbuck</h3><a href="animals/blesbuck.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/nyala.jpg" alt="Nyala" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Nyala'"></div><h3>Nyala</h3><a href="animals/nyala.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
+            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/buffalo.jpg" alt="Buffalo" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Buffalo'"></div><h3>Buffalo</h3><a href="animals/buffalo.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-crosshairs"></i></div></div>
         </div>
         <div class="accommodation-section">
-            <h2><i class="fas fa-home"></i> ACCOMMODATION &amp; LODGE</h2>
-            <div class="accommodation-grid">
-                <div class="accommodation-card" data-aos="zoom-in"><div class="acc-image"><img src="img/lodge/lodge-exterior.jpg" alt="Lodge exterior" width="1300" height="1300" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400?text=Lodge'"></div><div class="acc-text"><h3>Hunters' Lodge</h3><p>Thatch and stone-built lodging overlooking the reserve.</p></div></div>
-                <div class="accommodation-card" data-aos="zoom-in" data-aos-delay="100"><div class="acc-image"><img src="img/lodge/bedroom.jpg" alt="Bedroom" width="1300" height="1300" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400?text=Bedroom'"></div><div class="acc-text"><h3>Bed room</h3><p>Immersive suites with private bathrooms.</p></div></div>
-                <div class="accommodation-card" data-aos="zoom-in" data-aos-delay="200"><div class="acc-image"><img src="img/lodge/boma-lounge.jpg" alt="Main lounge" width="1300" height="1300" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400?text=Lounge'"></div><div class="acc-text"><h3>The Boma &amp; Lounge</h3><p>Traditional boma for evening stories.</p></div></div>
+            <div class="section-title section-title--dark">
+                <span class="kicker">The Lodge</span>
+                <h2>The Place Between the Hunt</h2>
             </div>
-            <p style="text-align:center; margin-top: 20px;"><a href="gallery.html" class="cta-btn secondary" style="display:inline-flex;"><i class="fas fa-images"></i> See the Full Gallery</a></p>
+            <div class="accommodation-grid">
+                <div class="accommodation-card"><div class="acc-image"><img src="img/lodge/lodge-exterior.jpg" alt="Lodge exterior" width="1300" height="1300" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400?text=Lodge'"></div><div class="acc-text"><h3>Hunters' Lodge</h3><p>Thatch and stone-built lodging overlooking the reserve.</p></div></div>
+                <div class="accommodation-card"><div class="acc-image"><img src="img/lodge/bedroom.jpg" alt="Bedroom" width="1300" height="1300" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400?text=Bedroom'"></div><div class="acc-text"><h3>Bed room</h3><p>Immersive suites with private bathrooms.</p></div></div>
+                <div class="accommodation-card"><div class="acc-image"><img src="img/lodge/boma-lounge.jpg" alt="Main lounge" width="1300" height="1300" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400?text=Lounge'"></div><div class="acc-text"><h3>The Boma &amp; Lounge</h3><p>Traditional boma for evening stories.</p></div></div>
+            </div>
+            <p style="text-align:center; margin-top: 30px;"><a href="gallery.html" class="cta-btn secondary" style="display:inline-flex;">See the Full Gallery</a></p>
         </div>
-        <div class="contact-quote-section" id="contact" data-aos="zoom-in">
+        <div class="contact-quote-section" id="contact">
             <div class="book-form">
                 <h2>Let's Plan Your Safari</h2>
                 <p class="form-intro">Tell us a little about the hunt you have in mind and our team will be in touch with a tailored quote.</p>

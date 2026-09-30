@@ -14,7 +14,6 @@
     --text-dark: #3f2a18;
     --text-muted: #7a6248;
     --wood-brown: #5c4630;
-    --green: #7c8f4a;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; cursor: none; }
@@ -31,12 +30,22 @@ h1, h2, h3, .display-font { font-family: 'Cormorant Garamond', serif; font-weigh
 
 img { max-width: 100%; height: auto; }
 
-/* scope cursor — a slim sunset-orange reticle */
-.custom-cursor { position: fixed; width: 30px; height: 30px; border: 1px solid rgba(217, 113, 30, 0.9); border-radius: 50%; pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: width 0.18s ease, height 0.18s ease, opacity 0.18s ease; box-shadow: 0 0 0 1px rgba(63, 42, 24, 0.25); }
-.custom-cursor::before { content: ""; position: absolute; top: 50%; left: -7px; width: 8px; height: 1px; background: rgba(217, 113, 30, 0.9); transform: translateY(-50%); }
-.custom-cursor::after { content: ""; position: absolute; top: 50%; right: -7px; width: 8px; height: 1px; background: rgba(217, 113, 30, 0.9); transform: translateY(-50%); }
-.cursor-dot { position: fixed; width: 4px; height: 4px; background: var(--black); border-radius: 50%; pointer-events: none; z-index: 10000; transform: translate(-50%, -50%); }
-@media (max-width: 768px) { * { cursor: auto !important; } .custom-cursor, .cursor-dot { display: none !important; } }
+/* scope cursor — a slim reticle; the site's one signature interaction.
+   Default: quiet, small, barely there. On an image/card it opens slightly
+   and reveals a small "VIEW" mark. On a booking CTA it tightens instead. */
+.custom-cursor { position: fixed; width: 26px; height: 26px; border: 1px solid rgba(217, 113, 30, 0.85); border-radius: 50%; pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: width 0.25s cubic-bezier(.2,.8,.2,1), height 0.25s cubic-bezier(.2,.8,.2,1), border-color 0.25s ease, opacity 0.2s ease; }
+.custom-cursor::before { content: ""; position: absolute; top: 50%; left: -6px; width: 6px; height: 1px; background: rgba(217, 113, 30, 0.85); transform: translateY(-50%); transition: opacity 0.2s ease; }
+.custom-cursor::after { content: ""; position: absolute; top: 50%; right: -6px; width: 6px; height: 1px; background: rgba(217, 113, 30, 0.85); transform: translateY(-50%); transition: opacity 0.2s ease; }
+.custom-cursor .cursor-label { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family: 'Jost', sans-serif; font-size: 0.55rem; font-weight: 500; letter-spacing: 1.5px; color: var(--white); opacity: 0; transition: opacity 0.2s ease; white-space: nowrap; }
+.cursor-dot { position: fixed; width: 3px; height: 3px; background: var(--black); border-radius: 50%; pointer-events: none; z-index: 10000; transform: translate(-50%, -50%); transition: opacity 0.2s ease; }
+
+.custom-cursor.is-view { width: 54px; height: 54px; border-color: var(--black); }
+.custom-cursor.is-view::before, .custom-cursor.is-view::after { opacity: 0; }
+.custom-cursor.is-view .cursor-label { opacity: 1; }
+.cursor-dot.is-hidden { opacity: 0; }
+.custom-cursor.is-cta { width: 18px; height: 18px; border-color: var(--black); }
+
+@media (max-width: 900px) { * { cursor: auto !important; } .custom-cursor, .cursor-dot { display: none !important; } }
 @media (prefers-reduced-motion: reduce) { .custom-cursor, .cursor-dot { display: none !important; } * { cursor: auto !important; } }
 
 /* kept as a hook on <body> from earlier markup; theme is now off-white, no texture */
@@ -53,14 +62,14 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
 .nav-links a.active, .nav-links a:hover { border-bottom-color: var(--orange); color: var(--orange); }
 
 /* buttons */
-.book-btn { background: transparent; padding: 11px 26px; border-radius: 999px; font-weight: 400; color: var(--white); text-decoration: none; border: 1px solid var(--white); transition: 0.25s; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 1.5px; display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; }
+.book-btn { background: transparent; padding: 11px 26px; border-radius: 2px; font-weight: 400; color: var(--white); text-decoration: none; border: 1px solid var(--white); transition: 0.25s; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 1.5px; display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; }
 .book-btn i { color: inherit; }
 .book-btn:hover { background: var(--white); color: var(--black); }
 .book-btn.secondary { background: transparent; border: 1px solid var(--white); }
 .book-btn.secondary:hover { background: var(--white); color: var(--black); }
 .book-btn.secondary:hover i { color: var(--black); }
 
-.cta-btn { background: var(--black); padding: 14px 30px; border-radius: 999px; font-weight: 400; color: var(--white); text-decoration: none; border: 1px solid var(--black); transition: 0.25s; display: inline-flex; align-items: center; gap: 10px; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1.5px; }
+.cta-btn { background: var(--black); padding: 14px 30px; border-radius: 2px; font-weight: 400; color: var(--white); text-decoration: none; border: 1px solid var(--black); transition: 0.25s; display: inline-flex; align-items: center; gap: 10px; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1.5px; }
 .cta-btn:hover { background: transparent; color: var(--black); }
 .cta-btn.secondary { background: transparent; border: 1px solid var(--black); color: var(--black); }
 .cta-btn.secondary:hover { background: var(--black); color: var(--white); }

@@ -7,14 +7,14 @@ nav { margin-bottom: 24px; }
 .animal-hero img { width: 100%; height: 100%; object-fit: cover; filter: brightness(0.8) contrast(1.05); animation: slowZoom 14s ease-in-out forwards; }
 @keyframes slowZoom { 0% { transform: scale(1); } 100% { transform: scale(1.08); } }
 .hero-overlay { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.85)); padding: 40px 28px 28px; z-index: 10; }
-.hero-overlay .badge { display: inline-flex; align-items: center; gap: 6px; background: var(--orange); color: #fff; padding: 6px 18px; border-radius: 999px; font-size: 0.72rem; font-weight: 400; text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 14px; }
+.hero-overlay .badge { display: inline-flex; align-items: center; gap: 6px; background: var(--orange); color: #fff; padding: 6px 18px; border-radius: 2px; font-size: 0.72rem; font-weight: 400; text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 14px; }
 .hero-overlay h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.8rem; font-weight: 700; color: #fff; line-height: 1; margin-bottom: 10px; }
 .difficulty-tag { display: inline-flex; align-items: center; gap: 8px; font-size: 0.95rem; color: #e8e8e8; }
 .scope-watermark { position: absolute; top: 50%; right: 5%; transform: translateY(-50%); font-size: 9rem; color: rgba(255, 255, 255, 0.08); pointer-events: none; z-index: 5; }
 
 .content-grid { display: grid; grid-template-columns: 1fr; gap: 24px; margin-bottom: 30px; }
 @media (min-width: 700px) { .content-grid { grid-template-columns: 1fr 1fr; } }
-.info-card { background: var(--white); border: 1px solid #e4e0d8; border-radius: 6px; padding: 26px; }
+.info-card { background: var(--white); border: 1px solid #e4e0d8; border-radius: 2px; padding: 26px; }
 .info-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.25rem; font-weight: 700; color: var(--black); border-bottom: 2px solid var(--orange); padding-bottom: 10px; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
 .info-card h3 i { color: var(--orange); }
 .info-card p { color: var(--text-muted); font-size: 0.97rem; line-height: 1.7; }
@@ -22,18 +22,18 @@ nav { margin-bottom: 24px; }
 .tips-list li { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; color: var(--text-muted); font-size: 0.95rem; }
 .tips-list li i { color: var(--orange); margin-top: 3px; flex-shrink: 0; }
 
-.price-panel { background: var(--cream); border: 1px solid var(--cream-dark); border-radius: 6px; padding: 26px; text-align: center; margin-bottom: 24px; }
+.price-panel { background: var(--cream); border: 1px solid var(--cream-dark); border-radius: 2px; padding: 26px; text-align: center; margin-bottom: 24px; }
 .price-label { font-size: 0.78rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 2px; }
 .price-value { font-family: 'Cormorant Garamond', serif; font-size: 2.8rem; font-weight: 700; color: var(--black); margin: 8px 0; }
 .price-sub { font-size: 0.85rem; color: var(--text-muted); }
 
 .stats-row { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 24px; }
-.stat-box { background: var(--white); border: 1px solid #e4e0d8; border-radius: 6px; padding: 18px 10px; text-align: center; }
+.stat-box { background: var(--white); border: 1px solid #e4e0d8; border-radius: 2px; padding: 18px 10px; text-align: center; }
 .stat-box i { font-size: 1.4rem; color: var(--orange); margin-bottom: 6px; display: block; }
 .stat-box .stat-val { font-size: 1rem; font-weight: 700; color: var(--black); }
 .stat-box .stat-key { font-size: 0.7rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 1px; }
 
-.book-cta { background: var(--black); border-radius: 6px; padding: 32px 28px; text-align: center; }
+.book-cta { background: var(--black); border-radius: 2px; padding: 32px 28px; text-align: center; }
 .book-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; color: var(--white); margin-bottom: 8px; }
 .book-cta p { color: #cfcfcf; margin-bottom: 22px; font-size: 0.95rem; }
 .cta-buttons { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
