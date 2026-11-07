@@ -1,0 +1,622 @@
+[
+ {
+  "slug": "blesbuck",
+  "title": "Blesbuck",
+  "img": "img/animals/full/blesbucka.jpg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Moderate – Open ground patience",
+  "priceLabel": "Trophy Fee",
+  "price": "$450",
+  "priceSub": "Per animal · All-inclusive packages available on request",
+  "stats": [
+   [
+    "Difficulty",
+    "Moderate"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Blesbuck",
+  "about": "A striking antelope with a bold white blaze on its face and a robust, richly coloured body, the blesbuck prefers open grassland and can be found in herds across the North West bushveld. The distinctive facial marking makes it one of the most visually recognisable animals on any trophy list.",
+  "tips": [
+   "Their tendency to group tightly together makes getting a clean shot on a single animal tricky — wait for separation.",
+   "Use elevated ground or a good vantage point to glass herds and identify the best trophy animal.",
+   "A flat-shooting .243 to .308 caliber is more than adequate for the open terrain blesbuck favour.",
+   "They often stand and stare when alarmed before running — use this moment for a steady shot."
+  ],
+  "ctaTitle": "Ready to Hunt the Blesbuck?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "blue-wildebeest",
+  "title": "Blue Wildebeest",
+  "img": "img/animals/full/blue-wildebeest.jpg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Moderate – Herd patience needed",
+  "priceLabel": "Trophy Fee",
+  "price": "$1,500",
+  "priceSub": "Per animal · Golden colour variant available from $2,500",
+  "stats": [
+   [
+    "Difficulty",
+    "Moderate"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Blue Wildebeest",
+  "about": "Bulkier than their black cousins, the blue wildebeest has a dark grayish-blue coat and a rugged, almost prehistoric appearance. They are one of the most abundant large animals on the African plains and are known for remarkable toughness and group cohesion. A rare golden colour variant is also available on request.",
+  "tips": [
+   "These animals can absorb a tremendous amount of punishment — a solid, well-placed shoulder shot is crucial.",
+   "Often found in large, mixed herds; wait for your selected animal to step clear before shooting.",
+   "A .30 caliber or heavier is recommended to ensure sufficient penetration.",
+   "Hunt near water sources in the dry season when herds concentrate predictably."
+  ],
+  "ctaTitle": "Ready to Hunt the Blue Wildebeest?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "buffalo",
+  "title": "Buffalo",
+  "img": "img/animals/full/buffalo.jpg",
+  "badge": "South Africa · Dangerous Game",
+  "difficulty": "Extreme – Dangerous game",
+  "priceLabel": "Trophy Fee",
+  "price": "POR",
+  "priceSub": "Price on request · speak to our team for current rates",
+  "stats": [
+   [
+    "Difficulty",
+    "Extreme"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Buffalo",
+  "about": "One of Africa's 'Big Five' and widely regarded as its most unpredictable dangerous game animal, the Cape buffalo is a heavily built, thick-horned bovine with a reputation for charging when wounded. Hunting buffalo demands an experienced professional hunter, a powerful rifle, and total respect for the animal.",
+  "tips": [
+   "Only large-bore calibers (.375 H&H and up) are appropriate — shot placement on the vitals is non-negotiable.",
+   "Buffalo are herd animals with excellent hearing and smell; approach from downwind with total stealth.",
+   "Wounded buffalo are known to circle back on their own trail — always hunt with your professional hunter close at hand.",
+   "A mature dagga boy (old solitary bull) offers the classic, heavily bossed trophy hunters seek."
+  ],
+  "ctaTitle": "Ready to Hunt the Buffalo?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "burchell-zebra",
+  "title": "Burchell Zebra",
+  "img": "img/animals/full/burchell-zebra.jpg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Challenging – Tough and fast",
+  "priceLabel": "Trophy Fee",
+  "price": "$1,450",
+  "priceSub": "Per animal · All-inclusive packages available on request",
+  "stats": [
+   [
+    "Difficulty",
+    "Challenging"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Burchell Zebra",
+  "about": "A striking animal with a unique stripe pattern — no two zebras are identical — the Burchell's zebra is commonly found in herds across the open bushveld. They are incredibly tough and social animals that make for a memorable and exciting hunt.",
+  "tips": [
+   "Zebras are extremely tough and will run enormous distances if poorly hit — use a powerful caliber.",
+   "Selecting a single animal from a herd requires patience and a clear shooting lane.",
+   "A heart-lung shot placed just behind the shoulder is most effective.",
+   "Be ready to shoot quickly — zebra are alert and spook easily, moving fast when alarmed."
+  ],
+  "ctaTitle": "Ready to Hunt the Burchell Zebra?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "cape-eland",
+  "title": "Cape Eland",
+  "img": "img/animals/full/cape-eland.jpg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Challenging – Large and resilient",
+  "priceLabel": "Trophy Fee",
+  "price": "$3,500",
+  "priceSub": "Per animal · All-inclusive packages available on request",
+  "stats": [
+   [
+    "Difficulty",
+    "Challenging"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Cape Eland",
+  "about": "The largest antelope species in the world, the Cape eland is deceptively athletic and can clear two metres despite its massive frame. With spiral horns and a distinctive dewlap, a mature bull eland is a trophy any hunter would be proud of.",
+  "tips": [
+   "They are slow-moving but can cover great distances when alarmed — track carefully once spooked.",
+   "Shot placement is key due to their thick skin and substantial bone; a heavy caliber is recommended.",
+   "Listen for the distinctive clicking of eland tendons — it's a reliable indicator of a nearby herd.",
+   "Target the heart-lung area behind the shoulder for the cleanest kill."
+  ],
+  "ctaTitle": "Ready to Hunt the Cape Eland?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "chacma-baboon",
+  "title": "Chacma Baboon",
+  "img": "img/animals/full/chacma-baboon.jpg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Challenging – Sharp-eyed and alert",
+  "priceLabel": "Trophy Fee",
+  "price": "POR",
+  "priceSub": "Price on request · speak to our team for current rates",
+  "stats": [
+   [
+    "Difficulty",
+    "Challenging"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Chacma Baboon",
+  "about": "Highly intelligent and constantly alert, the chacma baboon is one of the sharpest-eyed animals in the bushveld and often acts as an early-warning system for other game. They move in troops across rocky outcrops and riverine bush, making a mature dog baboon a genuinely challenging trophy.",
+  "tips": [
+   "Baboon troops post sentries — approach from downwind and stay low to avoid detection.",
+   "A mature dog baboon is significantly larger than the females; take time to identify the right animal in the troop.",
+   "They are quick to bolt for rocky crevices or trees — be ready for a fast, decisive shot.",
+   "A .243 to .308 caliber is well suited, with shot placement to the vitals for a clean, ethical harvest."
+  ],
+  "ctaTitle": "Ready to Hunt the Chacma Baboon?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "duiker",
+  "title": "Duiker",
+  "img": "img/animals/full/duiker.jpg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Challenging – Elusive and quick",
+  "priceLabel": "Trophy Fee",
+  "price": "POR",
+  "priceSub": "Price on request · speak to our team for current rates",
+  "stats": [
+   [
+    "Difficulty",
+    "Challenging"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Duiker",
+  "about": "A shy, small antelope that prefers thick bush and makes darting, unpredictable escapes when disturbed. The name 'duiker' means 'diver' in Afrikaans — a reference to their habit of diving into dense cover. Hunting duiker is a true test of fieldcraft and patience.",
+  "tips": [
+   "Walk slowly along established game trails in thick bush — duiker move along the same corridors repeatedly.",
+   "Calling techniques using a distress call can lure curious duiker into the open.",
+   "A small-caliber rifle such as a .22 centrefire or .243 works best to preserve the small trophy.",
+   "Be prepared to shoot quickly at a small, fast-moving target in broken, cluttered terrain."
+  ],
+  "ctaTitle": "Ready to Hunt the Duiker?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "giraffe",
+  "title": "Giraffe",
+  "img": "img/animals/full/giraffe.jpg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Challenging – Unique shot placement",
+  "priceLabel": "Trophy Fee",
+  "price": "$3,000",
+  "priceSub": "Per animal · Black variety available from $7,000",
+  "stats": [
+   [
+    "Difficulty",
+    "Challenging"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Giraffe",
+  "about": "The world's tallest land animal, the giraffe is a uniquely specialised and unforgettable hunt. Their sheer height and unusual anatomy make shot placement a science of its own. A giraffe hunt is a bucket-list experience that yields an exceptional and one-of-a-kind trophy, with a rare black variety available on request.",
+  "tips": [
+   "Shot placement is absolutely critical — the heart is positioned much lower in the chest than most animals.",
+   "A powerful caliber (.375 or larger) is required to penetrate the thick hide and reach vital organs.",
+   "Approach from behind cover and wait for the giraffe to come broadside before shooting.",
+   "Your professional hunter will walk you through the correct anatomy before you take the shot."
+  ],
+  "ctaTitle": "Ready to Hunt the Giraffe?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "greater-kudu",
+  "title": "Greater Kudu",
+  "img": "img/animals/full/kudu.jpeg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Challenging – The Grey Ghost",
+  "priceLabel": "Trophy Fee",
+  "price": "$3,500",
+  "priceSub": "Per animal · 45\"+ trophy bulls priced on request",
+  "stats": [
+   [
+    "Difficulty",
+    "Challenging"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Greater Kudu",
+  "about": "Known as the 'Grey Ghost of Africa,' the greater kudu is famous for its breathtaking spiral horns — which can exceed 180 cm — and its uncanny ability to vanish into dense bush. A mature bull kudu is one of the most coveted trophies on the continent.",
+  "tips": [
+   "Early morning and late afternoon are your best windows when kudu are most active.",
+   "They are extremely cautious and blend masterfully into thorn bush — patience is everything.",
+   "Glass open clearings and dry riverbeds from a distance rather than pushing into thick cover.",
+   "A well-placed shoulder shot with a .270 or .30 caliber rifle is the standard approach."
+  ],
+  "ctaTitle": "Ready to Hunt the Greater Kudu?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "impala",
+  "title": "Impala",
+  "img": "img/animals/full/impala.jpg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Easy to Moderate – Herd selection",
+  "priceLabel": "Trophy Fee",
+  "price": "$550",
+  "priceSub": "Per animal · Black colour variant available from $2,000",
+  "stats": [
+   [
+    "Difficulty",
+    "Easy–Moderate"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Impala",
+  "about": "One of Africa's most abundant and elegant antelope, the impala has a rich reddish-brown coat and beautifully curved horns on the rams. They are a staple of any South African safari and excellent eating — often called the 'McDonald's of the bush' for their prevalence. Striking black and other rare colour variants are available on request.",
+  "tips": [
+   "They are almost always found in herds, so selecting a mature ram without alarming the group is the real skill.",
+   "Mid-range shots of 80–150 metres are most common and effective in savanna terrain.",
+   "A .243 to .308 caliber covers impala perfectly across all distances you're likely to encounter.",
+   "Listen for the loud snort-bark alarm call — it means the herd has already detected something."
+  ],
+  "ctaTitle": "Ready to Hunt the Impala?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "nyala",
+  "title": "Nyala",
+  "img": "img/animals/full/nyala.jpg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Challenging – Thick bush specialist",
+  "priceLabel": "Trophy Fee",
+  "price": "$3,000",
+  "priceSub": "Per animal · All-inclusive packages available on request",
+  "stats": [
+   [
+    "Difficulty",
+    "Challenging"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Nyala",
+  "about": "One of southern Africa's most elegant spiral-horned antelope, the nyala bull carries lyre-shaped horns with pale ivory tips and a shaggy, charcoal-grey coat striped with faint white lines. Shy and bush-dependent, a mature nyala bull is considered a true prize among plains game hunters.",
+  "tips": [
+   "Nyala favour thick riverine bush and dense cover — slow, deliberate stalking beats covering ground quickly.",
+   "Bulls are far darker and larger than the chestnut-coloured ewes; confirm you have a mature bull before shooting.",
+   "Early morning and last light are prime windows as nyala move to feed along bush edges.",
+   "A .270 to .30 caliber with a well-placed shoulder shot is standard for the thick cover they inhabit."
+  ],
+  "ctaTitle": "Ready to Hunt the Nyala?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "oryx",
+  "title": "Oryx",
+  "img": "img/animals/full/oryx.jpg",
+  "badge": "Namibia · Cross-Border Safari",
+  "difficulty": "Moderate – Open terrain stalking",
+  "priceLabel": "Trophy Fee",
+  "price": "POR",
+  "priceSub": "Available via our Namibia cross-border safaris · price on request",
+  "stats": [
+   [
+    "Difficulty",
+    "Moderate"
+   ],
+   [
+    "Location",
+    "Namibia"
+   ]
+  ],
+  "aboutTitle": "About the Oryx",
+  "about": "Namibia's most iconic antelope, the oryx (gemsbok) is built for survival in extreme desert conditions. With long, straight rapier horns and striking black-and-white facial markings, it is both a beautiful and challenging trophy. We offer oryx through our cross-border hunting safaris into Namibia, arranged alongside your South African hunt.",
+  "tips": [
+   "Oryx are desert-adapted and can go days without water — don't rely on waterholes alone.",
+   "They are very tough animals with a strong will to survive; a solid, well-placed shot is essential.",
+   "Effective stalking in open terrain requires extreme patience and use of available cover.",
+   "A .300 caliber or larger is recommended to ensure a clean, ethical kill."
+  ],
+  "ctaTitle": "Ready to Hunt the Oryx?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "red-hartebeest",
+  "title": "Red Hartebeest",
+  "img": "img/animals/full/red-hartebeest.jpg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Moderate – Toughness demands precision",
+  "priceLabel": "Trophy Fee",
+  "price": "$2,700",
+  "priceSub": "Per animal · All-inclusive packages available on request",
+  "stats": [
+   [
+    "Difficulty",
+    "Moderate"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Red Hartebeest",
+  "about": "Known for their long, sloping faces, bracket-shaped horns, and reddish coat, red hartebeests are among the fastest and most enduring antelopes in Africa. They are a classic South African plains game species and a favourite on any safari.",
+  "tips": [
+   "Hartebeests have exceptional stamina — a poorly placed shot may result in a very long tracking job.",
+   "Their sloped back means shot placement must compensate for the angled spine; aim well forward behind the shoulder.",
+   "They are curious by nature and may stop to look back after moving off — use this window wisely.",
+   "A .270 or .30 caliber is well-suited to the open terrain where hartebeest are typically found."
+  ],
+  "ctaTitle": "Ready to Hunt the Red Hartebeest?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "red-lechwe",
+  "title": "Red Lechwe",
+  "img": "img/animals/full/red-lechwe.jpg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Challenging – Wetland terrain",
+  "priceLabel": "Trophy Fee",
+  "price": "POR",
+  "priceSub": "Price on request · speak to our team for current rates",
+  "stats": [
+   [
+    "Difficulty",
+    "Challenging"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Red Lechwe",
+  "about": "A beautiful water-loving antelope with a rich reddish coat and long, elegantly curved horns. Found near marshes, floodplains, and wetlands, the red lechwe is uniquely adapted to semi-aquatic environments and is a spectacular trophy.",
+  "tips": [
+   "Often hunted near water — be prepared to wade through soft, muddy terrain for retrieval.",
+   "A flat-shooting caliber helps when shooting across open wetlands at extended range.",
+   "Lechwe are fast and zigzag when fleeing — be patient and wait for a broadside shot.",
+   "Early morning is best when herds move onto drier ground to feed."
+  ],
+  "ctaTitle": "Ready to Hunt the Red Lechwe?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "roan",
+  "title": "Roan",
+  "img": "img/animals/full/roan.jpg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Challenging – Tough and aggressive",
+  "priceLabel": "Trophy Fee",
+  "price": "POR",
+  "priceSub": "Price on request · speak to our team for current rates",
+  "stats": [
+   [
+    "Difficulty",
+    "Challenging"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Roan",
+  "about": "A large, horse-like antelope with backward-curving horns and a distinctive black-and-white face mask. The roan is Africa's second-largest antelope and is known for its raw power and aggressive temperament when threatened.",
+  "tips": [
+   "Roan are aggressive and will charge when wounded — an accurate first shot is critical.",
+   "Target the shoulder for a heart-lung shot with a caliber of .300 or larger.",
+   "They favour open woodland and seasonal pans; scan from elevated ground at dawn.",
+   "Approach from downwind and move slowly — roan are alert but not as skittish as smaller antelope."
+  ],
+  "ctaTitle": "Ready to Hunt the Roan?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "sable",
+  "title": "Sable",
+  "img": "img/animals/full/sable.jpg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Challenging – Elusive and prized",
+  "priceLabel": "Trophy Fee",
+  "price": "$6,500",
+  "priceSub": "Per animal · 44\"+ trophy bulls priced on request",
+  "stats": [
+   [
+    "Difficulty",
+    "Challenging"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Sable",
+  "about": "One of Africa's most prized and visually spectacular trophies, sable are jet black with striking white markings and long, dramatically curved horns that can exceed 160 cm. A bull sable is the pinnacle of plains game hunting.",
+  "tips": [
+   "They are aggressive when wounded and will charge, so an ethical, well-placed first shot is absolutely essential.",
+   "Sable prefer dense woodland near water — glass open glades from downwind.",
+   "Identify mature bulls carefully; females also carry horns and protecting cows is important for herd health.",
+   "Early morning when bulls emerge to feed is your best window."
+  ],
+  "ctaTitle": "Ready to Hunt the Sable?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "springbuck",
+  "title": "Springbuck",
+  "img": "img/animals/full/springbuck.jpg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Moderate – Long-range precision",
+  "priceLabel": "Trophy Fee",
+  "price": "POR",
+  "priceSub": "Price on request · speak to our team for current rates",
+  "stats": [
+   [
+    "Difficulty",
+    "Moderate"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Springbuck",
+  "about": "The national animal of South Africa, the springbuck is known for its striking tan-and-white coat and spectacular 'pronking' — high vertical leaps performed when startled or excited. A mature ram carries elegant lyrate horns and is a beautiful trophy.",
+  "tips": [
+   "Long-range shooting is often required as springbuck prefer wide-open ground where they spot danger early.",
+   "A flat-shooting caliber like a .243, 6.5 Creedmoor, or .270 is well-suited to the distances involved.",
+   "They can be skittish — minimise movement and use a solid rest before shooting.",
+   "Glass open vleis and dry pans from distance before committing to a stalk."
+  ],
+  "ctaTitle": "Ready to Hunt the Springbuck?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "steenbok",
+  "title": "Steenbok",
+  "img": "img/animals/full/steenbok.jpg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Moderate – Small and alert",
+  "priceLabel": "Trophy Fee",
+  "price": "POR",
+  "priceSub": "Price on request · speak to our team for current rates",
+  "stats": [
+   [
+    "Difficulty",
+    "Moderate"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Steenbok",
+  "about": "One of the smallest antelope on the property, the steenbok is a solitary, big-eared grazer found in open grassland and light bush. Despite its size, its keen senses and habit of freezing motionless before bolting make it a genuine test of a hunter's eye and patience.",
+  "tips": [
+   "Steenbok freeze rather than flee at first — scan open ground carefully before moving through it.",
+   "They are solitary or found in pairs, never in herds, so each sighting is a single opportunity.",
+   "A small-caliber rifle such as a .22 centrefire or .243 preserves the small trophy.",
+   "Glass grassland edges at dawn when steenbok are most active and visible."
+  ],
+  "ctaTitle": "Ready to Hunt the Steenbok?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "warthog",
+  "title": "Warthog",
+  "img": "img/animals/full/warthog.jpg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Easy to Moderate – Locatable but tough",
+  "priceLabel": "Trophy Fee",
+  "price": "POR",
+  "priceSub": "Price on request · speak to our team for current rates",
+  "stats": [
+   [
+    "Difficulty",
+    "Easy–Moderate"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Warthog",
+  "about": "A tough and tenacious character of the African bush, the warthog is recognised by its impressive tusks and distinctive facial 'warts.' They are found across the property's open plains and near waterholes, and a large-tusked boar is a prized and fun trophy to hunt.",
+  "tips": [
+   "Stalking near water sources or setting up at established feeding grounds is the most effective approach.",
+   "A well-placed shot to the shoulder ensures a quick, ethical kill — warthogs are deceptively tough for their size.",
+   "Old boars often have the largest tusks; take time to evaluate before shooting.",
+   "Morning is prime time when warthogs move from their burrows to feed in the open."
+  ],
+  "ctaTitle": "Ready to Hunt the Warthog?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ },
+ {
+  "slug": "waterbuck",
+  "title": "Waterbuck",
+  "img": "img/animals/full/waterbuck.jpg",
+  "badge": "South Africa · Plains Game",
+  "difficulty": "Challenging – Thick cover",
+  "priceLabel": "Trophy Fee",
+  "price": "$3,000",
+  "priceSub": "Per animal · All-inclusive packages available on request",
+  "stats": [
+   [
+    "Difficulty",
+    "Challenging"
+   ],
+   [
+    "Location",
+    "South Africa"
+   ]
+  ],
+  "aboutTitle": "About the Waterbuck",
+  "about": "Recognised by the distinctive white ring around its rump, the waterbuck is a large, robust antelope that thrives near rivers and permanent water sources. The musky smell of its oily coat is unmistakable in the bush. Bulls carry impressive curved horns.",
+  "tips": [
+   "Waterbuck are known for their exceptionally thick, tough hides — a large-caliber rifle is strongly recommended.",
+   "Their preference for dense riverine vegetation makes them difficult to spot and approach.",
+   "Set up near water sources at dawn and dusk when bulls come to drink.",
+   "A frontal chest shot can be effective when a broadside presentation isn't possible in thick cover."
+  ],
+  "ctaTitle": "Ready to Hunt the Waterbuck?",
+  "ctaText": "Contact our team of professional hunters to plan your South African adventure.",
+  "desc": null
+ }
+]

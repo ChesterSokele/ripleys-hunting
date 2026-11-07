@@ -1,0 +1,1224 @@
+{
+ "images": {
+  "2": {
+   "w": 5000,
+   "h": 4991,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#7f6450",
+   "src": "gallery/full/2.jpg"
+  },
+  "59625359": {
+   "w": 1280,
+   "h": 850,
+   "widths": [
+    480,
+    800,
+    1280
+   ],
+   "jpg": 1280,
+   "bg": "#624628",
+   "src": "gallery/full/59625359.jpg"
+  },
+  "3290a18d": {
+   "w": 1200,
+   "h": 800,
+   "widths": [
+    480,
+    800,
+    1200
+   ],
+   "jpg": 1200,
+   "bg": "#807960",
+   "src": "gallery/full/3290a18d.avif"
+  },
+  "afternoon-tea": {
+   "w": 1280,
+   "h": 850,
+   "widths": [
+    480,
+    800,
+    1280
+   ],
+   "jpg": 1280,
+   "bg": "#a29668",
+   "src": "gallery/full/afternoon-tea.jpg"
+  },
+  "black-faced-impala": {
+   "w": 1900,
+   "h": 1425,
+   "widths": [
+    480,
+    800,
+    1280,
+    1900
+   ],
+   "jpg": 1280,
+   "bg": "#8c9cb0",
+   "src": "gallery/full/black-faced-impala.jpg"
+  },
+  "blesbok-on-the-move": {
+   "w": 1900,
+   "h": 1272,
+   "widths": [
+    480,
+    800,
+    1280,
+    1900
+   ],
+   "jpg": 1280,
+   "bg": "#b3a881",
+   "src": "gallery/full/blesbok-on-the-move.jpg"
+  },
+  "blesbok-trophy": {
+   "w": 1900,
+   "h": 1425,
+   "widths": [
+    480,
+    800,
+    1280,
+    1900
+   ],
+   "jpg": 1280,
+   "bg": "#7186a8",
+   "src": "gallery/full/blesbok-trophy.jpg"
+  },
+  "blesbuck": {
+   "w": 4032,
+   "h": 3024,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#627795",
+   "src": "gallery/full/Blesbuck.jpeg"
+  },
+  "blue-wildebeest": {
+   "w": 1900,
+   "h": 1272,
+   "widths": [
+    480,
+    800,
+    1280,
+    1900
+   ],
+   "jpg": 1280,
+   "bg": "#8f8d75",
+   "src": "gallery/full/blue-wildebeest.jpg"
+  },
+  "buffalo": {
+   "w": 800,
+   "h": 615,
+   "widths": [
+    480,
+    800
+   ],
+   "jpg": 800,
+   "bg": "#897b6a",
+   "src": "gallery/full/buffalo.jpg"
+  },
+  "giraffe": {
+   "w": 1900,
+   "h": 1272,
+   "widths": [
+    480,
+    800,
+    1280,
+    1900
+   ],
+   "jpg": 1280,
+   "bg": "#a2a496",
+   "src": "gallery/full/giraffe.jpg"
+  },
+  "guest-suite": {
+   "w": 1280,
+   "h": 850,
+   "widths": [
+    480,
+    800,
+    1280
+   ],
+   "jpg": 1280,
+   "bg": "#98755a",
+   "src": "gallery/full/guest-suite.jpg"
+  },
+  "hartebeest-trophy": {
+   "w": 1080,
+   "h": 1920,
+   "widths": [
+    480,
+    800,
+    1080
+   ],
+   "jpg": 1080,
+   "bg": "#74716e",
+   "src": "gallery/full/hartebeest-trophy.jpg"
+  },
+  "image00001": {
+   "w": 1440,
+   "h": 1800,
+   "widths": [
+    480,
+    800,
+    1280,
+    1440
+   ],
+   "jpg": 1280,
+   "bg": "#829089",
+   "src": "gallery/full/image00001.jpeg"
+  },
+  "image00002": {
+   "w": 1440,
+   "h": 1800,
+   "widths": [
+    480,
+    800,
+    1280,
+    1440
+   ],
+   "jpg": 1280,
+   "bg": "#838981",
+   "src": "gallery/full/image00002.jpeg"
+  },
+  "image00003": {
+   "w": 4032,
+   "h": 3024,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#637891",
+   "src": "gallery/full/image00003.jpeg"
+  },
+  "image00004": {
+   "w": 3024,
+   "h": 4032,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#697c98",
+   "src": "gallery/full/image00004.jpeg"
+  },
+  "image00005": {
+   "w": 4032,
+   "h": 3024,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#6b778b",
+   "src": "gallery/full/image00005.jpeg"
+  },
+  "image00006": {
+   "w": 4032,
+   "h": 3024,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#6e81a2",
+   "src": "gallery/full/image00006.jpeg"
+  },
+  "image00007": {
+   "w": 4032,
+   "h": 3024,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#7186a8",
+   "src": "gallery/full/image00007.jpeg"
+  },
+  "image00009": {
+   "w": 4032,
+   "h": 3024,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#7f7568",
+   "src": "gallery/full/image00009.jpeg"
+  },
+  "image00010": {
+   "w": 3024,
+   "h": 4032,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#79767c",
+   "src": "gallery/full/image00010.jpeg"
+  },
+  "image00011": {
+   "w": 4032,
+   "h": 3024,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#9598a2",
+   "src": "gallery/full/image00011.jpeg"
+  },
+  "image00012": {
+   "w": 3402,
+   "h": 2885,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#647389",
+   "src": "gallery/full/image00012.jpeg"
+  },
+  "image00013": {
+   "w": 4032,
+   "h": 3024,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#7c8a9d",
+   "src": "gallery/full/image00013.jpeg"
+  },
+  "image00014": {
+   "w": 4032,
+   "h": 3024,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#8c9cb0",
+   "src": "gallery/full/image00014.jpeg"
+  },
+  "image00235": {
+   "w": 1080,
+   "h": 1080,
+   "widths": [
+    480,
+    800,
+    1080
+   ],
+   "jpg": 1080,
+   "bg": "#bcc488",
+   "src": "gallery/full/image00235.png"
+  },
+  "image00236": {
+   "w": 5712,
+   "h": 4284,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#6a7285",
+   "src": "gallery/full/image00236.jpeg"
+  },
+  "image00237": {
+   "w": 5712,
+   "h": 4284,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#6b717f",
+   "src": "gallery/full/image00237.jpeg"
+  },
+  "image00238": {
+   "w": 5712,
+   "h": 4284,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#818995",
+   "src": "gallery/full/image00238.jpeg"
+  },
+  "image00239": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#8d8a6d",
+   "src": "gallery/full/image00239.jpeg"
+  },
+  "image00240": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#8f8d75",
+   "src": "gallery/full/image00240.jpeg"
+  },
+  "image00241": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#b3a881",
+   "src": "gallery/full/image00241.jpeg"
+  },
+  "image00242": {
+   "w": 5712,
+   "h": 4284,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#677484",
+   "src": "gallery/full/image00242.jpeg"
+  },
+  "image00243": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#827b35",
+   "src": "gallery/full/image00243.jpeg"
+  },
+  "image00244": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#728a70",
+   "src": "gallery/full/image00244.jpeg"
+  },
+  "image00245": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#75825e",
+   "src": "gallery/full/image00245.jpeg"
+  },
+  "image00246": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#788864",
+   "src": "gallery/full/image00246.jpeg"
+  },
+  "image00247": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#7c8155",
+   "src": "gallery/full/image00247.jpeg"
+  },
+  "image00248": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#7e8962",
+   "src": "gallery/full/image00248.jpeg"
+  },
+  "image00249": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#62744f",
+   "src": "gallery/full/image00249.jpeg"
+  },
+  "image00250": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#829062",
+   "src": "gallery/full/image00250.jpeg"
+  },
+  "image00251": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#a1a48c",
+   "src": "gallery/full/image00251.jpeg"
+  },
+  "image00252": {
+   "w": 2592,
+   "h": 3872,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#7f8e74",
+   "src": "gallery/full/image00252.jpeg"
+  },
+  "image00253": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#a3aa7e",
+   "src": "gallery/full/image00253.jpeg"
+  },
+  "image00254": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#889373",
+   "src": "gallery/full/image00254.jpeg"
+  },
+  "image00255": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#8d9b6b",
+   "src": "gallery/full/image00255.jpeg"
+  },
+  "image00256": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#777c67",
+   "src": "gallery/full/image00256.jpeg"
+  },
+  "image00257": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#66715d",
+   "src": "gallery/full/image00257.jpeg"
+  },
+  "image00258": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#858474",
+   "src": "gallery/full/image00258.jpeg"
+  },
+  "image00259": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#a2a496",
+   "src": "gallery/full/image00259.jpeg"
+  },
+  "image00260": {
+   "w": 3024,
+   "h": 4032,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#878f9d",
+   "src": "gallery/full/image00260.jpeg"
+  },
+  "image00261": {
+   "w": 3024,
+   "h": 4032,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#8a8585",
+   "src": "gallery/full/image00261.jpeg"
+  },
+  "infinity-pool": {
+   "w": 1280,
+   "h": 851,
+   "widths": [
+    480,
+    800,
+    1280
+   ],
+   "jpg": 1280,
+   "bg": "#608084",
+   "src": "gallery/full/infinity-pool.jpg"
+  },
+  "kedar-lodge-boma-braai-rustenburg-2019-3": {
+   "w": 650,
+   "h": 650,
+   "widths": [
+    480,
+    650
+   ],
+   "jpg": 650,
+   "bg": "#7e7363",
+   "src": "gallery/full/kedar-lodge-boma-braai-rustenburg-2019-3.jpg"
+  },
+  "kudu-bull": {
+   "w": 1900,
+   "h": 1272,
+   "widths": [
+    480,
+    800,
+    1280,
+    1900
+   ],
+   "jpg": 1280,
+   "bg": "#829062",
+   "src": "gallery/full/kudu-bull.jpg"
+  },
+  "lodge-entrance-night": {
+   "w": 1280,
+   "h": 853,
+   "widths": [
+    480,
+    800,
+    1280
+   ],
+   "jpg": 1280,
+   "bg": "#332414",
+   "src": "gallery/full/lodge-entrance-night.jpg"
+  },
+  "museum-uniforms": {
+   "w": 1280,
+   "h": 850,
+   "widths": [
+    480,
+    800,
+    1280
+   ],
+   "jpg": 1280,
+   "bg": "#8b6c4a",
+   "src": "gallery/full/museum-uniforms.jpg"
+  },
+  "night-view-kedar-heritage-lodge-by-warwick": {
+   "w": 1920,
+   "h": 1281,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920
+   ],
+   "jpg": 1280,
+   "bg": "#2e2f21",
+   "src": "gallery/full/night-view-kedar-heritage-lodge-by-warwick.jpg"
+  },
+  "nyala-bull": {
+   "w": 1000,
+   "h": 1000,
+   "widths": [
+    480,
+    800,
+    1000
+   ],
+   "jpg": 1000,
+   "bg": "#788263",
+   "src": "gallery/full/nyala-bull.jpg"
+  },
+  "reception": {
+   "w": 1280,
+   "h": 850,
+   "widths": [
+    480,
+    800,
+    1280
+   ],
+   "jpg": 1280,
+   "bg": "#624628",
+   "src": "gallery/full/reception.jpg"
+  },
+  "river-suite": {
+   "w": 1280,
+   "h": 850,
+   "widths": [
+    480,
+    800,
+    1280
+   ],
+   "jpg": 1280,
+   "bg": "#9e876d",
+   "src": "gallery/full/river-suite.jpg"
+  },
+  "waterbuck-herd": {
+   "w": 1900,
+   "h": 1272,
+   "widths": [
+    480,
+    800,
+    1280,
+    1900
+   ],
+   "jpg": 1280,
+   "bg": "#75825f",
+   "src": "gallery/full/waterbuck-herd.jpg"
+  },
+  "wildebeest-in-the-mist": {
+   "w": 1900,
+   "h": 1272,
+   "widths": [
+    480,
+    800,
+    1280,
+    1900
+   ],
+   "jpg": 1280,
+   "bg": "#858474",
+   "src": "gallery/full/wildebeest-in-the-mist.jpg"
+  },
+  "zebra-duo": {
+   "w": 1900,
+   "h": 1611,
+   "widths": [
+    480,
+    800,
+    1280,
+    1900
+   ],
+   "jpg": 1280,
+   "bg": "#647389",
+   "src": "gallery/full/zebra-duo.jpg"
+  },
+  "zebra-pair": {
+   "w": 1900,
+   "h": 1272,
+   "widths": [
+    480,
+    800,
+    1280,
+    1900
+   ],
+   "jpg": 1280,
+   "bg": "#889373",
+   "src": "gallery/full/zebra-pair.jpg"
+  },
+  "zebra-trophy": {
+   "w": 1900,
+   "h": 1425,
+   "widths": [
+    480,
+    800,
+    1280,
+    1900
+   ],
+   "jpg": 1280,
+   "bg": "#637891",
+   "src": "gallery/full/zebra-trophy.jpg"
+  },
+  "sp-black-wildebeest": {
+   "w": 363,
+   "h": 225,
+   "widths": [
+    363
+   ],
+   "jpg": 363,
+   "bg": "#8f7e6e",
+   "src": "animals/full/black-wildebeest.jpg"
+  },
+  "sp-blesbucka": {
+   "w": 547,
+   "h": 365,
+   "widths": [
+    480,
+    547
+   ],
+   "jpg": 547,
+   "bg": "#c29a72",
+   "src": "animals/full/blesbucka.jpg"
+  },
+  "sp-blue-wildebeest": {
+   "w": 1900,
+   "h": 1272,
+   "widths": [
+    480,
+    800,
+    1280,
+    1900
+   ],
+   "jpg": 1280,
+   "bg": "#8f8d75",
+   "src": "animals/full/blue-wildebeest.jpg"
+  },
+  "sp-buffalo": {
+   "w": 800,
+   "h": 615,
+   "widths": [
+    480,
+    800
+   ],
+   "jpg": 800,
+   "bg": "#897b6a",
+   "src": "animals/full/buffalo.jpg"
+  },
+  "sp-burchell-zebra": {
+   "w": 1188,
+   "h": 759,
+   "widths": [
+    480,
+    800,
+    1188
+   ],
+   "jpg": 1188,
+   "bg": "#a59e92",
+   "src": "animals/full/burchell-zebra.jpg"
+  },
+  "sp-cape-eland": {
+   "w": 363,
+   "h": 225,
+   "widths": [
+    363
+   ],
+   "jpg": 363,
+   "bg": "#947e5d",
+   "src": "animals/full/cape-eland.jpg"
+  },
+  "sp-chacma-baboon": {
+   "w": 363,
+   "h": 225,
+   "widths": [
+    363
+   ],
+   "jpg": 363,
+   "bg": "#93908b",
+   "src": "animals/full/chacma-baboon.jpg"
+  },
+  "sp-duiker": {
+   "w": 363,
+   "h": 225,
+   "widths": [
+    363
+   ],
+   "jpg": 363,
+   "bg": "#9e897f",
+   "src": "animals/full/duiker.jpg"
+  },
+  "sp-giraffe": {
+   "w": 1900,
+   "h": 1272,
+   "widths": [
+    480,
+    800,
+    1280,
+    1900
+   ],
+   "jpg": 1280,
+   "bg": "#a2a496",
+   "src": "animals/full/giraffe.jpg"
+  },
+  "sp-impala": {
+   "w": 1900,
+   "h": 1268,
+   "widths": [
+    480,
+    800,
+    1280,
+    1900
+   ],
+   "jpg": 1280,
+   "bg": "#554d2f",
+   "src": "animals/full/impala.jpg"
+  },
+  "sp-kudu": {
+   "w": 3872,
+   "h": 2592,
+   "widths": [
+    480,
+    800,
+    1280,
+    1920,
+    2560
+   ],
+   "jpg": 1280,
+   "bg": "#62744f",
+   "src": "animals/full/kudu.jpeg"
+  },
+  "sp-nyala": {
+   "w": 717,
+   "h": 428,
+   "widths": [
+    480,
+    717
+   ],
+   "jpg": 717,
+   "bg": "#736d54",
+   "src": "animals/full/nyala.jpg"
+  },
+  "sp-oryx": {
+   "w": 363,
+   "h": 225,
+   "widths": [
+    363
+   ],
+   "jpg": 363,
+   "bg": "#a08771",
+   "src": "animals/full/oryx.jpg"
+  },
+  "sp-red-hartebeest": {
+   "w": 363,
+   "h": 225,
+   "widths": [
+    363
+   ],
+   "jpg": 363,
+   "bg": "#a58b63",
+   "src": "animals/full/red-hartebeest.jpg"
+  },
+  "sp-red-lechwe": {
+   "w": 363,
+   "h": 233,
+   "widths": [
+    363
+   ],
+   "jpg": 363,
+   "bg": "#ab9c7b",
+   "src": "animals/full/red-lechwe.jpg"
+  },
+  "sp-roan": {
+   "w": 363,
+   "h": 233,
+   "widths": [
+    363
+   ],
+   "jpg": 363,
+   "bg": "#9a9180",
+   "src": "animals/full/roan.jpg"
+  },
+  "sp-sable": {
+   "w": 363,
+   "h": 233,
+   "widths": [
+    363
+   ],
+   "jpg": 363,
+   "bg": "#cab9a6",
+   "src": "animals/full/sable.jpg"
+  },
+  "sp-springbuck": {
+   "w": 363,
+   "h": 233,
+   "widths": [
+    363
+   ],
+   "jpg": 363,
+   "bg": "#b69c82",
+   "src": "animals/full/springbuck.jpg"
+  },
+  "sp-steenbok": {
+   "w": 363,
+   "h": 233,
+   "widths": [
+    363
+   ],
+   "jpg": 363,
+   "bg": "#aa8a6d",
+   "src": "animals/full/steenbok.jpg"
+  },
+  "sp-warthog": {
+   "w": 363,
+   "h": 233,
+   "widths": [
+    363
+   ],
+   "jpg": 363,
+   "bg": "#8a7866",
+   "src": "animals/full/warthog.jpg"
+  },
+  "sp-waterbuck": {
+   "w": 363,
+   "h": 233,
+   "widths": [
+    363
+   ],
+   "jpg": 363,
+   "bg": "#645739",
+   "src": "animals/full/waterbuck.jpg"
+  },
+  "lodge-bedroom": {
+   "w": 1200,
+   "h": 800,
+   "widths": [
+    480,
+    800,
+    1200
+   ],
+   "jpg": 1200,
+   "bg": "#807960",
+   "src": "lodge/bedroom.jpg"
+  },
+  "lodge-boma-lounge": {
+   "w": 650,
+   "h": 650,
+   "widths": [
+    480,
+    650
+   ],
+   "jpg": 650,
+   "bg": "#36241d",
+   "src": "lodge/boma-lounge.jpg"
+  },
+  "lodge-lodge-exterior": {
+   "w": 1300,
+   "h": 1298,
+   "widths": [
+    480,
+    800,
+    1300
+   ],
+   "jpg": 1300,
+   "bg": "#7f6450",
+   "src": "lodge/lodge-exterior.jpg"
+  },
+  "lodge-night-entrance": {
+   "w": 1900,
+   "h": 1268,
+   "widths": [
+    480,
+    800,
+    1280,
+    1900
+   ],
+   "jpg": 1280,
+   "bg": "#2e2f22",
+   "src": "misc/nyt.jpg"
+  }
+ },
+ "videos": {
+  "gallery/full/5844adba010f460185bbba5d154e41f8.mov": {
+   "id": "v-5844adba010f460185bbba5d",
+   "mp4": "/media/video/v-5844adba010f460185bbba5d.mp4",
+   "poster": "/media/video/v-5844adba010f460185bbba5d.jpg",
+   "size": 4639856
+  },
+  "gallery/full/dji_fly_20240330_104452_0840_1717584281699_video.mov": {
+   "id": "v-dji-fly-20240330-104452-",
+   "mp4": "/media/video/v-dji-fly-20240330-104452-.mp4",
+   "poster": "/media/video/v-dji-fly-20240330-104452-.jpg",
+   "size": 12140626
+  },
+  "gallery/full/dji_fly_20240617_165402_0954_1718735153005_video.mov": {
+   "id": "v-dji-fly-20240617-165402-",
+   "mp4": "/media/video/v-dji-fly-20240617-165402-.mp4",
+   "poster": "/media/video/v-dji-fly-20240617-165402-.jpg",
+   "size": 4762503
+  },
+  "gallery/full/dji_fly_20240804_163042_0006_1722795252464_video.mov": {
+   "id": "v-dji-fly-20240804-163042-",
+   "mp4": "/media/video/v-dji-fly-20240804-163042-.mp4",
+   "poster": "/media/video/v-dji-fly-20240804-163042-.jpg",
+   "size": 25746467
+  },
+  "gallery/full/IMG_0501.mov": {
+   "id": "v-img-0501",
+   "mp4": "/media/video/v-img-0501.mp4",
+   "poster": "/media/video/v-img-0501.jpg",
+   "size": 1737163
+  },
+  "gallery/full/IMG_2807.mov": {
+   "id": "v-img-2807",
+   "mp4": "/media/video/v-img-2807.mp4",
+   "poster": "/media/video/v-img-2807.jpg",
+   "size": 1605192
+  },
+  "gallery/full/IMG_6101.mov": {
+   "id": "v-img-6101",
+   "mp4": "/media/video/v-img-6101.mp4",
+   "poster": "/media/video/v-img-6101.jpg",
+   "size": 6407636
+  },
+  "gallery/full/IMG_9135.mov": {
+   "id": "v-img-9135",
+   "mp4": "/media/video/v-img-9135.mp4",
+   "poster": "/media/video/v-img-9135.jpg",
+   "size": 587607
+  }
+ }
+}

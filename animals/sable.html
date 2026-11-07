@@ -1,89 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sable | Ripley Safaris · South Africa</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Give+You+Glory&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="../logo-icon-transparent.png">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/animal.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sable Hunting | Ripley Safaris, South Africa</title>
+  <meta name="description" content="Sable hunting at Ripley Safaris, Rustenburg, South Africa. One of Africa's most prized and visually spectacular trophies, sable are jet black with striking white markings and long, dramatically curved horns that can exceed 160 cm.">
+  <meta name="theme-color" content="#0b0f0c" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f6f1e5" media="(prefers-color-scheme: light)">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');if(/[?&]nomotion/.test(location.search))d.classList.add('no-motion');try{var t=localStorage.getItem('rs-theme');if(t!=='light'&&t!=='dark'){t=window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'}d.setAttribute('data-theme',t)}catch(e){d.setAttribute('data-theme','dark')}})();</script>
+  
+  <meta property="og:type" content="website"><meta property="og:site_name" content="Ripley Safaris">
+  <meta property="og:title" content="Sable Hunting | Ripley Safaris, South Africa"><meta property="og:description" content="Sable hunting at Ripley Safaris, Rustenburg, South Africa. One of Africa's most prized and visually spectacular trophies, sable are jet black with striking white markings and long, dramatically curved horns that can exceed 160 cm.">
+  <meta property="og:image" content="../og-image.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../favicon.png" type="image/png"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
+  <link rel="preload" as="image" type="image/avif" fetchpriority="high" imagesrcset="../media/img/sp-sable-363.avif 363w" imagesizes="(min-width:62rem) 50vw, 100vw">
+  <script type="module" src="../src/js/main.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"},{"@type":"ListItem","position":2,"name":"Species"},{"@type":"ListItem","position":3,"name":"Sable"}]}</script>
 </head>
-<body class="bg-camou">
-    <div class="custom-cursor" id="scopeCursor"><span class="cursor-label">VIEW</span></div>
-    <div class="cursor-dot" id="cursorDot"></div>
-    <div class="wrapper">
-        <nav>
-            <a href="../index.html" class="logo">
-                <img src="../logo-icon-transparent.png" alt="Ripley Safaris" width="50" height="50" onerror="this.src='https://placehold.co/60x60?text=RS'">
-                <span>RIPLEY SAFARIS</span>
-            </a>
-            <div class="nav-links">
-                <a href="../index.html">Home</a>
-                <a href="../packages.html">Packages</a>
-                <a href="../gallery.html">Gallery</a>
-                <a href="../index.html#about">About</a>
-                <a href="../index.html#contact">Contact</a>
-            </div>
-            <a href="../index.html#contact" class="book-btn">Book A Hunt</a>
-        </nav>
-        <a href="../index.html" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Animals</a>
-        <div class="breadcrumb">
-            <a href="../index.html">Home</a>
-            <i class="fas fa-chevron-right"></i>
-            <span>Animals</span>
-            <i class="fas fa-chevron-right"></i>
-            <span>Sable</span>
-        </div>
-        <div class="animal-hero" data-aos="fade-up">
-            <img src="../img/animals/full/sable.jpg" alt="Sable" width="1400" height="933" loading="eager" decoding="async" onerror="this.src='https://placehold.co/900x500?text=Sable'">
-            <div class="scope-watermark"><i class="fas fa-crosshairs"></i></div>
-            <div class="hero-overlay">
-                <div class="badge"><i class="fas fa-map-marker-alt"></i> South Africa · Plains Game</div>
-                <h1>Sable</h1>
-                <div class="difficulty-tag"><i class="fas fa-signal"></i> Challenging – Elusive and prized</div>
-            </div>
-        </div>
-        <div class="price-panel" data-aos="zoom-in">
-            <div class="price-label"><i class="fas fa-tag"></i> Trophy Fee</div>
-            <div class="price-value">$6,500</div>
-            <div class="price-sub">Per animal · 44"+ trophy bulls priced on request</div>
-        </div>
-        <div class="stats-row" data-aos="fade-up">
-            <div class="stat-box"><i class="fas fa-bullseye"></i><div class="stat-val">Challenging</div><div class="stat-key">Difficulty</div></div>
-            <div class="stat-box"><i class="fas fa-map"></i><div class="stat-val">South Africa</div><div class="stat-key">Location</div></div>
-        </div>
-        <div class="content-grid">
-            <div class="info-card" data-aos="fade-right">
-                <h3><i class="fas fa-paw"></i> About the Sable</h3>
-                <p>One of Africa's most prized and visually spectacular trophies, sable are jet black with striking white markings and long, dramatically curved horns that can exceed 160 cm. A bull sable is the pinnacle of plains game hunting.</p>
-            </div>
-            <div class="info-card" data-aos="fade-left">
-                <h3><i class="fas fa-crosshairs"></i> Hunting Tips</h3>
-                <ul class="tips-list"><li><i class="fas fa-chevron-right"></i> They are aggressive when wounded and will charge, so an ethical, well-placed first shot is absolutely essential.</li>
-<li><i class="fas fa-chevron-right"></i> Sable prefer dense woodland near water — glass open glades from downwind.</li>
-<li><i class="fas fa-chevron-right"></i> Identify mature bulls carefully; females also carry horns and protecting cows is important for herd health.</li>
-<li><i class="fas fa-chevron-right"></i> Early morning when bulls emerge to feed is your best window.</li>
-</ul>
-            </div>
-        </div>
-        <div class="book-cta" data-aos="zoom-in">
-            <h3><i class="fas fa-gun"></i> Ready to Hunt the Sable?</h3>
-            <p>Contact our team of professional hunters to plan your South African adventure.</p>
-            <div class="cta-buttons">
-                <a href="../index.html#contact" class="cta-btn"><i class="fas fa-pen-rifle"></i> Get a Quote</a>
-                <a href="https://wa.me/27718584498" class="cta-btn secondary"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
-                <a href="../index.html" class="cta-btn secondary"><i class="fas fa-list"></i> All Species</a>
-            </div>
-        </div>
-        <footer class="simple-footer"><p><i class="fas fa-copyright"></i> Ripley Safaris · South Africa · ripleysafaris@gmail.com · +27 71 858 4498</p></footer>
+<body id="top" data-page="species">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" data-header>
+  <div class="container site-header__inner">
+    <a class="brand" href="../index.html" aria-label="RIPLEY Safaris home">
+      <span class="brand__mark" style="-webkit-mask-image:url(../logo-mark.png);mask-image:url(../logo-mark.png)" aria-hidden="true"></span>
+      <span class="brand__word"><span class="brand__name">RIPLEY</span> <span class="brand__sub">Safaris</span></span>
+    </a>
+    <nav class="nav" aria-label="Primary"><a href="../index.html">Home</a><a href="../index.html#species" aria-current="page">Species</a><a href="../packages.html">Packages</a><a href="../gallery.html">Gallery</a><a href="../index.html#about">About</a><a href="../index.html#contact">Contact</a></nav>
+    <div class="header-actions">
+      <button type="button" class="icon-btn theme-toggle" data-theme-toggle aria-label="Switch colour theme" aria-pressed="false"><svg class="icon i-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg><svg class="icon i-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg></button>
+      <a class="btn btn--small btn--ghost" href="../index.html#contact">Book a Hunt</a>
+      <button type="button" class="icon-btn menu-btn" data-menu-toggle aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><svg class="icon i-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg><svg class="icon i-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
     </div>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
-    <script src="../js/main.js" defer></script>
+  </div>
+</header>
+<div class="mobile-menu" id="mobile-menu" data-menu>
+  <nav aria-label="Mobile"><a href="../index.html">Home</a><a href="../index.html#species" aria-current="page">Species</a><a href="../packages.html">Packages</a><a href="../gallery.html">Gallery</a><a href="../index.html#about">About</a><a href="../index.html#contact">Contact</a></nav>
+  <div class="mobile-menu__foot">
+    <a class="btn" href="../index.html#contact">Book a Hunt <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+    <a href="tel:+27718584498">+27 71 858 4498</a>
+    <a href="mailto:ripleysafaris@gmail.com">ripleysafaris@gmail.com</a>
+  </div>
+</div>
+<main id="main" tabindex="-1">
+
+<section class="species-hero on-photo"><div class="container species-hero__inner">
+  <div>
+    <ol class="crumbs" aria-label="Breadcrumb"><li><a href="../index.html">Home</a></li><li><a href="../index.html#species">Species</a></li><li aria-current="page">Sable</li></ol>
+    <p class="kicker" data-hero="fade"><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg> South Africa · Plains Game</p>
+    <h1 data-hero="fade">Sable</h1>
+    <p class="difficulty" data-hero="fade"><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg><span>Challenging — Elusive and prized</span></p>
+  </div>
+  <figure class="species-photo" style="--native:363px" data-hero="fade"><div class="ph ph--native" style="--ph-bg:#cab9a6;--pos:50% 50%"><picture><source type="image/avif" srcset="../media/img/sp-sable-363.avif 363w" sizes="(min-width:62rem) 50vw, 100vw"><source type="image/webp" srcset="../media/img/sp-sable-363.webp 363w" sizes="(min-width:62rem) 50vw, 100vw"><img src="../media/img/sp-sable-363.jpg" alt="Sable" width="363" height="233" sizes="(min-width:62rem) 50vw, 100vw" loading="eager" decoding="async" fetchpriority="high"></picture></div></figure>
+</div></section>
+
+<section class="section"><div class="container species-body">
+  <aside class="species-aside" aria-label="Trophy fee and facts">
+    <div class="fee"><small>Trophy Fee</small><span class="fee__value">$6,500</span><p>Per animal · 44"+ trophy bulls priced on request</p></div>
+    <dl class="facts"><div><dt>Difficulty</dt><dd>Challenging</dd></div><div><dt>Location</dt><dd>South Africa</dd></div></dl>
+  </aside>
+  <div class="prose" data-reveal="stagger">
+    <h2>About the Sable</h2><p>One of Africa's most prized and visually spectacular trophies, sable are jet black with striking white markings and long, dramatically curved horns that can exceed 160 cm. A bull sable is the pinnacle of plains game hunting.</p>
+    <h2 style="margin-top:3rem">Hunting tips</h2>
+    <ol class="tips" role="list"><li><span>They are aggressive when wounded and will charge, so an ethical, well-placed first shot is absolutely essential.</span></li><li><span>Sable prefer dense woodland near water — glass open glades from downwind.</span></li><li><span>Identify mature bulls carefully; females also carry horns and protecting cows is important for herd health.</span></li><li><span>Early morning when bulls emerge to feed is your best window.</span></li></ol>
+  </div>
+</div></section>
+
+<nav class="pager" aria-label="More species"><a href="roan.html" rel="prev"><small>← Previous species</small><span>Roan</span></a><a class="next" href="springbuck.html" rel="next"><small>Next species →</small><span>Springbuck</span></a></nav>
+
+<section class="cta-band on-photo" aria-labelledby="cta-h">
+  <div class="ph ph--fill" style="--ph-bg:#75825e;--pos:40% 60%"><picture><source type="image/avif" data-srcset="../media/img/image00245-480.avif 480w, ../media/img/image00245-800.avif 800w, ../media/img/image00245-1280.avif 1280w, ../media/img/image00245-1920.avif 1920w" sizes="(max-width:40rem) 480px, 100vw"><source type="image/webp" data-srcset="../media/img/image00245-480.webp 480w, ../media/img/image00245-800.webp 800w, ../media/img/image00245-1280.webp 1280w, ../media/img/image00245-1920.webp 1920w" sizes="(max-width:40rem) 480px, 100vw"><img data-src="../media/img/image00245-1280.jpg" alt="" width="3872" height="2592" sizes="(max-width:40rem) 480px, 100vw" decoding="async"></picture><noscript><picture><source type="image/avif" srcset="../media/img/image00245-480.avif 480w, ../media/img/image00245-800.avif 800w, ../media/img/image00245-1280.avif 1280w, ../media/img/image00245-1920.avif 1920w" sizes="(max-width:40rem) 480px, 100vw"><source type="image/webp" srcset="../media/img/image00245-480.webp 480w, ../media/img/image00245-800.webp 800w, ../media/img/image00245-1280.webp 1280w, ../media/img/image00245-1920.webp 1920w" sizes="(max-width:40rem) 480px, 100vw"><img src="../media/img/image00245-1280.jpg" alt="" width="3872" height="2592" sizes="(max-width:40rem) 480px, 100vw" loading="lazy" decoding="async" fetchpriority="low"></picture></noscript></div>
+  <div class="container cta-band__inner" data-reveal="stagger">
+    <h2 id="cta-h">Ready to hunt the <em>Sable?</em></h2><p>Contact our team of professional hunters to plan your South African adventure.</p>
+    <div class="cta-band__btns"><a class="btn" href="../index.html#contact">Get a quote <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a><a class="btn btn--ghost" href="https://wa.me/27718584498" rel="noopener"><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg> WhatsApp us</a><a class="btn btn--ghost" href="../gallery.html">View gallery</a></div>
+  </div></section>
+</main>
+<footer class="site-footer on-photo">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__lead"><p class="kicker" style="color:var(--photo-bronze)">Plan your safari</p><h2 style="margin-top:1.2rem">Leave your <em>footprint</em> in Africa</h2>
+        <a class="btn" href="../index.html#contact">Request a quote <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a></div>
+      <p style="max-width:42ch;color:rgba(244,237,220,.78)">Fair-chase hunting in the North West bushveld, with cross-border safaris into Namibia available on request.</p>
+    </div>
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a class="brand" href="../index.html" aria-label="RIPLEY Safaris home"><span class="brand__mark" style="-webkit-mask-image:url(../logo-mark.png);mask-image:url(../logo-mark.png)" aria-hidden="true"></span><span class="brand__word"><span class="brand__name">RIPLEY</span> <span class="brand__sub">Safaris</span></span></a>
+        <p>The North West's dedicated fair-chase outfitter — a privately run reserve once owned by President Paul Kruger.</p>
+      </div>
+      <div class="footer__col"><h3>Explore</h3><ul>
+        <li><a href="../index.html">Home</a></li><li><a href="../index.html#species">Species</a></li><li><a href="../packages.html">Packages</a></li>
+        <li><a href="../gallery.html">Gallery</a></li><li><a href="../index.html#about">About</a></li><li><a href="../index.html#contact">Contact</a></li></ul></div>
+      <div class="footer__col"><h3>Contact</h3><ul>
+        <li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg><a href="tel:+27718584498">+27 71 858 4498</a></li>
+        <li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg><a href="mailto:ripleysafaris@gmail.com">ripleysafaris@gmail.com</a></li>
+        <li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg><a href="https://wa.me/27718584498" rel="noopener">WhatsApp</a></li>
+        <li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg><a href="https://www.google.com/maps/search/?api=1&query=Farm%20a%20Boekenhoutfontein%2C%20R565%2C%20Rustenburg%2C%20North%20West%200309%2C%20South%20Africa" rel="noopener" target="_blank">Farm a Boekenhoutfontein, R565, Rustenburg, North West 0309, South Africa</a></li></ul></div>
+      <div class="footer__col"><h3>Enquire about</h3><ul><li>Trophy Animals · RW/SCI</li><li>Bow Hunting</li><li>Fishing</li><li>Videographer</li><li>Cross-border · Namibia</li></ul></div>
+    </div>
+    <div class="footer__bottom"><span>© 2026 Ripley Safaris · Rustenburg, North West, South Africa</span><a href="../index.html#top">Back to top ↑</a></div>
+  </div>
+</footer>
+<div class="scope" id="scope" aria-hidden="true"><span class="scope__ring"><i class="scope__outer"></i><i class="scope__lens"></i><i class="scope__h"></i><i class="scope__v"></i></span><span class="scope__dot"></span><span class="scope__label">View</span></div>
 </body>
 </html>

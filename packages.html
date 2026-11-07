@@ -1,145 +1,134 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hunting Packages | Ripley Safaris · South Africa</title>
-    <meta name="description" content="Ripley Safaris hunting packages, daily rates, and inclusions — South Africa and cross-border Namibia safaris.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Give+You+Glory&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="logo-icon-transparent.png">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/packages.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hunting Packages &amp; Daily Rates | Ripley Safaris, South Africa</title>
+  <meta name="description" content="Ripley Safaris hunting packages, daily rates and inclusions — 6, 8 and 10 day plains game safaris near Rustenburg, South Africa, plus cross-border Namibia hunts.">
+  <meta name="theme-color" content="#0b0f0c" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f6f1e5" media="(prefers-color-scheme: light)">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');if(/[?&]nomotion/.test(location.search))d.classList.add('no-motion');try{var t=localStorage.getItem('rs-theme');if(t!=='light'&&t!=='dark'){t=window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'}d.setAttribute('data-theme',t)}catch(e){d.setAttribute('data-theme','dark')}})();</script>
+  
+  <meta property="og:type" content="website"><meta property="og:site_name" content="Ripley Safaris">
+  <meta property="og:title" content="Hunting Packages &amp; Daily Rates | Ripley Safaris, South Africa"><meta property="og:description" content="Ripley Safaris hunting packages, daily rates and inclusions — 6, 8 and 10 day plains game safaris near Rustenburg, South Africa, plus cross-border Namibia hunts.">
+  <meta property="og:image" content="og-image.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.png" type="image/png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preload" as="image" type="image/avif" fetchpriority="high" imagesrcset="media/img/image00244-480.avif 480w, media/img/image00244-800.avif 800w, media/img/image00244-1280.avif 1280w, media/img/image00244-1920.avif 1920w, media/img/image00244-2560.avif 2560w" imagesizes="100vw">
+  <script type="module" src="src/js/main.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Ripley Safaris hunting packages","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Beginners Safari","description":"6 Day Safari · Bring a friend or loved one. The perfect package for your first hunt — a gentle introduction to fair-chase safari hunting in South Africa.","offers":{"@type":"Offer","priceCurrency":"USD","price":"5000"}}},{"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Deluxe Safari","description":"8 Day Safari. Includes a wider selection of animals and a longer hunt duration for a fuller South African trophy experience.","offers":{"@type":"Offer","priceCurrency":"USD","price":"7000"}}},{"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Premium Safari","description":"10 Day Safari · Bring a friend or loved one. Our comprehensive package for experienced hunters seeking a premium selection of trophies.","offers":{"@type":"Offer","priceCurrency":"USD","price":"11000"}}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Ripley Safaris","description":"Fair-chase plains game hunting safaris on a privately run reserve near Rustenburg, North West, South Africa, with cross-border hunts into Namibia.","telephone":"+27 71 858 4498","email":"ripleysafaris@gmail.com","address":{"@type":"PostalAddress","streetAddress":"Farm a Boekenhoutfontein, R565","addressLocality":"Rustenburg","addressRegion":"North West","postalCode":"0309","addressCountry":"ZA"},"areaServed":["South Africa","Namibia"]}</script>
 </head>
-<body class="bg-camou">
-    <div class="custom-cursor" id="scopeCursor"><span class="cursor-label">VIEW</span></div>
-    <div class="cursor-dot" id="cursorDot"></div>
-    <div class="wrapper">
-        <nav>
-            <a href="index.html" class="logo">
-                <img src="logo-icon-transparent.png" alt="Ripley Safaris" width="50" height="50" onerror="this.src='https://placehold.co/60x60?text=RS'">
-                <span>RIPLEY SAFARIS</span>
-            </a>
-            <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="packages.html" class="active">Packages</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="index.html#about">About</a>
-                <a href="index.html#contact">Contact</a>
-            </div>
-            <a href="index.html#contact" class="book-btn">Book A Hunt</a>
-        </nav>
-        <a href="index.html" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Home</a>
-
-        <div class="page-header" data-aos="fade-up">
-            <h1><i class="fas fa-box-open"></i> SAFARI HUNTING PACKAGES</h1>
-            <p>Book to leave your footprint in Africa. Choose a package below, or contact us to build a custom itinerary around the trophies you want most.</p>
-        </div>
-
-        <div class="section-title" data-aos="fade-up"><i class="fas fa-star"></i> Featured Packages</div>
-        <div class="package-grid">
-            <div class="package-card" data-aos="fade-up">
-                <span class="package-badge">First Timer</span>
-                <h3>Beginners Safari</h3>
-                <div class="package-days"><i class="fas fa-calendar-days"></i> 6 Day Safari · Bring a friend or loved one</div>
-                <div class="package-price">$5,000</div>
-                <div class="package-animals"><p><i class="fas fa-crosshairs"></i> 1× Impala, 1× Blesbok, 1× Warthog, 1× Wildebeest</p></div>
-                <p class="package-desc">The perfect package for your first hunt — a gentle introduction to fair-chase safari hunting in South Africa.</p>
-                <a href="index.html#contact" class="cta-btn"><i class="fas fa-pen-rifle"></i> Enquire Now</a>
-            </div>
-            <div class="package-card featured" data-aos="fade-up" data-aos-delay="100">
-                <span class="package-badge">Most Popular</span>
-                <h3>Deluxe Safari</h3>
-                <div class="package-days"><i class="fas fa-calendar-days"></i> 8 Day Safari</div>
-                <div class="package-price">$7,000</div>
-                <div class="package-animals"><p><i class="fas fa-crosshairs"></i> 1× Impala, 1× Blesbok, 1× Warthog, 1× Blue Wildebeest, 1× Zebra, 1× Baboon</p></div>
-                <p class="package-desc">Includes a wider selection of animals and a longer hunt duration for a fuller South African trophy experience.</p>
-                <a href="index.html#contact" class="cta-btn"><i class="fas fa-pen-rifle"></i> Enquire Now</a>
-            </div>
-            <div class="package-card" data-aos="fade-up" data-aos-delay="200">
-                <span class="package-badge">Comprehensive</span>
-                <h3>Premium Safari</h3>
-                <div class="package-days"><i class="fas fa-calendar-days"></i> 10 Day Safari · Bring a friend or loved one</div>
-                <div class="package-price">$11,000</div>
-                <div class="package-animals"><p><i class="fas fa-crosshairs"></i> 1× Impala, 1× Nyala, 1× Blue Wildebeest, 1× Zebra, 1× Kudu</p></div>
-                <p class="package-desc">Our comprehensive package for experienced hunters seeking a premium selection of trophies.</p>
-                <a href="index.html#contact" class="cta-btn"><i class="fas fa-pen-rifle"></i> Enquire Now</a>
-            </div>
-        </div>
-
-        <div class="section-title" data-aos="fade-up"><i class="fas fa-coins"></i> Daily Rates</div>
-        <div class="rates-grid" data-aos="fade-up">
-            <div class="rate-card"><div class="rate-label">1 Hunter × 1 PH</div><div class="rate-value">$450</div><div class="rate-sub">per day</div></div>
-            <div class="rate-card"><div class="rate-label">2 Hunters × 1 PH</div><div class="rate-value">$400</div><div class="rate-sub">per hunter, per day</div></div>
-            <div class="rate-card"><div class="rate-label">Non-Hunter (Observer)</div><div class="rate-value">$350</div><div class="rate-sub">per day</div></div>
-        </div>
-
-        <div class="section-title" data-aos="fade-up"><i class="fas fa-list-check"></i> What's Included</div>
-        <div class="ie-grid">
-            <div class="ie-card inclusive" data-aos="fade-right">
-                <h3><i class="fas fa-circle-check" style="color:#8fd06a;"></i> Inclusive</h3>
-                <ul>
-                    <li><i class="fas fa-check"></i> Airport pick-up and drop-off</li>
-                    <li><i class="fas fa-check"></i> Hunting licence fees</li>
-                    <li><i class="fas fa-check"></i> Dedicated Professional Hunter</li>
-                    <li><i class="fas fa-check"></i> Well-equipped hunting vehicle</li>
-                    <li><i class="fas fa-check"></i> Accommodation in thatch and stone-built lodging</li>
-                    <li><i class="fas fa-check"></i> All land transfer while on safari</li>
-                    <li><i class="fas fa-check"></i> All meals, drinks, wifi and laundry services</li>
-                    <li><i class="fas fa-check"></i> Welcoming lodge staff, chefs, trackers &amp; skinners</li>
-                    <li><i class="fas fa-check"></i> A tour of the Paul Kruger Museum on our reserve</li>
-                </ul>
-            </div>
-            <div class="ie-card exclusive" data-aos="fade-left">
-                <h3><i class="fas fa-circle-xmark" style="color:#e08a6a;"></i> Exclusive</h3>
-                <ul>
-                    <li><i class="fas fa-xmark"></i> Internal &amp; domestic flights</li>
-                    <li><i class="fas fa-xmark"></i> Shipping &amp; taxidermy</li>
-                    <li><i class="fas fa-xmark"></i> Day fee for day of arrival and first night in camp</li>
-                    <li><i class="fas fa-xmark"></i> Trophy handling fee</li>
-                    <li><i class="fas fa-xmark"></i> Rifle hire &amp; ammunition</li>
-                    <li><i class="fas fa-xmark"></i> Value-Added Tax (VAT)</li>
-                    <li><i class="fas fa-xmark"></i> Additional meals and alcoholic beverages</li>
-                    <li><i class="fas fa-xmark"></i> Any animal wounded and found or lost will be considered hunted, full fee applies</li>
-                    <li><i class="fas fa-xmark"></i> Additional permits for certain requested species</li>
-                    <li><i class="fas fa-xmark"></i> Local transfer / additional activities</li>
-                    <li><i class="fas fa-xmark"></i> Gratuities, at your discretion</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="enquire-section" data-aos="fade-up">
-            <h3><i class="fas fa-circle-question"></i> Enquire About</h3>
-            <div class="enquire-tags">
-                <span class="enquire-tag">Trophy Animals — RW/SCI</span>
-                <span class="enquire-tag">Alternative Species</span>
-                <span class="enquire-tag">Videographer</span>
-                <span class="enquire-tag">Bow Hunting</span>
-                <span class="enquire-tag">Fishing Excursions</span>
-            </div>
-            <div class="cross-border-box">
-                <i class="fas fa-passport"></i>
-                <p><strong>Cross-border hunting:</strong> in addition to our South African safaris, we arrange cross-border hunting trips into Namibia for hunters wanting access to a wider range of species and terrain. Speak to our team about combining both destinations in a single itinerary.</p>
-            </div>
-        </div>
-
-        <div class="cta-strip" data-aos="zoom-in">
-            <h3><i class="fas fa-gun"></i> Ready to Book Your Safari?</h3>
-            <p>Get in touch and we'll help you choose the right package or build a custom trophy list.</p>
-            <div class="cta-buttons">
-                <a href="index.html#contact" class="cta-btn"><i class="fas fa-pen-rifle"></i> Get a Quote</a>
-                <a href="https://wa.me/27718584498" class="cta-btn secondary"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
-                <a href="gallery.html" class="cta-btn secondary"><i class="fas fa-images"></i> View Gallery</a>
-            </div>
-        </div>
-
-        <footer class="simple-footer"><p><i class="fas fa-copyright"></i> Ripley Safaris · South Africa · ripleysafaris@gmail.com · +27 71 858 4498</p></footer>
+<body id="top" data-page="packages">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" data-header>
+  <div class="container site-header__inner">
+    <a class="brand" href="index.html" aria-label="RIPLEY Safaris home">
+      <span class="brand__mark" style="-webkit-mask-image:url(logo-mark.png);mask-image:url(logo-mark.png)" aria-hidden="true"></span>
+      <span class="brand__word"><span class="brand__name">RIPLEY</span> <span class="brand__sub">Safaris</span></span>
+    </a>
+    <nav class="nav" aria-label="Primary"><a href="index.html">Home</a><a href="index.html#species">Species</a><a href="packages.html" aria-current="page">Packages</a><a href="gallery.html">Gallery</a><a href="index.html#about">About</a><a href="index.html#contact">Contact</a></nav>
+    <div class="header-actions">
+      <button type="button" class="icon-btn theme-toggle" data-theme-toggle aria-label="Switch colour theme" aria-pressed="false"><svg class="icon i-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg><svg class="icon i-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg></button>
+      <a class="btn btn--small btn--ghost" href="index.html#contact">Book a Hunt</a>
+      <button type="button" class="icon-btn menu-btn" data-menu-toggle aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><svg class="icon i-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg><svg class="icon i-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
     </div>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
-    <script src="js/main.js" defer></script>
+  </div>
+</header>
+<div class="mobile-menu" id="mobile-menu" data-menu>
+  <nav aria-label="Mobile"><a href="index.html">Home</a><a href="index.html#species">Species</a><a href="packages.html" aria-current="page">Packages</a><a href="gallery.html">Gallery</a><a href="index.html#about">About</a><a href="index.html#contact">Contact</a></nav>
+  <div class="mobile-menu__foot">
+    <a class="btn" href="index.html#contact">Book a Hunt <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+    <a href="tel:+27718584498">+27 71 858 4498</a>
+    <a href="mailto:ripleysafaris@gmail.com">ripleysafaris@gmail.com</a>
+  </div>
+</div>
+<main id="main" tabindex="-1">
+
+<section class="page-hero" aria-labelledby="h1"><div class="hero__media" style="--pos:75% 55%"><picture><source type="image/avif" srcset="media/img/image00244-480.avif 480w, media/img/image00244-800.avif 800w, media/img/image00244-1280.avif 1280w, media/img/image00244-1920.avif 1920w, media/img/image00244-2560.avif 2560w" sizes="100vw"><source type="image/webp" srcset="media/img/image00244-480.webp 480w, media/img/image00244-800.webp 800w, media/img/image00244-1280.webp 1280w, media/img/image00244-1920.webp 1920w, media/img/image00244-2560.webp 2560w" sizes="100vw"><img src="media/img/image00244-1280.jpg" alt="Waterbuck bull standing in green grassland" width="3872" height="2592" sizes="100vw" loading="eager" decoding="async" fetchpriority="high"></picture></div>
+  <div class="container page-hero__inner"><p class="kicker" data-hero="fade">Hunting packages</p><h1 id="h1" data-hero="fade">Safari hunting <em>packages</em></h1>
+  <p data-hero="fade">Book to leave your footprint in Africa. Choose a package below, or contact us to build a custom itinerary around the trophies you want most.</p></div></section>
+
+<section class="section"><div class="container">
+  <div class="section-head" data-reveal="stagger"><div style="display:grid;gap:1.2rem"><span class="kicker">Featured packages</span><h2>Three ways to <em>hunt</em></h2></div></div>
+  <div class="pkg-grid">
+    <article class="pkg" data-reveal="card">
+      <span class="pkg__badge">First Timer</span><h3>Beginners Safari</h3>
+      <p class="pkg__days"><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 2v3"/><path d="M16 2v3"/><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M8 13h.01"/><path d="M12 13h.01"/><path d="M16 13h.01"/><path d="M8 17h.01"/><path d="M12 17h.01"/><path d="M16 17h.01"/></svg>6 Day Safari · Bring a friend or loved one</p>
+      <p class="pkg__price">$5,000</p>
+      <div class="pkg__list"><span class="pkg__animals-label">Includes</span><p class="pkg__animals">1× Impala, 1× Blesbok, 1× Warthog, 1× Wildebeest</p></div>
+      <p class="pkg__desc">The perfect package for your first hunt — a gentle introduction to fair-chase safari hunting in South Africa.</p>
+      <a class="btn" href="index.html#contact">Enquire now <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+    </article>
+    <article class="pkg pkg--featured" data-reveal="card">
+      <span class="pkg__badge">Most Popular</span><h3>Deluxe Safari</h3>
+      <p class="pkg__days"><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 2v3"/><path d="M16 2v3"/><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M8 13h.01"/><path d="M12 13h.01"/><path d="M16 13h.01"/><path d="M8 17h.01"/><path d="M12 17h.01"/><path d="M16 17h.01"/></svg>8 Day Safari</p>
+      <p class="pkg__price">$7,000</p>
+      <div class="pkg__list"><span class="pkg__animals-label">Includes</span><p class="pkg__animals">1× Impala, 1× Blesbok, 1× Warthog, 1× Blue Wildebeest, 1× Zebra, 1× Baboon</p></div>
+      <p class="pkg__desc">Includes a wider selection of animals and a longer hunt duration for a fuller South African trophy experience.</p>
+      <a class="btn" href="index.html#contact">Enquire now <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+    </article>
+    <article class="pkg" data-reveal="card">
+      <span class="pkg__badge">Comprehensive</span><h3>Premium Safari</h3>
+      <p class="pkg__days"><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 2v3"/><path d="M16 2v3"/><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M8 13h.01"/><path d="M12 13h.01"/><path d="M16 13h.01"/><path d="M8 17h.01"/><path d="M12 17h.01"/><path d="M16 17h.01"/></svg>10 Day Safari · Bring a friend or loved one</p>
+      <p class="pkg__price">$11,000</p>
+      <div class="pkg__list"><span class="pkg__animals-label">Includes</span><p class="pkg__animals">1× Impala, 1× Nyala, 1× Blue Wildebeest, 1× Zebra, 1× Kudu</p></div>
+      <p class="pkg__desc">Our comprehensive package for experienced hunters seeking a premium selection of trophies.</p>
+      <a class="btn" href="index.html#contact">Enquire now <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+    </article></div>
+</div></section>
+
+<section class="section section--alt" aria-labelledby="rates-h"><div class="container">
+  <div class="section-head" data-reveal="stagger"><div style="display:grid;gap:1.2rem"><span class="kicker">Daily rates</span><h2><span id="rates-h">Daily <em>rates</em></span></h2></div><p class="lede">For custom safaris, daily rates apply per day on the reserve.</p></div>
+  <div class="rates" data-reveal="stagger"><div class="rate"><span class="rate__label">1 Hunter × 1 PH</span><span class="rate__value">$450</span><span class="rate__sub">per day</span></div><div class="rate"><span class="rate__label">2 Hunters × 1 PH</span><span class="rate__value">$400</span><span class="rate__sub">per hunter, per day</span></div><div class="rate"><span class="rate__label">Non-Hunter (Observer)</span><span class="rate__value">$350</span><span class="rate__sub">per day</span></div></div>
+</div></section>
+
+<section class="section" aria-labelledby="ie-h"><div class="container">
+  <div class="section-head" data-reveal="stagger"><div style="display:grid;gap:1.2rem"><span class="kicker">What's included</span><h2><span id="ie-h">Inclusive &amp; <em>exclusive</em></span></h2></div></div>
+  <div class="ie">
+    <div data-reveal="fade"><h3><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="m16 9-5.5 5.5L8 12"/></svg>Inclusive</h3><ul role="list"><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Airport pick-up and drop-off</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Hunting licence fees</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Dedicated Professional Hunter</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Well-equipped hunting vehicle</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Accommodation in thatch and stone-built lodging</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>All land transfer while on safari</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>All meals, drinks, wifi and laundry services</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Welcoming lodge staff, chefs, trackers &amp; skinners</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>A tour of the Paul Kruger Museum on our reserve</span></li></ul></div>
+    <div class="ie--ex" data-reveal="fade"><h3><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg>Exclusive</h3><ul role="list"><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg><span>Internal &amp; domestic flights</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg><span>Shipping &amp; taxidermy</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg><span>Day fee for day of arrival and first night in camp</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg><span>Trophy handling fee</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg><span>Rifle hire &amp; ammunition</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg><span>Value-Added Tax (VAT)</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg><span>Additional meals and alcoholic beverages</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg><span>Any animal wounded and found or lost will be considered hunted, full fee applies</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg><span>Additional permits for certain requested species</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg><span>Local transfer / additional activities</span></li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg><span>Gratuities, at your discretion</span></li></ul></div>
+  </div>
+</div></section>
+
+<section class="section section--alt" aria-labelledby="enq-h"><div class="container"><div class="about" style="align-items:center">
+  <div class="prose" data-reveal="stagger"><span class="kicker">Enquire about</span><h2 id="enq-h" style="margin-block:1.2rem 2rem">Beyond the <em>packages</em></h2>
+    <div class="tags"><span class="tag">Trophy Animals — RW/SCI</span><span class="tag">Alternative Species</span><span class="tag">Videographer</span><span class="tag">Bow Hunting</span><span class="tag">Fishing Excursions</span></div></div>
+  <div class="about__note" style="margin:0"><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg><p><strong>Cross-border hunting:</strong> in addition to our South African safaris, we arrange cross-border hunting trips into Namibia for hunters wanting access to a wider range of species and terrain. Speak to our team about combining both destinations in a single itinerary.</p></div>
+</div></div></section>
+
+<section class="cta-band on-photo" aria-labelledby="cta-h">
+  <div class="ph ph--fill" style="--ph-bg:#75825e;--pos:40% 60%"><picture><source type="image/avif" data-srcset="media/img/image00245-480.avif 480w, media/img/image00245-800.avif 800w, media/img/image00245-1280.avif 1280w, media/img/image00245-1920.avif 1920w" sizes="(max-width:40rem) 480px, 100vw"><source type="image/webp" data-srcset="media/img/image00245-480.webp 480w, media/img/image00245-800.webp 800w, media/img/image00245-1280.webp 1280w, media/img/image00245-1920.webp 1920w" sizes="(max-width:40rem) 480px, 100vw"><img data-src="media/img/image00245-1280.jpg" alt="" width="3872" height="2592" sizes="(max-width:40rem) 480px, 100vw" decoding="async"></picture><noscript><picture><source type="image/avif" srcset="media/img/image00245-480.avif 480w, media/img/image00245-800.avif 800w, media/img/image00245-1280.avif 1280w, media/img/image00245-1920.avif 1920w" sizes="(max-width:40rem) 480px, 100vw"><source type="image/webp" srcset="media/img/image00245-480.webp 480w, media/img/image00245-800.webp 800w, media/img/image00245-1280.webp 1280w, media/img/image00245-1920.webp 1920w" sizes="(max-width:40rem) 480px, 100vw"><img src="media/img/image00245-1280.jpg" alt="" width="3872" height="2592" sizes="(max-width:40rem) 480px, 100vw" loading="lazy" decoding="async" fetchpriority="low"></picture></noscript></div>
+  <div class="container cta-band__inner" data-reveal="stagger">
+    <h2 id="cta-h">Ready to book your <em>safari?</em></h2><p>Get in touch and we'll help you choose the right package or build a custom trophy list.</p>
+    <div class="cta-band__btns"><a class="btn" href="index.html#contact">Get a quote <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a><a class="btn btn--ghost" href="https://wa.me/27718584498" rel="noopener"><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg> WhatsApp us</a><a class="btn btn--ghost" href="gallery.html">View gallery</a></div>
+  </div></section>
+</main>
+<footer class="site-footer on-photo">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__lead"><p class="kicker" style="color:var(--photo-bronze)">Plan your safari</p><h2 style="margin-top:1.2rem">Leave your <em>footprint</em> in Africa</h2>
+        <a class="btn" href="index.html#contact">Request a quote <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a></div>
+      <p style="max-width:42ch;color:rgba(244,237,220,.78)">Fair-chase hunting in the North West bushveld, with cross-border safaris into Namibia available on request.</p>
+    </div>
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a class="brand" href="index.html" aria-label="RIPLEY Safaris home"><span class="brand__mark" style="-webkit-mask-image:url(logo-mark.png);mask-image:url(logo-mark.png)" aria-hidden="true"></span><span class="brand__word"><span class="brand__name">RIPLEY</span> <span class="brand__sub">Safaris</span></span></a>
+        <p>The North West's dedicated fair-chase outfitter — a privately run reserve once owned by President Paul Kruger.</p>
+      </div>
+      <div class="footer__col"><h3>Explore</h3><ul>
+        <li><a href="index.html">Home</a></li><li><a href="index.html#species">Species</a></li><li><a href="packages.html">Packages</a></li>
+        <li><a href="gallery.html">Gallery</a></li><li><a href="index.html#about">About</a></li><li><a href="index.html#contact">Contact</a></li></ul></div>
+      <div class="footer__col"><h3>Contact</h3><ul>
+        <li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg><a href="tel:+27718584498">+27 71 858 4498</a></li>
+        <li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg><a href="mailto:ripleysafaris@gmail.com">ripleysafaris@gmail.com</a></li>
+        <li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg><a href="https://wa.me/27718584498" rel="noopener">WhatsApp</a></li>
+        <li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg><a href="https://www.google.com/maps/search/?api=1&query=Farm%20a%20Boekenhoutfontein%2C%20R565%2C%20Rustenburg%2C%20North%20West%200309%2C%20South%20Africa" rel="noopener" target="_blank">Farm a Boekenhoutfontein, R565, Rustenburg, North West 0309, South Africa</a></li></ul></div>
+      <div class="footer__col"><h3>Enquire about</h3><ul><li>Trophy Animals · RW/SCI</li><li>Bow Hunting</li><li>Fishing</li><li>Videographer</li><li>Cross-border · Namibia</li></ul></div>
+    </div>
+    <div class="footer__bottom"><span>© 2026 Ripley Safaris · Rustenburg, North West, South Africa</span><a href="index.html#top">Back to top ↑</a></div>
+  </div>
+</footer>
+<div class="scope" id="scope" aria-hidden="true"><span class="scope__ring"><i class="scope__outer"></i><i class="scope__lens"></i><i class="scope__h"></i><i class="scope__v"></i></span><span class="scope__dot"></span><span class="scope__label">View</span></div>
 </body>
 </html>
