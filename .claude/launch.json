@@ -2,10 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "ripley-site",
-      "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8791"],
-      "port": 8791
+      "name": "ripley-dev",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["node_modules/vite/bin/vite.js", "--port", "5173", "--strictPort"],
+      "port": 5173
     }
   ]
 }

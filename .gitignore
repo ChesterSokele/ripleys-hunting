@@ -1,12 +1,5 @@
-# Raw source photos/videos staged for optimization — not served by the site.
-# Optimized, web-ready copies live in img/ and are tracked.
-/anima/
-/anima2/
-/back/
-/extra/
-/accomodation/
-
-# OS / editor cruft
+﻿node_modules/
+dist/
 .DS_Store
 Thumbs.db
-server*.log
+.env.local

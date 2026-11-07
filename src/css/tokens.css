@@ -1,0 +1,90 @@
+/* ==========================================================================
+   Ripley Safaris — design tokens
+   Two independently designed themes (not an inversion):
+   · dark  → "Night on the reserve": midnight green-black, warm ivory type, muted bronze
+   · light → "Field journal": warm ivory paper, deep forest-green type, antique bronze
+   ========================================================================== */
+:root {
+  --font-display: 'Cormorant Garamond', 'Cormorant', Georgia, 'Times New Roman', serif;
+  --font-body: 'Jost Variable', 'Jost', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* fluid type scale */
+  --fs-xs: clamp(0.72rem, 0.70rem + 0.10vw, 0.78rem);
+  --fs-sm: clamp(0.84rem, 0.82rem + 0.12vw, 0.92rem);
+  --fs-base: clamp(1rem, 0.97rem + 0.18vw, 1.1rem);
+  --fs-lg: clamp(1.15rem, 1.08rem + 0.35vw, 1.35rem);
+  --fs-h4: clamp(1.35rem, 1.2rem + 0.6vw, 1.75rem);
+  --fs-h3: clamp(1.7rem, 1.4rem + 1.2vw, 2.4rem);
+  --fs-h2: clamp(2.3rem, 1.6rem + 3vw, 4.2rem);
+  --fs-h1: clamp(3.1rem, 1.8rem + 6.2vw, 8rem);
+
+  --space-1: 0.5rem; --space-2: 1rem; --space-3: 1.5rem; --space-4: 2.5rem;
+  --space-5: clamp(3rem, 2rem + 4vw, 6rem);
+  --space-section: clamp(5rem, 3rem + 8vw, 11rem);
+  --gutter: clamp(1.25rem, 0.5rem + 3.6vw, 4rem);
+  --container: 80rem;
+  --measure: 62ch;
+  --radius: 2px;
+
+  --ease: cubic-bezier(0.22, 0.8, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur: 0.45s;
+
+  --header-h: 4.75rem;
+
+  /* Always-dark "on photograph" palette: used over imagery regardless of theme */
+  --photo-ink: #f4eddc;
+  --photo-ink-2: rgba(244, 237, 220, 0.82);
+  --photo-bronze: #dcb878;
+  --photo-line: rgba(244, 237, 220, 0.34);
+  --photo-shade: 8 11 9;
+}
+
+:root,
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0b0f0c;
+  --bg-2: #111712;
+  --surface: #161d17;
+  --surface-2: #1d271f;
+  --forest: #1c3025;
+  --ink: #efe8d8;
+  --ink-2: #c8c0ac;
+  --ink-3: #9d9786;
+  --bronze: #c39c5d;
+  --bronze-strong: #dcb878;
+  --line: rgba(239, 232, 216, 0.14);
+  --line-strong: rgba(239, 232, 216, 0.3);
+  --btn-bg: #c39c5d;
+  --btn-ink: #14100a;
+  --btn-bg-hover: #dcb878;
+  --header-solid: rgba(11, 15, 12, 0.86);
+  --shadow: 0 24px 60px -24px rgba(0, 0, 0, 0.7);
+  --scope: #dcb878;
+  --scope-halo: rgba(0, 0, 0, 0.75);
+  --lightbox-bg: rgba(6, 8, 7, 0.96);
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: #f6f1e5;
+  --bg-2: #eee6d3;
+  --surface: #fbf8f0;
+  --surface-2: #e8dfc9;
+  --forest: #1c3324;
+  --ink: #15251a;
+  --ink-2: #3d4a3b;
+  --ink-3: #5b6554;
+  --bronze: #85591f;
+  --bronze-strong: #6e4814;
+  --line: rgba(21, 37, 26, 0.16);
+  --line-strong: rgba(21, 37, 26, 0.38);
+  --btn-bg: #1c3324;
+  --btn-ink: #f6f1e5;
+  --btn-bg-hover: #85591f;
+  --header-solid: rgba(246, 241, 229, 0.9);
+  --shadow: 0 24px 50px -28px rgba(21, 37, 26, 0.45);
+  --scope: #1c3324;
+  --scope-halo: rgba(246, 241, 229, 0.85);
+  --lightbox-bg: rgba(10, 14, 11, 0.96);
+}

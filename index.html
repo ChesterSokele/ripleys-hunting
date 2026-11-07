@@ -1,178 +1,308 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <title>Ripley Safaris | South Africa</title>
-    <meta name="description" content="Ripley Safaris — fair-chase hunting safaris in Rustenburg, North West, South Africa, with cross-border hunts into Namibia.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Give+You+Glory&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="logo-icon-transparent.png">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/home.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ripley Safaris | Fair-Chase Hunting Safaris, Rustenburg, South Africa</title>
+  <meta name="description" content="Fair-chase plains game hunting safaris on a privately run reserve near Rustenburg, North West, South Africa — with cross-border hunts into Namibia. Thatch-and-stone lodge, dedicated professional hunter.">
+  <meta name="theme-color" content="#0b0f0c" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f6f1e5" media="(prefers-color-scheme: light)">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');if(/[?&]nomotion/.test(location.search))d.classList.add('no-motion');try{var t=localStorage.getItem('rs-theme');if(t!=='light'&&t!=='dark'){t=window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'}d.setAttribute('data-theme',t)}catch(e){d.setAttribute('data-theme','dark')}})();</script>
+  
+  <meta property="og:type" content="website"><meta property="og:site_name" content="Ripley Safaris">
+  <meta property="og:title" content="Ripley Safaris | Fair-Chase Hunting Safaris, Rustenburg, South Africa"><meta property="og:description" content="Fair-chase plains game hunting safaris on a privately run reserve near Rustenburg, North West, South Africa — with cross-border hunts into Namibia. Thatch-and-stone lodge, dedicated professional hunter.">
+  <meta property="og:image" content="og-image.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.png" type="image/png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preload" as="image" type="image/avif" fetchpriority="high" media="(min-width:64rem)" imagesrcset="media/img/image00245-480.avif 480w, media/img/image00245-800.avif 800w, media/img/image00245-1280.avif 1280w, media/img/image00245-1920.avif 1920w, media/img/image00245-2560.avif 2560w" imagesizes="100vw"><link rel="preload" as="image" type="image/avif" fetchpriority="high" imagesrcset="media/hero/poster-720.avif 720w, media/hero/poster-1080.avif 1080w" imagesizes="(min-width:64rem) 22rem, 100vw">
+  <script type="module" src="src/js/main.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Ripley Safaris","description":"Fair-chase plains game hunting safaris on a privately run reserve near Rustenburg, North West, South Africa, with cross-border hunts into Namibia.","telephone":"+27 71 858 4498","email":"ripleysafaris@gmail.com","address":{"@type":"PostalAddress","streetAddress":"Farm a Boekenhoutfontein, R565","addressLocality":"Rustenburg","addressRegion":"North West","postalCode":"0309","addressCountry":"ZA"},"areaServed":["South Africa","Namibia"]}</script>
 </head>
-<body class="bg-camou no-emoji">
-    <div class="custom-cursor" id="scopeCursor"><span class="cursor-label">VIEW</span></div>
-    <div class="cursor-dot" id="cursorDot"></div>
-    <div class="wrapper">
-        <nav>
-            <div class="logo">
-                <img src="logo-icon-transparent.png" alt="Ripley Safaris logo" width="50" height="50" onerror="this.src='https://placehold.co/60x60?text=RS'">
-                <span>RIPLEY SAFARIS</span>
-            </div>
-            <div class="nav-links">
-                <a href="#">Home</a>
-                <a href="packages.html">Packages</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-            </div>
-            <a href="#contact" class="book-btn">Book A Hunt</a>
-        </nav>
-        <div class="hero">
-            <div class="hero-video-wrap">
-                <video class="hero-video" id="heroVideo" autoplay muted loop playsinline preload="metadata">
-                    <source src="img/hero/herofull.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="hero-text-overlay">
-                <span class="eyebrow">Ripley Safaris · South Africa</span>
-                <h1>Leave Your Footprint<br>in Africa</h1>
-                <p class="hero-lede">Professional guided hunting safaris in South Africa's North West province.</p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="book-btn">Book A Hunt</a>
-                    <a href="packages.html" class="book-btn secondary">View Packages</a>
-                </div>
-            </div>
-        </div>
-        <div class="about-section" id="about" data-aos="fade-right">
-            <div class="about-content">
-                <span class="kicker">About Ripley Safaris</span>
-                <h2>Where History Meets the Bushveld</h2>
-                <p>Based on Farm a Boekenhoutfontein along the R565 near Rustenburg, in South Africa's North West province, Ripley Safaris offers an exclusive hunting experience in thatch and stone-built lodging on a privately run reserve.</p>
-                <p>Specializing in plains game hunting, we are committed to delivering a high-quality, ethical experience, guided by a dedicated professional hunter matched to every booking.</p>
-                <p>At Ripley Safaris, we offer more than just a hunt; we provide an immersive African experience — including a tour of the Paul Kruger Museum on our reserve — where clients can enjoy the beauty and challenge of the wild while contributing to conservation.</p>
-                <p>Our reserve is a historic property once owned by former South African President Paul Kruger in the 1800s, and his legacy lives on across the farm — from the museum housing his artefacts to the sense of history that surrounds every hunt.</p>
-                <div class="cross-border-note"><i class="fas fa-passport"></i><p>Looking to add another country to your trophy list? We arrange <strong>cross-border hunting safaris into Namibia</strong> alongside your South African hunt — ask our team about combining both destinations.</p></div>
-            </div>
-            <div class="about-image">
-                <img src="img/misc/nyt.jpg" alt="Ripley Safaris professional hunter" width="1900" height="1268" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400?text=Landscape'">
-            </div>
-        </div>
-        <div class="section-title">
-            <span class="kicker">South Africa</span>
-            <h2>The Animals</h2>
-        </div>
-        <div class="card-grid">
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/chacma-baboon.jpg" alt="Chacma Baboon" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Baboon'"></div><h3>Chacma Baboon</h3><a href="animals/chacma-baboon.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/sable.jpg" alt="Sable" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Sable'"></div><h3>Sable</h3><a href="animals/sable.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/roan.jpg" alt="Roan" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Roan'"></div><h3>Roan</h3><a href="animals/roan.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-crosshairs"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/red-lechwe.jpg" alt="Red Lechwe" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Lechwe'"></div><h3>Red Lechwe</h3><a href="animals/red-lechwe.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/cape-eland.jpg" alt="Cape Eland" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Eland'"></div><h3>Cape Eland</h3><a href="animals/cape-eland.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-bullseye"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/full/kudu.jpeg" alt="Kudu" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Kudu'"></div><h3>Greater Kudu</h3><a href="animals/greater-kudu.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/oryx.jpg" alt="Oryx" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Oryx'"></div><h3>Oryx</h3><a href="animals/oryx.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/giraffe.jpg" alt="Giraffe" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Giraffe'"></div><h3>Giraffe</h3><a href="animals/giraffe.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-crosshairs"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/waterbuck.jpg" alt="Waterbuck" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Waterbuck'"></div><h3>Waterbuck</h3><a href="animals/waterbuck.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/burchell-zebra.jpg" alt="Zebra" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Zebra'"></div><h3>Burchell Zebra</h3><a href="animals/burchell-zebra.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/blue-wildebeest.jpg" alt="Blue Wildebeest" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Blue+Wildebeest'"></div><h3>Blue Wildebeest</h3><a href="animals/blue-wildebeest.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/red-hartebeest.jpg" alt="Hartebeest" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Hartebeest'"></div><h3>Red Hartebeest</h3><a href="animals/red-hartebeest.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-crosshairs"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/steenbok.jpg" alt="Steenbok" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Steenbok'"></div><h3>Steenbok</h3><a href="animals/steenbok.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/duiker.jpg" alt="Duiker" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Duiker'"></div><h3>Duiker</h3><a href="animals/duiker.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/warthog.jpg" alt="Warthog" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Warthog'"></div><h3>Warthog</h3><a href="animals/warthog.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/springbuck.jpg" alt="Springbuck" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Springbuck'"></div><h3>Springbuck</h3><a href="animals/springbuck.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/impala.jpg" alt="Impala" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Impala'"></div><h3>Impala</h3><a href="animals/impala.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/full/blesbucka.jpg" alt="Blesbuck" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Blesbuck'"></div><h3>Blesbuck</h3><a href="animals/blesbuck.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/nyala.jpg" alt="Nyala" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Nyala'"></div><h3>Nyala</h3><a href="animals/nyala.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-scope"></i></div></div>
-            <div class="animal-card"><div class="card-image"><img src="img/animals/thumb/buffalo.jpg" alt="Buffalo" width="480" height="320" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/300x200?text=Buffalo'"></div><h3>Buffalo</h3><a href="animals/buffalo.html" class="card-view-btn">View</a><div class="bullet-detail"><i class="fas fa-bolt"></i> <i class="fas fa-crosshairs"></i></div></div>
-        </div>
-        <div class="accommodation-section">
-            <div class="section-title section-title--dark">
-                <span class="kicker">The Lodge</span>
-                <h2>The Place Between the Hunt</h2>
-            </div>
-            <div class="accommodation-grid">
-                <div class="accommodation-card"><div class="acc-image"><img src="img/lodge/lodge-exterior.jpg" alt="Lodge exterior" width="1300" height="1300" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400?text=Lodge'"></div><div class="acc-text"><h3>Hunters' Lodge</h3><p>Thatch and stone-built lodging overlooking the reserve.</p></div></div>
-                <div class="accommodation-card"><div class="acc-image"><img src="img/lodge/bedroom.jpg" alt="Bedroom" width="1300" height="1300" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400?text=Bedroom'"></div><div class="acc-text"><h3>Bed room</h3><p>Immersive suites with private bathrooms.</p></div></div>
-                <div class="accommodation-card"><div class="acc-image"><img src="img/lodge/boma-lounge.jpg" alt="Main lounge" width="1300" height="1300" loading="lazy" decoding="async" onerror="this.src='https://placehold.co/600x400?text=Lounge'"></div><div class="acc-text"><h3>The Boma &amp; Lounge</h3><p>Traditional boma for evening stories.</p></div></div>
-            </div>
-            <p style="text-align:center; margin-top: 30px;"><a href="gallery.html" class="cta-btn secondary" style="display:inline-flex;">See the Full Gallery</a></p>
-        </div>
-        <div class="contact-quote-section" id="contact">
-            <div class="book-form">
-                <h2>Let's Plan Your Safari</h2>
-                <p class="form-intro">Tell us a little about the hunt you have in mind and our team will be in touch with a tailored quote.</p>
-                <div class="form-row"><div class="form-group"><input type="text" placeholder="First Name"></div><div class="form-group"><input type="text" placeholder="Last Name"></div></div>
-                <div class="form-row"><div class="form-group"><input type="tel" placeholder="Mobile Number"></div><div class="form-group"><input type="email" placeholder="Email"></div></div>
-                <div class="form-group"><input type="text" placeholder="Country of Origin"></div>
-
-                <label class="field-title">What are you interested in?</label>
-                <div class="check-group">
-                    <span class="check-item"><input type="checkbox"> Quote</span>
-                    <span class="check-item"><input type="checkbox"> Price List</span>
-                    <span class="check-item"><input type="checkbox"> General Information</span>
-                </div>
-
-                <label class="field-title">Which package interests you?</label>
-                <div class="check-group">
-                    <span class="check-item"><input type="checkbox"> Beginners Safari</span>
-                    <span class="check-item"><input type="checkbox"> Deluxe Safari</span>
-                    <span class="check-item"><input type="checkbox"> Premium Safari</span>
-                    <span class="check-item"><input type="checkbox"> Custom / Not Sure Yet</span>
-                </div>
-
-                <label class="field-title">What type of hunting are you interested in?</label>
-                <div class="check-group">
-                    <span class="check-item"><input type="checkbox"> Plains Game</span>
-                    <span class="check-item"><input type="checkbox"> Dangerous Game</span>
-                    <span class="check-item"><input type="checkbox"> Bow Hunting</span>
-                    <span class="check-item"><input type="checkbox"> Cross-Border (Namibia)</span>
-                    <span class="check-item"><input type="checkbox"> Fishing</span>
-                    <span class="check-item"><input type="checkbox"> Videographer</span>
-                </div>
-
-                <label class="field-title" for="dates">Approximate dates you're looking at?</label>
-                <div class="form-group"><input type="text" id="dates" placeholder="e.g. June 2027, 8 days"></div>
-
-                <label class="field-title" for="guests">Number of guests</label>
-                <div class="form-group"><input type="number" id="guests" value="1" min="1"></div>
-
-                <label class="field-title" for="overview">Give us an overview of what you have in mind</label>
-                <div class="form-group"><textarea id="overview" rows="3" placeholder="Caliber preferences, trophy goals, anything else we should know..."></textarea></div>
-
-                <label class="field-title">How did you hear about us?</label>
-                <div class="check-group">
-                    <span class="check-item"><input type="checkbox"> Referral</span>
-                    <span class="check-item"><input type="checkbox"> Social Media</span>
-                    <span class="check-item"><input type="checkbox"> Search / Website</span>
-                    <span class="check-item"><input type="checkbox"> Other</span>
-                </div>
-
-                <button class="get-quote-btn"><i class="fas fa-paper-plane"></i> Submit</button>
-            </div>
-            <div class="adventure-text">
-                <h2>Leave Your Footprint in Africa</h2>
-                <p>Fair chase hunting in the North West bushveld, with cross-border safaris into Namibia available on request.</p>
-                <div class="contact-line"><i class="fas fa-phone-alt"></i> +27 71 858 4498 <span style="flex:1;"></span> <i class="fas fa-envelope"></i> ripleysafaris@gmail.com</div>
-                <div class="address-line"><i class="fas fa-location-dot"></i> <span>Farm a Boekenhoutfontein, R565, Rustenburg, North West 0309, South Africa</span></div>
-                <div class="adv-features"><p><i class="fas fa-check-circle"></i> Ethical selection</p><p><i class="fas fa-compass"></i> Dedicated professional hunter</p></div>
-                <div style="margin-top: 20px;"><a href="https://wa.me/27718584498" class="book-btn"><i class="fab fa-whatsapp"></i> Book now</a></div>
-            </div>
-        </div>
-        <footer>
-            <div class="footer-grid">
-                <div class="footer-col"><h4>RIPLEY SAFARIS</h4><p>North West's dedicated fair-chase outfitter.</p><p><i class="fas fa-location-dot"></i> Farm a Boekenhoutfontein, R565, Rustenburg, North West 0309, South Africa</p></div>
-                <div class="footer-col"><h4>CONTACT</h4><p>+27 71 858 4498</p><p>ripleysafaris@gmail.com</p></div>
-                <div class="footer-col"><h4>INFO</h4><a href="packages.html">Packages</a><a href="gallery.html">Gallery</a><a href="#about">About</a><a href="#contact">Contact</a></div>
-                <div class="footer-col"><h4>ENQUIRE ABOUT</h4><p>Trophy Animals · RW/SCI</p><p>Bow Hunting · Fishing · Videographer</p></div>
-            </div>
-            <div class="copyright"><i class="fas fa-copyright"></i> Ripley Safaris – book to leave your footprint in Africa.</div>
-        </footer>
+<body id="top" data-page="home">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" data-header>
+  <div class="container site-header__inner">
+    <a class="brand" href="index.html" aria-label="RIPLEY Safaris home">
+      <span class="brand__mark" style="-webkit-mask-image:url(logo-mark.png);mask-image:url(logo-mark.png)" aria-hidden="true"></span>
+      <span class="brand__word"><span class="brand__name">RIPLEY</span> <span class="brand__sub">Safaris</span></span>
+    </a>
+    <nav class="nav" aria-label="Primary"><a href="index.html" aria-current="page">Home</a><a href="index.html#species">Species</a><a href="packages.html">Packages</a><a href="gallery.html">Gallery</a><a href="index.html#about">About</a><a href="index.html#contact">Contact</a></nav>
+    <div class="header-actions">
+      <button type="button" class="icon-btn theme-toggle" data-theme-toggle aria-label="Switch colour theme" aria-pressed="false"><svg class="icon i-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg><svg class="icon i-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg></button>
+      <a class="btn btn--small btn--ghost" href="index.html#contact">Book a Hunt</a>
+      <button type="button" class="icon-btn menu-btn" data-menu-toggle aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><svg class="icon i-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg><svg class="icon i-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
     </div>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
-    <script src="js/main.js" defer></script>
+  </div>
+</header>
+<div class="mobile-menu" id="mobile-menu" data-menu>
+  <nav aria-label="Mobile"><a href="index.html" aria-current="page">Home</a><a href="index.html#species">Species</a><a href="packages.html">Packages</a><a href="gallery.html">Gallery</a><a href="index.html#about">About</a><a href="index.html#contact">Contact</a></nav>
+  <div class="mobile-menu__foot">
+    <a class="btn" href="index.html#contact">Book a Hunt <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+    <a href="tel:+27718584498">+27 71 858 4498</a>
+    <a href="mailto:ripleysafaris@gmail.com">ripleysafaris@gmail.com</a>
+  </div>
+</div>
+<main id="main" tabindex="-1">
+
+<section class="hero on-photo" aria-label="Welcome">
+  <div class="hero__media" style="--pos:40% 70%"><picture><source media="(max-width:63.99rem)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/avif" srcset="media/img/image00245-480.avif 480w, media/img/image00245-800.avif 800w, media/img/image00245-1280.avif 1280w, media/img/image00245-1920.avif 1920w, media/img/image00245-2560.avif 2560w" sizes="100vw"><source type="image/webp" srcset="media/img/image00245-480.webp 480w, media/img/image00245-800.webp 800w, media/img/image00245-1280.webp 1280w, media/img/image00245-1920.webp 1920w, media/img/image00245-2560.webp 2560w" sizes="100vw"><img src="media/img/image00245-1280.jpg" alt="Waterbuck herd grazing in the golden bushveld beneath wooded hills at Ripley Safaris" width="3872" height="2592" sizes="100vw" loading="eager" decoding="async" fetchpriority="high"></picture></div>
+  <div class="container hero__inner">
+    <div>
+      <p class="kicker" data-hero="fade">Ripley Safaris · South Africa</p>
+      <h1 aria-label="Leave your footprint in Africa"><span class="line"><span data-hero="line">Leave your</span></span><span class="line"><span data-hero="line"><em>footprint</em> in</span></span><span class="line"><span data-hero="line">Africa</span></span></h1>
+      <p class="hero__lede" data-hero="fade">Professional guided hunting safaris in South Africa's North West province.</p>
+      <div class="hero__cta" data-hero="fade"><a class="btn" href="#contact">Book a hunt <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a><a class="btn btn--ghost" href="packages.html">View packages</a></div>
+    </div>
+    <div class="hero__film is-paused" data-film data-after-load>
+      <picture><source type="image/avif" srcset="media/hero/poster-720.avif 720w, media/hero/poster-1080.avif 1080w" sizes="(min-width:64rem) 22rem, 100vw"><source type="image/webp" srcset="media/hero/poster-720.webp 720w, media/hero/poster-1080.webp 1080w" sizes="(min-width:64rem) 22rem, 100vw"><img class="hero__poster" src="media/hero/poster-1080.jpg" width="1080" height="1920" alt="" fetchpriority="high" decoding="async"></picture>
+      <video muted loop playsinline preload="none" data-src="media/hero/hero-720.mp4" aria-label="Footage from the reserve: a nyala in the bush, a young giraffe and a spaniel on a hunting vehicle"></video>
+      <button type="button" class="film__toggle" data-film-toggle aria-label="Play or pause the hero video"><svg class="icon i-pause" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="14" y="3" width="5" height="18" rx="1"/><rect x="5" y="3" width="5" height="18" rx="1"/></svg><svg class="icon i-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<div class="band"><div class="container"><ul class="band__list" role="list" data-reveal="stagger">
+      <li><b>Plains game</b><span>Fair-chase, ethical selection</span></li>
+      <li><b>Rustenburg</b><span>Privately run reserve, North West</span></li>
+      <li><b>Namibia</b><span>Cross-border safaris on request</span></li>
+    </ul></div></div>
+
+<section class="section" id="about" aria-labelledby="about-h"><div class="container about">
+  <div class="about__text prose" data-reveal="stagger">
+    <span class="kicker">About Ripley Safaris</span>
+    <h2 id="about-h">Where history meets <em>the bushveld</em></h2>
+    <p>Based on Farm a Boekenhoutfontein along the R565 near Rustenburg, in South Africa's North West province, Ripley Safaris offers an exclusive hunting experience in thatch and stone-built lodging on a privately run reserve.</p>
+    <p>Specializing in plains game hunting, we are committed to delivering a high-quality, ethical experience, guided by a dedicated professional hunter matched to every booking.</p>
+    <p>At Ripley Safaris, we offer more than just a hunt; we provide an immersive African experience — including a tour of the Paul Kruger Museum on our reserve — where clients can enjoy the beauty and challenge of the wild while contributing to conservation.</p>
+    <p>Our reserve is a historic property once owned by former South African President Paul Kruger in the 1800s, and his legacy lives on across the farm — from the museum housing his artefacts to the sense of history that surrounds every hunt.</p>
+    <div class="about__note"><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg><p>Looking to add another country to your trophy list? We arrange <strong>cross-border hunting safaris into Namibia</strong> alongside your South African hunt — ask our team about combining both destinations.</p></div>
+  </div>
+  <figure class="about__media"><div class="ph ph--4x5" style="--ph-bg:#2e2f22;--pos:50% 50%" data-reveal="image"><picture><source type="image/avif" srcset="media/img/lodge-night-entrance-480.avif 480w, media/img/lodge-night-entrance-800.avif 800w, media/img/lodge-night-entrance-1280.avif 1280w, media/img/lodge-night-entrance-1900.avif 1900w" sizes="(min-width:62rem) 40vw, 100vw"><source type="image/webp" srcset="media/img/lodge-night-entrance-480.webp 480w, media/img/lodge-night-entrance-800.webp 800w, media/img/lodge-night-entrance-1280.webp 1280w, media/img/lodge-night-entrance-1900.webp 1900w" sizes="(min-width:62rem) 40vw, 100vw"><img src="media/img/lodge-night-entrance-1280.jpg" alt="The lodge entrance glowing at night among the trees" width="1900" height="1268" sizes="(min-width:62rem) 40vw, 100vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div><figcaption class="ph-caption">The lodge entrance at night</figcaption></figure>
+</div></section>
+
+<section class="section section--alt" id="species" aria-label="Species"><div class="container">
+  <div class="section-head section-head--split" data-reveal="stagger"><div style="display:grid;gap:1.2rem"><span class="kicker">South Africa</span><h2>The <em>animals</em></h2></div><p class="lede">Twenty species across the North West bushveld. Open any species for the trophy fee, difficulty and field notes from our professional hunters.</p></div>
+  <div class="sp-grid">
+    <a class="sp-card" href="animals/blesbuck.html" data-cursor="view" data-reveal="card" aria-label="Blesbuck — Moderate, trophy fee $450">
+      <div class="ph ph--3x2" style="--ph-bg:#827b35;--pos:50% 50%"><picture><source type="image/avif" srcset="media/img/image00243-480.avif 480w, media/img/image00243-800.avif 800w, media/img/image00243-1280.avif 1280w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/image00243-480.webp 480w, media/img/image00243-800.webp 800w, media/img/image00243-1280.webp 1280w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/image00243-1280.jpg" alt="Blesbok grazing on open grassland" width="3872" height="2592" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Blesbuck</h3><span class="sp-card__level">Moderate</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>$450</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/blue-wildebeest.html" data-cursor="view" data-reveal="card" aria-label="Blue Wildebeest — Moderate, trophy fee $1,500">
+      <div class="ph ph--3x2" style="--ph-bg:#8f8d75;--pos:45% 50%"><picture><source type="image/avif" srcset="media/img/image00240-480.avif 480w, media/img/image00240-800.avif 800w, media/img/image00240-1280.avif 1280w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/image00240-480.webp 480w, media/img/image00240-800.webp 800w, media/img/image00240-1280.webp 1280w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/image00240-1280.jpg" alt="Blue wildebeest bull standing in dry golden grass" width="3872" height="2592" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Blue Wildebeest</h3><span class="sp-card__level">Moderate</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>$1,500</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/burchell-zebra.html" data-cursor="view" data-reveal="card" aria-label="Burchell Zebra — Challenging, trophy fee $1,450">
+      <div class="ph ph--3x2" style="--ph-bg:#7c8155;--pos:38% 50%"><picture><source type="image/avif" srcset="media/img/image00247-480.avif 480w, media/img/image00247-800.avif 800w, media/img/image00247-1280.avif 1280w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/image00247-480.webp 480w, media/img/image00247-800.webp 800w, media/img/image00247-1280.webp 1280w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/image00247-1280.jpg" alt="Burchell's zebra standing in long green grass" width="3872" height="2592" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Burchell Zebra</h3><span class="sp-card__level">Challenging</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>$1,450</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/cape-eland.html" data-cursor="view" data-reveal="card" aria-label="Cape Eland — Challenging, trophy fee $3,500">
+      <div class="ph ph--3x2" style="--ph-bg:#788864;--pos:40% 50%"><picture><source type="image/avif" srcset="media/img/image00246-480.avif 480w, media/img/image00246-800.avif 800w, media/img/image00246-1280.avif 1280w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/image00246-480.webp 480w, media/img/image00246-800.webp 800w, media/img/image00246-1280.webp 1280w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/image00246-1280.jpg" alt="Cape eland among bush and trees" width="3872" height="2592" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Cape Eland</h3><span class="sp-card__level">Challenging</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>$3,500</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/giraffe.html" data-cursor="view" data-reveal="card" aria-label="Giraffe — Challenging, trophy fee $3,000">
+      <div class="ph ph--3x2" style="--ph-bg:#a2a496;--pos:82% 50%"><picture><source type="image/avif" srcset="media/img/image00259-480.avif 480w, media/img/image00259-800.avif 800w, media/img/image00259-1280.avif 1280w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/image00259-480.webp 480w, media/img/image00259-800.webp 800w, media/img/image00259-1280.webp 1280w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/image00259-1280.jpg" alt="Giraffes rising above the bushveld canopy" width="3872" height="2592" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Giraffe</h3><span class="sp-card__level">Challenging</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>$3,000</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/greater-kudu.html" data-cursor="view" data-reveal="card" aria-label="Greater Kudu — Challenging, trophy fee $3,500">
+      <div class="ph ph--3x2" style="--ph-bg:#62744f;--pos:60% 50%"><picture><source type="image/avif" srcset="media/img/image00249-480.avif 480w, media/img/image00249-800.avif 800w, media/img/image00249-1280.avif 1280w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/image00249-480.webp 480w, media/img/image00249-800.webp 800w, media/img/image00249-1280.webp 1280w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/image00249-1280.jpg" alt="Greater kudu bull with spiralled horns in thick green bush" width="3872" height="2592" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Greater Kudu</h3><span class="sp-card__level">Challenging</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>$3,500</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/impala.html" data-cursor="view" data-reveal="card" aria-label="Impala — Easy to Moderate, trophy fee $550">
+      <div class="ph ph--3x2" style="--ph-bg:#554d2f;--pos:50% 50%"><picture><source type="image/avif" srcset="media/img/sp-impala-480.avif 480w, media/img/sp-impala-800.avif 800w, media/img/sp-impala-1280.avif 1280w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/sp-impala-480.webp 480w, media/img/sp-impala-800.webp 800w, media/img/sp-impala-1280.webp 1280w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/sp-impala-1280.jpg" alt="Impala" width="1900" height="1268" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Impala</h3><span class="sp-card__level">Easy to Moderate</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>$550</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/waterbuck.html" data-cursor="view" data-reveal="card" aria-label="Waterbuck — Challenging, trophy fee $3,000">
+      <div class="ph ph--3x2" style="--ph-bg:#728a70;--pos:65% 50%"><picture><source type="image/avif" srcset="media/img/image00244-480.avif 480w, media/img/image00244-800.avif 800w, media/img/image00244-1280.avif 1280w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/image00244-480.webp 480w, media/img/image00244-800.webp 800w, media/img/image00244-1280.webp 1280w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/image00244-1280.jpg" alt="Waterbuck bull standing in green grassland" width="3872" height="2592" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Waterbuck</h3><span class="sp-card__level">Challenging</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>$3,000</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/buffalo.html" data-cursor="view" data-reveal="card" aria-label="Buffalo — Extreme, trophy fee on request">
+      <div class="ph ph--3x2" style="--ph-bg:#897b6a;--pos:50% 40%"><picture><source type="image/avif" srcset="media/img/buffalo-480.avif 480w, media/img/buffalo-800.avif 800w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/buffalo-480.webp 480w, media/img/buffalo-800.webp 800w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/buffalo-800.jpg" alt="Close portrait of a Cape buffalo with heavy, curled horns" width="800" height="615" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Buffalo</h3><span class="sp-card__level">Extreme</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>On request</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/chacma-baboon.html" data-cursor="view" data-reveal="card" aria-label="Chacma Baboon — Challenging, trophy fee on request">
+      <div class="ph ph--3x2" style="--ph-bg:#93908b;--pos:50% 50%"><picture><source type="image/avif" srcset="media/img/sp-chacma-baboon-363.avif 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/sp-chacma-baboon-363.webp 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/sp-chacma-baboon-363.jpg" alt="Chacma Baboon" width="363" height="225" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Chacma Baboon</h3><span class="sp-card__level">Challenging</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>On request</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/duiker.html" data-cursor="view" data-reveal="card" aria-label="Duiker — Challenging, trophy fee on request">
+      <div class="ph ph--3x2" style="--ph-bg:#9e897f;--pos:50% 50%"><picture><source type="image/avif" srcset="media/img/sp-duiker-363.avif 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/sp-duiker-363.webp 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/sp-duiker-363.jpg" alt="Duiker" width="363" height="225" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Duiker</h3><span class="sp-card__level">Challenging</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>On request</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/nyala.html" data-cursor="view" data-reveal="card" aria-label="Nyala — Challenging, trophy fee $3,000">
+      <div class="ph ph--3x2" style="--ph-bg:#788263;--pos:50% 45%"><picture><source type="image/avif" srcset="media/img/nyala-bull-480.avif 480w, media/img/nyala-bull-800.avif 800w, media/img/nyala-bull-1000.avif 1000w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/nyala-bull-480.webp 480w, media/img/nyala-bull-800.webp 800w, media/img/nyala-bull-1000.webp 1000w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/nyala-bull-1000.jpg" alt="Nyala bull standing in green grass" width="1000" height="1000" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Nyala</h3><span class="sp-card__level">Challenging</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>$3,000</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/oryx.html" data-cursor="view" data-reveal="card" aria-label="Oryx — Moderate, trophy fee on request">
+      <div class="ph ph--3x2" style="--ph-bg:#a08771;--pos:50% 50%"><picture><source type="image/avif" srcset="media/img/sp-oryx-363.avif 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/sp-oryx-363.webp 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/sp-oryx-363.jpg" alt="Oryx" width="363" height="225" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Oryx</h3><span class="sp-card__level">Moderate</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>On request</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/red-hartebeest.html" data-cursor="view" data-reveal="card" aria-label="Red Hartebeest — Moderate, trophy fee $2,700">
+      <div class="ph ph--3x2" style="--ph-bg:#a58b63;--pos:50% 50%"><picture><source type="image/avif" srcset="media/img/sp-red-hartebeest-363.avif 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/sp-red-hartebeest-363.webp 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/sp-red-hartebeest-363.jpg" alt="Red Hartebeest" width="363" height="225" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Red Hartebeest</h3><span class="sp-card__level">Moderate</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>$2,700</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/red-lechwe.html" data-cursor="view" data-reveal="card" aria-label="Red Lechwe — Challenging, trophy fee on request">
+      <div class="ph ph--3x2" style="--ph-bg:#ab9c7b;--pos:50% 50%"><picture><source type="image/avif" srcset="media/img/sp-red-lechwe-363.avif 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/sp-red-lechwe-363.webp 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/sp-red-lechwe-363.jpg" alt="Red Lechwe" width="363" height="233" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Red Lechwe</h3><span class="sp-card__level">Challenging</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>On request</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/roan.html" data-cursor="view" data-reveal="card" aria-label="Roan — Challenging, trophy fee on request">
+      <div class="ph ph--3x2" style="--ph-bg:#9a9180;--pos:50% 50%"><picture><source type="image/avif" srcset="media/img/sp-roan-363.avif 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/sp-roan-363.webp 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/sp-roan-363.jpg" alt="Roan" width="363" height="233" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Roan</h3><span class="sp-card__level">Challenging</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>On request</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/sable.html" data-cursor="view" data-reveal="card" aria-label="Sable — Challenging, trophy fee $6,500">
+      <div class="ph ph--3x2" style="--ph-bg:#cab9a6;--pos:50% 50%"><picture><source type="image/avif" srcset="media/img/sp-sable-363.avif 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/sp-sable-363.webp 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/sp-sable-363.jpg" alt="Sable" width="363" height="233" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Sable</h3><span class="sp-card__level">Challenging</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>$6,500</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/springbuck.html" data-cursor="view" data-reveal="card" aria-label="Springbuck — Moderate, trophy fee on request">
+      <div class="ph ph--3x2" style="--ph-bg:#b69c82;--pos:50% 50%"><picture><source type="image/avif" srcset="media/img/sp-springbuck-363.avif 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/sp-springbuck-363.webp 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/sp-springbuck-363.jpg" alt="Springbuck" width="363" height="233" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Springbuck</h3><span class="sp-card__level">Moderate</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>On request</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/steenbok.html" data-cursor="view" data-reveal="card" aria-label="Steenbok — Moderate, trophy fee on request">
+      <div class="ph ph--3x2" style="--ph-bg:#aa8a6d;--pos:50% 50%"><picture><source type="image/avif" srcset="media/img/sp-steenbok-363.avif 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/sp-steenbok-363.webp 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/sp-steenbok-363.jpg" alt="Steenbok" width="363" height="233" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Steenbok</h3><span class="sp-card__level">Moderate</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>On request</b></div></div>
+    </a>
+    <a class="sp-card" href="animals/warthog.html" data-cursor="view" data-reveal="card" aria-label="Warthog — Easy to Moderate, trophy fee on request">
+      <div class="ph ph--3x2" style="--ph-bg:#8a7866;--pos:50% 50%"><picture><source type="image/avif" srcset="media/img/sp-warthog-363.avif 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><source type="image/webp" srcset="media/img/sp-warthog-363.webp 363w" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw"><img src="media/img/sp-warthog-363.jpg" alt="Warthog" width="363" height="233" sizes="(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div>
+      <div class="sp-card__body"><div><h3>Warthog</h3><span class="sp-card__level">Easy to Moderate</span></div>
+        <div class="sp-card__fee"><small>Trophy fee</small><b>On request</b></div></div>
+    </a></div>
+</div></section>
+
+<section class="section" aria-labelledby="pk-h"><div class="container">
+  <div class="section-head section-head--split" data-reveal="stagger"><div style="display:grid;gap:1.2rem"><span class="kicker">Hunting packages</span><h2>Choose your <em>safari</em></h2></div><p class="lede">Three fixed-price safaris, or let us build a custom itinerary around the trophies you want most.</p></div>
+  <div class="pkg-grid">
+    <article class="pkg" data-reveal="card">
+      <span class="pkg__badge">First Timer</span><h3>Beginners Safari</h3>
+      <p class="pkg__days"><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 2v3"/><path d="M16 2v3"/><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M8 13h.01"/><path d="M12 13h.01"/><path d="M16 13h.01"/><path d="M8 17h.01"/><path d="M12 17h.01"/><path d="M16 17h.01"/></svg>6 Day Safari · Bring a friend or loved one</p>
+      <p class="pkg__price">$5,000</p>
+      <div class="pkg__list"><span class="pkg__animals-label">Includes</span><p class="pkg__animals">1× Impala, 1× Blesbok, 1× Warthog, 1× Wildebeest</p></div>
+      <p class="pkg__desc">The perfect package for your first hunt — a gentle introduction to fair-chase safari hunting in South Africa.</p>
+      <a class="btn" href="index.html#contact">Enquire now <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+    </article>
+    <article class="pkg pkg--featured" data-reveal="card">
+      <span class="pkg__badge">Most Popular</span><h3>Deluxe Safari</h3>
+      <p class="pkg__days"><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 2v3"/><path d="M16 2v3"/><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M8 13h.01"/><path d="M12 13h.01"/><path d="M16 13h.01"/><path d="M8 17h.01"/><path d="M12 17h.01"/><path d="M16 17h.01"/></svg>8 Day Safari</p>
+      <p class="pkg__price">$7,000</p>
+      <div class="pkg__list"><span class="pkg__animals-label">Includes</span><p class="pkg__animals">1× Impala, 1× Blesbok, 1× Warthog, 1× Blue Wildebeest, 1× Zebra, 1× Baboon</p></div>
+      <p class="pkg__desc">Includes a wider selection of animals and a longer hunt duration for a fuller South African trophy experience.</p>
+      <a class="btn" href="index.html#contact">Enquire now <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+    </article>
+    <article class="pkg" data-reveal="card">
+      <span class="pkg__badge">Comprehensive</span><h3>Premium Safari</h3>
+      <p class="pkg__days"><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 2v3"/><path d="M16 2v3"/><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M8 13h.01"/><path d="M12 13h.01"/><path d="M16 13h.01"/><path d="M8 17h.01"/><path d="M12 17h.01"/><path d="M16 17h.01"/></svg>10 Day Safari · Bring a friend or loved one</p>
+      <p class="pkg__price">$11,000</p>
+      <div class="pkg__list"><span class="pkg__animals-label">Includes</span><p class="pkg__animals">1× Impala, 1× Nyala, 1× Blue Wildebeest, 1× Zebra, 1× Kudu</p></div>
+      <p class="pkg__desc">Our comprehensive package for experienced hunters seeking a premium selection of trophies.</p>
+      <a class="btn" href="index.html#contact">Enquire now <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+    </article></div>
+  <p style="margin-top:3rem" data-reveal="fade"><a class="link-arrow" href="packages.html">Daily rates, inclusions &amp; exclusions <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a></p>
+</div></section>
+
+<section class="section section--alt" aria-labelledby="film-h"><div class="container film">
+  <div class="film__frame" data-film>
+    <img class="film__poster" src="media/video/v-dji-fly-20240617-165402-.jpg" alt="" width="405" height="720" loading="lazy" decoding="async">
+    <video muted loop playsinline preload="none" aria-label="Drone footage over the reserve at sunset" data-src="media/video/v-dji-fly-20240617-165402-.mp4"></video>
+    <button type="button" class="film__toggle" data-film-toggle aria-label="Play or pause video"><svg class="icon i-pause" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="14" y="3" width="5" height="18" rx="1"/><rect x="5" y="3" width="5" height="18" rx="1"/></svg><svg class="icon i-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"/></svg></button>
+  </div>
+  <div class="film__text prose" data-reveal="stagger"><span class="kicker">From the air</span><h2 id="film-h">The reserve, <em>from above</em></h2>
+    <p>Drone footage across the property — open bushveld, giraffe at sunset and the land that makes every hunt feel like an expedition.</p>
+    <p style="margin-top:2rem"><a class="link-arrow" href="gallery.html">More photography &amp; film <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a></p></div>
+</div></section>
+
+<section class="section" aria-labelledby="lodge-h"><div class="container">
+  <div class="section-head section-head--split" data-reveal="stagger"><div style="display:grid;gap:1.2rem"><span class="kicker">The Lodge</span><h2>The place <em>between</em> the hunt</h2></div><p class="lede">Thatch and stone-built lodging, a traditional boma and a reserve with more than a century of history around it.</p></div>
+  <div class="lodge-grid"><article class="lodge-card" data-reveal="card"><div class="ph ph--4x5" style="--ph-bg:#807960;--pos:40% 50%" data-reveal="image"><picture><source type="image/avif" srcset="media/img/lodge-bedroom-480.avif 480w, media/img/lodge-bedroom-800.avif 800w, media/img/lodge-bedroom-1200.avif 1200w" sizes="(min-width:52rem) 30vw, 100vw"><source type="image/webp" srcset="media/img/lodge-bedroom-480.webp 480w, media/img/lodge-bedroom-800.webp 800w, media/img/lodge-bedroom-1200.webp 1200w" sizes="(min-width:52rem) 30vw, 100vw"><img src="media/img/lodge-bedroom-1200.jpg" alt="Stone and thatch lodge cottage with a timber bench and a garden path" width="1200" height="800" sizes="(min-width:52rem) 30vw, 100vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div><h3>Hunters' Lodge</h3><p>Thatch and stone-built lodging overlooking the reserve.</p></article><article class="lodge-card" data-reveal="card"><div class="ph ph--4x5" style="--ph-bg:#7f6450;--pos:50% 50%" data-reveal="image"><picture><source type="image/avif" srcset="media/img/lodge-lodge-exterior-480.avif 480w, media/img/lodge-lodge-exterior-800.avif 800w, media/img/lodge-lodge-exterior-1300.avif 1300w" sizes="(min-width:52rem) 30vw, 100vw"><source type="image/webp" srcset="media/img/lodge-lodge-exterior-480.webp 480w, media/img/lodge-lodge-exterior-800.webp 800w, media/img/lodge-lodge-exterior-1300.webp 1300w" sizes="(min-width:52rem) 30vw, 100vw"><img src="media/img/lodge-lodge-exterior-1300.jpg" alt="Lodge suite with a carved headboard, lamps and a private bathroom" width="1300" height="1298" sizes="(min-width:52rem) 30vw, 100vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div><h3>Bed room</h3><p>Immersive suites with private bathrooms.</p></article><article class="lodge-card" data-reveal="card"><div class="ph ph--4x5" style="--ph-bg:#36241d;--pos:50% 60%" data-reveal="image"><picture><source type="image/avif" srcset="media/img/lodge-boma-lounge-480.avif 480w, media/img/lodge-boma-lounge-650.avif 650w" sizes="(min-width:52rem) 30vw, 100vw"><source type="image/webp" srcset="media/img/lodge-boma-lounge-480.webp 480w, media/img/lodge-boma-lounge-650.webp 650w" sizes="(min-width:52rem) 30vw, 100vw"><img src="media/img/lodge-boma-lounge-650.jpg" alt="A table laid for dinner beside the fire in the boma at night" width="650" height="650" sizes="(min-width:52rem) 30vw, 100vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div><h3>The Boma &amp; Lounge</h3><p>Traditional boma for evening stories.</p></article></div>
+</div></section>
+
+<section class="section section--alt" aria-labelledby="mosaic-h"><div class="container">
+  <div class="section-head" data-reveal="stagger"><div style="display:grid;gap:1.2rem"><span class="kicker">Gallery</span><h2>Moments <em>afield</em></h2></div></div>
+  <h3 id="mosaic-h" class="sr-only">Photo highlights</h3>
+  <div class="mosaic" data-reveal="stagger"><a href="gallery.html" data-cursor="view" aria-label="Open gallery: A family beside their impala trophy under a deep blue sky"><div class="ph" style="--ph-bg:#6a7285;--pos:45% 60%" data-reveal="image"><picture><source type="image/avif" srcset="media/img/image00236-480.avif 480w, media/img/image00236-800.avif 800w, media/img/image00236-1280.avif 1280w" sizes="(min-width:52rem) 40vw, 50vw"><source type="image/webp" srcset="media/img/image00236-480.webp 480w, media/img/image00236-800.webp 800w, media/img/image00236-1280.webp 1280w" sizes="(min-width:52rem) 40vw, 50vw"><img src="media/img/image00236-1280.jpg" alt="A family beside their impala trophy under a deep blue sky" width="5712" height="4284" sizes="(min-width:52rem) 40vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div></a><a href="gallery.html" data-cursor="view" aria-label="Open gallery: Burchell's zebra standing in long grass"><div class="ph" style="--ph-bg:#7c8155;--pos:40% 50%" data-reveal="image"><picture><source type="image/avif" srcset="media/img/image00247-480.avif 480w, media/img/image00247-800.avif 800w, media/img/image00247-1280.avif 1280w" sizes="(min-width:52rem) 40vw, 50vw"><source type="image/webp" srcset="media/img/image00247-480.webp 480w, media/img/image00247-800.webp 800w, media/img/image00247-1280.webp 1280w" sizes="(min-width:52rem) 40vw, 50vw"><img src="media/img/image00247-1280.jpg" alt="Burchell's zebra standing in long grass" width="3872" height="2592" sizes="(min-width:52rem) 40vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div></a><a href="gallery.html" data-cursor="view" aria-label="Open gallery: Giraffes above the bushveld canopy"><div class="ph" style="--ph-bg:#a2a496;--pos:80% 50%" data-reveal="image"><picture><source type="image/avif" srcset="media/img/image00259-480.avif 480w, media/img/image00259-800.avif 800w, media/img/image00259-1280.avif 1280w" sizes="(min-width:52rem) 40vw, 50vw"><source type="image/webp" srcset="media/img/image00259-480.webp 480w, media/img/image00259-800.webp 800w, media/img/image00259-1280.webp 1280w" sizes="(min-width:52rem) 40vw, 50vw"><img src="media/img/image00259-1280.jpg" alt="Giraffes above the bushveld canopy" width="3872" height="2592" sizes="(min-width:52rem) 40vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div></a><a href="gallery.html" data-cursor="view" aria-label="Open gallery: Hunter with rifle and zebra trophy in the bushveld"><div class="ph" style="--ph-bg:#6b778b;--pos:50% 50%" data-reveal="image"><picture><source type="image/avif" srcset="media/img/image00005-480.avif 480w, media/img/image00005-800.avif 800w, media/img/image00005-1280.avif 1280w" sizes="(min-width:52rem) 40vw, 50vw"><source type="image/webp" srcset="media/img/image00005-480.webp 480w, media/img/image00005-800.webp 800w, media/img/image00005-1280.webp 1280w" sizes="(min-width:52rem) 40vw, 50vw"><img src="media/img/image00005-1280.jpg" alt="Hunter with rifle and zebra trophy in the bushveld" width="4032" height="3024" sizes="(min-width:52rem) 40vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div></a><a href="gallery.html" data-cursor="view" aria-label="Open gallery: Waterbuck bull in green grassland"><div class="ph" style="--ph-bg:#728a70;--pos:65% 50%" data-reveal="image"><picture><source type="image/avif" srcset="media/img/image00244-480.avif 480w, media/img/image00244-800.avif 800w, media/img/image00244-1280.avif 1280w" sizes="(min-width:52rem) 40vw, 50vw"><source type="image/webp" srcset="media/img/image00244-480.webp 480w, media/img/image00244-800.webp 800w, media/img/image00244-1280.webp 1280w" sizes="(min-width:52rem) 40vw, 50vw"><img src="media/img/image00244-1280.jpg" alt="Waterbuck bull in green grassland" width="3872" height="2592" sizes="(min-width:52rem) 40vw, 50vw" loading="lazy" decoding="async" fetchpriority="low"></picture></div></a></div>
+  <p style="margin-top:3rem"><a class="link-arrow" href="gallery.html">See the full gallery <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a></p>
+</div></section>
+
+<section class="section" id="contact" aria-labelledby="contact-h"><div class="container contact">
+  <div class="contact__form-wrap" data-reveal="stagger">
+    <span class="kicker">Enquiries</span><h2 id="contact-h">Let's plan your <em>safari</em></h2>
+    <p class="lede">Tell us a little about the hunt you have in mind and our team will be in touch with a tailored quote.</p>
+    <form class="enquiry" id="enquiry" action="mailto:ripleysafaris@gmail.com" method="post" enctype="text/plain" novalidate data-endpoint-env="VITE_FORM_ENDPOINT">
+  <div class="row">
+    <div class="field"><label for="f-first">First name <span class="req" aria-hidden="true">*</span></label><input class="input" id="f-first" name="first_name" autocomplete="given-name" required aria-describedby="e-first"><span class="field-error" id="e-first" role="alert"></span></div>
+    <div class="field"><label for="f-last">Last name</label><input class="input" id="f-last" name="last_name" autocomplete="family-name"></div>
+  </div>
+  <div class="row">
+    <div class="field"><label for="f-tel">Mobile number</label><input class="input" id="f-tel" name="mobile" type="tel" autocomplete="tel" inputmode="tel" aria-describedby="e-tel"><span class="field-error" id="e-tel" role="alert"></span></div>
+    <div class="field"><label for="f-email">Email <span class="req" aria-hidden="true">*</span></label><input class="input" id="f-email" name="email" type="email" autocomplete="email" required aria-describedby="e-email"><span class="field-error" id="e-email" role="alert"></span></div>
+  </div>
+  <div class="field"><label for="f-country">Country of origin</label><input class="input" id="f-country" name="country" autocomplete="country-name"></div>
+  <fieldset class="fieldset"><legend>What are you interested in?</legend><div class="chips"><label class="chip"><input type="checkbox" name="interested_in" value="Quote"><span>Quote</span></label><label class="chip"><input type="checkbox" name="interested_in" value="Price List"><span>Price List</span></label><label class="chip"><input type="checkbox" name="interested_in" value="General Information"><span>General Information</span></label></div></fieldset>
+  <fieldset class="fieldset"><legend>Which package interests you?</legend><div class="chips"><label class="chip"><input type="checkbox" name="package" value="Beginners Safari"><span>Beginners Safari</span></label><label class="chip"><input type="checkbox" name="package" value="Deluxe Safari"><span>Deluxe Safari</span></label><label class="chip"><input type="checkbox" name="package" value="Premium Safari"><span>Premium Safari</span></label><label class="chip"><input type="checkbox" name="package" value="Custom / Not Sure Yet"><span>Custom / Not Sure Yet</span></label></div></fieldset>
+  <fieldset class="fieldset"><legend>What type of hunting are you interested in?</legend><div class="chips"><label class="chip"><input type="checkbox" name="hunting_type" value="Plains Game"><span>Plains Game</span></label><label class="chip"><input type="checkbox" name="hunting_type" value="Dangerous Game"><span>Dangerous Game</span></label><label class="chip"><input type="checkbox" name="hunting_type" value="Bow Hunting"><span>Bow Hunting</span></label><label class="chip"><input type="checkbox" name="hunting_type" value="Cross-Border (Namibia)"><span>Cross-Border (Namibia)</span></label><label class="chip"><input type="checkbox" name="hunting_type" value="Fishing"><span>Fishing</span></label><label class="chip"><input type="checkbox" name="hunting_type" value="Videographer"><span>Videographer</span></label></div></fieldset>
+  <div class="row">
+    <div class="field"><label for="f-dates">Approximate dates you're looking at?</label><input class="input" id="f-dates" name="dates" placeholder="e.g. June 2027, 8 days"></div>
+    <div class="field"><label for="f-guests">Number of guests</label><input class="input" id="f-guests" name="guests" type="number" value="1" min="1" inputmode="numeric"></div>
+  </div>
+  <div class="field"><label for="f-overview">Give us an overview of what you have in mind</label><textarea class="input" id="f-overview" name="overview" rows="4" placeholder="Caliber preferences, trophy goals, anything else we should know…"></textarea></div>
+  <fieldset class="fieldset"><legend>How did you hear about us?</legend><div class="chips"><label class="chip"><input type="checkbox" name="heard_from" value="Referral"><span>Referral</span></label><label class="chip"><input type="checkbox" name="heard_from" value="Social Media"><span>Social Media</span></label><label class="chip"><input type="checkbox" name="heard_from" value="Search / Website"><span>Search / Website</span></label><label class="chip"><input type="checkbox" name="heard_from" value="Other"><span>Other</span></label></div></fieldset>
+  <input type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" data-honeypot>
+  <div class="enquiry__actions"><button class="btn" type="submit">Send enquiry <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button><a class="link-arrow" href="https://wa.me/27718584498" rel="noopener">Or message us on WhatsApp <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a></div>
+  <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+</form>
+  </div>
+  <aside class="contact__card on-photo" data-reveal="fade" aria-label="Contact details">
+    <h3>Leave your footprint <em>in Africa</em></h3>
+    <p style="color:rgba(241,234,217,.82)">Fair chase hunting in the North West bushveld, with cross-border safaris into Namibia available on request.</p>
+    <ul class="contact__list">
+      <li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg><div><small>Call</small><a href="tel:+27718584498">+27 71 858 4498</a></div></li>
+      <li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg><div><small>Email</small><a href="mailto:ripleysafaris@gmail.com">ripleysafaris@gmail.com</a></div></li>
+      <li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg><div><small>Find us</small><a href="https://www.google.com/maps/search/?api=1&query=Farm%20a%20Boekenhoutfontein%2C%20R565%2C%20Rustenburg%2C%20North%20West%200309%2C%20South%20Africa" target="_blank" rel="noopener">Farm a Boekenhoutfontein, R565,<br>Rustenburg, North West 0309,<br>South Africa</a></div></li>
+    </ul>
+    <a class="btn" href="https://wa.me/27718584498" rel="noopener"><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg> Book now on WhatsApp</a>
+    <ul class="contact__points"><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m16 9-5.5 5.5L8 12"/></svg>Ethical selection</li><li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg>Dedicated professional hunter</li></ul>
+  </aside></div></section>
+</main>
+<footer class="site-footer on-photo">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__lead"><p class="kicker" style="color:var(--photo-bronze)">Plan your safari</p><h2 style="margin-top:1.2rem">Leave your <em>footprint</em> in Africa</h2>
+        <a class="btn" href="index.html#contact">Request a quote <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a></div>
+      <p style="max-width:42ch;color:rgba(244,237,220,.78)">Fair-chase hunting in the North West bushveld, with cross-border safaris into Namibia available on request.</p>
+    </div>
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a class="brand" href="index.html" aria-label="RIPLEY Safaris home"><span class="brand__mark" style="-webkit-mask-image:url(logo-mark.png);mask-image:url(logo-mark.png)" aria-hidden="true"></span><span class="brand__word"><span class="brand__name">RIPLEY</span> <span class="brand__sub">Safaris</span></span></a>
+        <p>The North West's dedicated fair-chase outfitter — a privately run reserve once owned by President Paul Kruger.</p>
+      </div>
+      <div class="footer__col"><h3>Explore</h3><ul>
+        <li><a href="index.html">Home</a></li><li><a href="index.html#species">Species</a></li><li><a href="packages.html">Packages</a></li>
+        <li><a href="gallery.html">Gallery</a></li><li><a href="index.html#about">About</a></li><li><a href="index.html#contact">Contact</a></li></ul></div>
+      <div class="footer__col"><h3>Contact</h3><ul>
+        <li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg><a href="tel:+27718584498">+27 71 858 4498</a></li>
+        <li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg><a href="mailto:ripleysafaris@gmail.com">ripleysafaris@gmail.com</a></li>
+        <li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg><a href="https://wa.me/27718584498" rel="noopener">WhatsApp</a></li>
+        <li><svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg><a href="https://www.google.com/maps/search/?api=1&query=Farm%20a%20Boekenhoutfontein%2C%20R565%2C%20Rustenburg%2C%20North%20West%200309%2C%20South%20Africa" rel="noopener" target="_blank">Farm a Boekenhoutfontein, R565, Rustenburg, North West 0309, South Africa</a></li></ul></div>
+      <div class="footer__col"><h3>Enquire about</h3><ul><li>Trophy Animals · RW/SCI</li><li>Bow Hunting</li><li>Fishing</li><li>Videographer</li><li>Cross-border · Namibia</li></ul></div>
+    </div>
+    <div class="footer__bottom"><span>© 2026 Ripley Safaris · Rustenburg, North West, South Africa</span><a href="index.html#top">Back to top ↑</a></div>
+  </div>
+</footer>
+<div class="scope" id="scope" aria-hidden="true"><span class="scope__ring"><i class="scope__outer"></i><i class="scope__lens"></i><i class="scope__h"></i><i class="scope__v"></i></span><span class="scope__dot"></span><span class="scope__label">View</span></div>
 </body>
 </html>
