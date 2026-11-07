@@ -1,5 +1,7 @@
 // Hero film: re-encodes the supplied portrait clip (img/hero/herofull.mp4, 1080×1920, 35 MB) for the web.
-//  · starts after the black lead-in, silent (the hero is muted anyway), 720×1280 H.264 CRF 23, faststart
+//  · starts after the black lead-in, silent (the hero is muted anyway)
+//  · hero-720.mp4  → phones (full-bleed 9:16, native proportions)
+//  · hero-1080.mp4 → tablets / desktops (full-bleed, shows a horizontal slice of the portrait frame, so it keeps the clip's full 1080 px width)
 //  · poster frame (identical to the first video frame) as AVIF / WebP / JPEG so the hero paints instantly
 // Run: npm run hero
 import fs from 'fs';
@@ -14,6 +16,7 @@ fs.mkdirSync(OUT, { recursive: true });
 const run = args => { const r = spawnSync(ffmpegPath, ['-y', '-loglevel', 'error', ...args], { encoding: 'utf8' }); if (r.status) throw new Error(r.stderr); };
 
 run(['-ss', START, '-i', SRC, '-an', '-vf', 'scale=720:1280:flags=lanczos', '-c:v', 'libx264', '-preset', 'slow', '-crf', '23', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', `${OUT}/hero-720.mp4`]);
+run(['-ss', START, '-i', SRC, '-an', '-c:v', 'libx264', '-preset', 'slow', '-crf', '24', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', `${OUT}/hero-1080.mp4`]);
 run(['-ss', START, '-i', SRC, '-frames:v', '1', '-q:v', '2', `${OUT}/_frame.png`]);
 
 for (const w of [720, 1080]) {

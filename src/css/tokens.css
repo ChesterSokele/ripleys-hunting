@@ -63,6 +63,10 @@
   --scope: #dcb878;
   --scope-halo: rgba(0, 0, 0, 0.75);
   --lightbox-bg: rgba(6, 8, 7, 0.96);
+  --sp-top: #121c15;
+  --sp-bottom: #0b0f0c;
+  --sp-glow: rgba(60, 96, 70, 0.55);
+  --sp-shadow: rgba(0, 0, 0, 0.8);
 }
 
 :root[data-theme='light'] {
@@ -87,4 +91,8 @@
   --scope: #1c3324;
   --scope-halo: rgba(246, 241, 229, 0.85);
   --lightbox-bg: rgba(10, 14, 11, 0.96);
+  --sp-top: #e7dfc9;
+  --sp-bottom: #f6f1e5;
+  --sp-glow: rgba(133, 89, 31, 0.16);
+  --sp-shadow: rgba(21, 37, 26, 0.45);
 }

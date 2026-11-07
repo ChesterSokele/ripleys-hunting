@@ -10,7 +10,7 @@ export function initHome() {
     const video = frame.querySelector('video');
     const toggle = frame.querySelector('[data-film-toggle]');
     if (!video) return;
-    const load = () => { if (!video.src) video.src = video.dataset.src; };
+    const load = () => { if (!video.src) video.src = (video.dataset.srcLg && window.matchMedia('(min-width: 48rem)').matches) ? video.dataset.srcLg : video.dataset.src; };
     const setPaused = p => frame.classList.toggle('is-paused', p);
     setPaused(true);
     const play = () => { load(); video.play().then(() => { setPaused(false); frame.classList.add('has-played'); }).catch(() => setPaused(true)); };

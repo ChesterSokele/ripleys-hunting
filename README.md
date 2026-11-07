@@ -33,7 +33,7 @@ data/media-manifest.json ← written by the image pipeline (sizes, widths, colou
 scripts/build-pages.mjs  ← page generator (shared header/footer, responsive <picture> markup, SEO, JSON-LD, sitemap)
 scripts/optimize-media.mjs ← image + video pipeline
 scripts/make-icons.mjs ← favicon, apple-touch icon, social-share image
-scripts/make-hero-video.mjs ← hero film: re-encodes img/hero/herofull.mp4 (35 MB → 2 MB) + poster (`npm run hero`)
+scripts/make-hero-video.mjs ← hero film: re-encodes img/hero/herofull.mp4 (35 MB → 2 MB phone / 4 MB desktop) + poster (`npm run hero`)
 src/css/  tokens.css (colours/type/spacing, both themes) · base.css · components.css · pages.css
 src/js/   main.js · theme.js · header.js · scope.js · motion.js · gallery.js · home.js · form.js
 img/                   ← ORIGINAL photographs and videos (never served, never modified)
@@ -77,12 +77,12 @@ The scope cursor appears only for fine pointers, hides over text fields and when
 ## Measured results (Lighthouse 13, mobile profile = simulated slow 4G + 4× CPU slowdown, production build)
 | Page | Perf | A11y | Best practices | SEO | LCP (simulated) | CLS | TBT |
 |---|---|---|---|---|---|---|---|
-| Home (with hero video + species cards) | 99 | 100 | 100 | 100 | 1.0 s | 0.001 | 120 ms |
+| Home (video hero + species cards) | 100 | 100 | 100 | 100 | 0.9 s | 0.001 | 60 ms |
 | Packages | 98 | 100 | 100 | 100 | 2.3 s | 0.002 | 20 ms |
 | Gallery | 97 | 100 | 100 | 100 | 2.5 s | 0 | 30 ms |
 | Species (kudu / sable) | 98 / 100 | 100 | 100 | 100 | 2.4 s / 1.9 s | 0 | ≤10 ms |
 
-Home on the desktop profile: Performance 98, LCP 1.0 s. The *observed* (unthrottled, local) LCP was ≈0.2–0.3 s on every page; Lighthouse's simulated figure is higher because it models a slow network. Non-critical imagery (gallery tiles, decorative backgrounds) is deliberately downloaded only after the page has loaded (`src/js/defer.js`, with a `<noscript>` fallback) so it can never compete with the hero photograph. These are lab numbers on a local server — real-user (field) Core Web Vitals must be measured after deployment (e.g. PageSpeed Insights / Search Console). INP was not measurable in a lab run; all interaction handlers are lightweight (no long tasks in the trace, TBT ≤ 20 ms).
+Home on the desktop profile: Performance 100, LCP 0.3 s. The *observed* (unthrottled, local) LCP was ≈0.2–0.3 s on every page; Lighthouse's simulated figure is higher because it models a slow network. Non-critical imagery (gallery tiles, decorative backgrounds) is deliberately downloaded only after the page has loaded (`src/js/defer.js`, with a `<noscript>` fallback) so it can never compete with the hero photograph. These are lab numbers on a local server — real-user (field) Core Web Vitals must be measured after deployment (e.g. PageSpeed Insights / Search Console). INP was not measurable in a lab run; all interaction handlers are lightweight (no long tasks in the trace, TBT ≤ 20 ms).
 
 ## Review tip
 Add `?nomotion` to any URL (e.g. `index.html?nomotion`) to view the page with all entrance/scroll animation switched off.
@@ -91,5 +91,5 @@ Add `?nomotion` to any URL (e.g. `index.html?nomotion`) to view the page with al
 * **Photography:** ten species have only ~363 px originals (see above) — please supply the full-size files.
 * **Domain:** set `SITE_URL` at build time to enable canonical URLs, absolute Open Graph URLs and the sitemap.
 * **Social links:** the original site only had WhatsApp, so none were invented. Send Facebook / Instagram URLs and they can be added to the footer.
-* **Hero video:** the supplied clip is portrait (1080×1920), so it is never stretched across a landscape screen. On phones it fills the hero natively (9:16); on tablets/desktops it plays in a portrait frame beside the headline over the landscape photograph. It is silent, loops, starts only after the page has loaded, and stays as a still poster (with a play button) on data-saver / 2G connections or with reduced motion. A landscape 1080p clip would allow a full-width video hero — drop it in `img/hero/` and ask for the hero layout to be switched.
+* **Hero video:** the home-page hero background is the supplied clip. It is portrait (1080×1920): phones get a 720 px version at native 9:16; tablets/desktops get a 1080 px version cropped to a horizontal slice, so on very large monitors it is upscaled and looks soft. It is silent, loops, starts after the page has loaded and shows a still poster (with a play button) on data-saver / 2G connections or with reduced motion. Landscape 1080p+ footage would look noticeably sharper full-width — drop it in `img/hero/`, update `scripts/make-hero-video.mjs` and run `npm run hero`.
 * **`public/media` (≈135 MB) and `dist/`:** the optimised photographs are generated from `img/`. Commit `public/media` if you want deployments not to re-run `npm run images` (slow: AVIF encoding).

@@ -17,7 +17,7 @@ export function initScope() {
 
   let tx = -100, ty = -100, rx = tx, ry = ty, active = false, raf = 0;
   const LINK = 'a[href], button, [role="button"], summary, label.chip, select';
-  const IMAGE = '.hero, .page-hero, .species-hero, .species-photo, .cta-band, .contact__card, .site-footer, .lightbox, .feature, .film__frame, .g-item, .mosaic a, .pkg--featured';
+  const IMAGE = '.hero, .page-hero, .species-photo, .cta-band, .contact__card, .site-footer, .lightbox, .feature, .film__frame, .g-item, .mosaic a, .pkg--featured';
   const TEXT = 'input:not([type="checkbox"]):not([type="radio"]), textarea, [contenteditable="true"]';
 
   const frame = () => {

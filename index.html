@@ -14,7 +14,7 @@
   <meta property="og:image" content="og-image.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.png" type="image/png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="preload" as="image" type="image/avif" fetchpriority="high" media="(min-width:64rem)" imagesrcset="media/img/image00245-480.avif 480w, media/img/image00245-800.avif 800w, media/img/image00245-1280.avif 1280w, media/img/image00245-1920.avif 1920w, media/img/image00245-2560.avif 2560w" imagesizes="100vw"><link rel="preload" as="image" type="image/avif" fetchpriority="high" imagesrcset="media/hero/poster-720.avif 720w, media/hero/poster-1080.avif 1080w" imagesizes="(min-width:64rem) 22rem, 100vw">
+  <link rel="preload" as="image" type="image/avif" fetchpriority="high" imagesrcset="media/hero/poster-720.avif 720w, media/hero/poster-1080.avif 1080w" imagesizes="100vw">
   <script type="module" src="src/js/main.js"></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Ripley Safaris","description":"Fair-chase plains game hunting safaris on a privately run reserve near Rustenburg, North West, South Africa, with cross-border hunts into Namibia.","telephone":"+27 71 858 4498","email":"ripleysafaris@gmail.com","address":{"@type":"PostalAddress","streetAddress":"Farm a Boekenhoutfontein, R565","addressLocality":"Rustenburg","addressRegion":"North West","postalCode":"0309","addressCountry":"ZA"},"areaServed":["South Africa","Namibia"]}</script>
 </head>
@@ -45,18 +45,17 @@
 <main id="main" tabindex="-1">
 
 <section class="hero on-photo" aria-label="Welcome">
-  <div class="hero__media" style="--pos:40% 70%"><picture><source media="(max-width:63.99rem)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/avif" srcset="media/img/image00245-480.avif 480w, media/img/image00245-800.avif 800w, media/img/image00245-1280.avif 1280w, media/img/image00245-1920.avif 1920w, media/img/image00245-2560.avif 2560w" sizes="100vw"><source type="image/webp" srcset="media/img/image00245-480.webp 480w, media/img/image00245-800.webp 800w, media/img/image00245-1280.webp 1280w, media/img/image00245-1920.webp 1920w, media/img/image00245-2560.webp 2560w" sizes="100vw"><img src="media/img/image00245-1280.jpg" alt="Waterbuck herd grazing in the golden bushveld beneath wooded hills at Ripley Safaris" width="3872" height="2592" sizes="100vw" loading="eager" decoding="async" fetchpriority="high"></picture></div>
+  <div class="hero__film is-paused" data-film data-after-load>
+    <picture><source type="image/avif" srcset="media/hero/poster-720.avif 720w, media/hero/poster-1080.avif 1080w" sizes="100vw"><source type="image/webp" srcset="media/hero/poster-720.webp 720w, media/hero/poster-1080.webp 1080w" sizes="100vw"><img class="hero__poster" src="media/hero/poster-1080.jpg" width="1080" height="1920" alt="" fetchpriority="high" decoding="async"></picture>
+    <video muted loop playsinline preload="none" data-src="media/hero/hero-720.mp4" data-src-lg="media/hero/hero-1080.mp4" aria-label="Footage from the reserve: a nyala in the bush, a young giraffe and a spaniel on a hunting vehicle"></video>
+    <button type="button" class="film__toggle" data-film-toggle aria-label="Play or pause the hero video"><svg class="icon i-pause" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="14" y="3" width="5" height="18" rx="1"/><rect x="5" y="3" width="5" height="18" rx="1"/></svg><svg class="icon i-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"/></svg></button>
+  </div>
   <div class="container hero__inner">
     <div>
       <p class="kicker" data-hero="fade">Ripley Safaris · South Africa</p>
       <h1 aria-label="Leave your footprint in Africa"><span class="line"><span data-hero="line">Leave your</span></span><span class="line"><span data-hero="line"><em>footprint</em> in</span></span><span class="line"><span data-hero="line">Africa</span></span></h1>
       <p class="hero__lede" data-hero="fade">Professional guided hunting safaris in South Africa's North West province.</p>
       <div class="hero__cta" data-hero="fade"><a class="btn" href="#contact">Book a hunt <svg class="icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a><a class="btn btn--ghost" href="packages.html">View packages</a></div>
-    </div>
-    <div class="hero__film is-paused" data-film data-after-load>
-      <picture><source type="image/avif" srcset="media/hero/poster-720.avif 720w, media/hero/poster-1080.avif 1080w" sizes="(min-width:64rem) 22rem, 100vw"><source type="image/webp" srcset="media/hero/poster-720.webp 720w, media/hero/poster-1080.webp 1080w" sizes="(min-width:64rem) 22rem, 100vw"><img class="hero__poster" src="media/hero/poster-1080.jpg" width="1080" height="1920" alt="" fetchpriority="high" decoding="async"></picture>
-      <video muted loop playsinline preload="none" data-src="media/hero/hero-720.mp4" aria-label="Footage from the reserve: a nyala in the bush, a young giraffe and a spaniel on a hunting vehicle"></video>
-      <button type="button" class="film__toggle" data-film-toggle aria-label="Play or pause the hero video"><svg class="icon i-pause" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="14" y="3" width="5" height="18" rx="1"/><rect x="5" y="3" width="5" height="18" rx="1"/></svg><svg class="icon i-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"/></svg></button>
     </div>
   </div>
 </section>

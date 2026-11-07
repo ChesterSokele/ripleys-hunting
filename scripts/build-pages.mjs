@@ -249,7 +249,7 @@ const species = speciesRaw.map(s => {
 function home() {
   const rel = '';
   const heroId = 'image00245';
-  const preload = preloadHero(heroId, '', '100vw', '(min-width:64rem)') + `<link rel="preload" as="image" type="image/avif" fetchpriority="high" imagesrcset="media/hero/poster-720.avif 720w, media/hero/poster-1080.avif 1080w" imagesizes="(min-width:64rem) 22rem, 100vw">`;
+  const preload = `<link rel="preload" as="image" type="image/avif" fetchpriority="high" imagesrcset="media/hero/poster-720.avif 720w, media/hero/poster-1080.avif 1080w" imagesizes="100vw">`;
   // Every species as a photo card. Species with a high-resolution original lead; the rest follow (shown at ≤ native size, 3:2 so a 363×225 file is never stretched).
   const ordered = [...species.filter(s => !s.native), ...species.filter(s => s.native)];
   const cards = ordered.map(s => `
@@ -277,18 +277,17 @@ function home() {
 
   const body = `
 <section class="hero on-photo" aria-label="Welcome">
-  <div class="hero__media" style="--pos:40% 70%">${picture(heroId, { rel, sizes: '100vw', alt: 'Waterbuck herd grazing in the golden bushveld beneath wooded hills at Ripley Safaris', eager: true, priority: true }).replace('<picture>', '<picture><source media="(max-width:63.99rem)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">')}</div>
+  <div class="hero__film is-paused" data-film data-after-load>
+    <picture><source type="image/avif" srcset="media/hero/poster-720.avif 720w, media/hero/poster-1080.avif 1080w" sizes="100vw"><source type="image/webp" srcset="media/hero/poster-720.webp 720w, media/hero/poster-1080.webp 1080w" sizes="100vw"><img class="hero__poster" src="media/hero/poster-1080.jpg" width="1080" height="1920" alt="" fetchpriority="high" decoding="async"></picture>
+    <video muted loop playsinline preload="none" data-src="media/hero/hero-720.mp4" data-src-lg="media/hero/hero-1080.mp4" aria-label="Footage from the reserve: a nyala in the bush, a young giraffe and a spaniel on a hunting vehicle"></video>
+    <button type="button" class="film__toggle" data-film-toggle aria-label="Play or pause the hero video">${icon('pause', 'i-pause')}${icon('play', 'i-play')}</button>
+  </div>
   <div class="container hero__inner">
     <div>
       <p class="kicker" data-hero="fade">Ripley Safaris · South Africa</p>
       <h1 aria-label="Leave your footprint in Africa"><span class="line"><span data-hero="line">Leave your</span></span><span class="line"><span data-hero="line"><em>footprint</em> in</span></span><span class="line"><span data-hero="line">Africa</span></span></h1>
       <p class="hero__lede" data-hero="fade">Professional guided hunting safaris in South Africa's North West province.</p>
       <div class="hero__cta" data-hero="fade"><a class="btn" href="#contact">Book a hunt ${icon('arrow-right')}</a><a class="btn btn--ghost" href="packages.html">View packages</a></div>
-    </div>
-    <div class="hero__film is-paused" data-film data-after-load>
-      <picture><source type="image/avif" srcset="media/hero/poster-720.avif 720w, media/hero/poster-1080.avif 1080w" sizes="(min-width:64rem) 22rem, 100vw"><source type="image/webp" srcset="media/hero/poster-720.webp 720w, media/hero/poster-1080.webp 1080w" sizes="(min-width:64rem) 22rem, 100vw"><img class="hero__poster" src="media/hero/poster-1080.jpg" width="1080" height="1920" alt="" fetchpriority="high" decoding="async"></picture>
-      <video muted loop playsinline preload="none" data-src="media/hero/hero-720.mp4" aria-label="Footage from the reserve: a nyala in the bush, a young giraffe and a spaniel on a hunting vehicle"></video>
-      <button type="button" class="film__toggle" data-film-toggle aria-label="Play or pause the hero video">${icon('pause', 'i-pause')}${icon('play', 'i-play')}</button>
     </div>
   </div>
 </section>
@@ -453,7 +452,7 @@ function speciesPage(s, i) {
   const sentence = decode(s.about).split(/(?<=\.)\s/)[0];
   const desc = `${s.title} hunting at Ripley Safaris, Rustenburg, South Africa. ${sentence}`.slice(0, 300);
   const body = `
-<section class="species-hero on-photo"><div class="container species-hero__inner">
+<section class="species-hero"><div class="container species-hero__inner">
   <div>
     <ol class="crumbs" aria-label="Breadcrumb"><li><a href="${rel}index.html">Home</a></li><li><a href="${rel}index.html#species">Species</a></li><li aria-current="page">${s.title}</li></ol>
     <p class="kicker" data-hero="fade">${icon('map-pin')} ${s.badge}</p>
