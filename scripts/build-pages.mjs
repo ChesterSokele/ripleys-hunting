@@ -462,8 +462,7 @@ function speciesPage(s, i) {
 </div></section>
 
 <section class="section"><div class="container species-body">
-  <aside class="species-aside" aria-label="Trophy fee and facts">
-    <div class="fee"><small>${s.priceLabel}</small><span class="fee__value">${s.por ? 'On request' : s.price}</span><p>${s.priceSub}</p></div>
+  <aside class="species-aside" aria-label="Facts">
     <dl class="facts">${s.stats.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl>
   </aside>
   <div class="prose" data-reveal="stagger">
