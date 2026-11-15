@@ -253,10 +253,9 @@ function home() {
   // Every species as a photo card. Species with a high-resolution original lead; the rest follow (shown at ≤ native size, 3:2 so a 363×225 file is never stretched).
   const ordered = [...species.filter(s => !s.native), ...species.filter(s => s.native)];
   const cards = ordered.map(s => `
-    <a class="sp-card" href="animals/${s.slug}.html" data-cursor="view" data-reveal="card" aria-label="${attr(s.title)} — ${attr(s.level)}, ${s.por ? 'trophy fee on request' : 'trophy fee ' + attr(s.feeText)}">
+    <a class="sp-card" href="animals/${s.slug}.html" data-cursor="view" data-reveal="card" aria-label="${attr(s.title)} — ${attr(s.level)}">
       ${ph(s.photo.id, { rel, sizes: '(min-width:64rem) 20rem, (min-width:40rem) 33vw, 50vw', alt: s.photo.alt, ratio: '3x2', pos: s.photo.pos, reveal: false, maxW: 1280 })}
-      <div class="sp-card__body"><div><h3>${s.title}</h3><span class="sp-card__level">${s.level}</span></div>
-        <div class="sp-card__fee"><small>${s.por ? 'Trophy fee' : 'Trophy fee'}</small><b>${s.por ? 'On request' : s.feeText}</b></div></div>
+      <div class="sp-card__body"><div><h3>${s.title}</h3><span class="sp-card__level">${s.level}</span></div></div>
     </a>`).join('');
   const pkgs = S.packages.map(p => `
     <article class="pkg${p.featured ? ' pkg--featured' : ''}" data-reveal="card">
